@@ -1,0 +1,12 @@
+{
+    "cSpell.words": [
+        "bootcamps",
+        "teper"
+    ],
+    "explorer.sortOrder": "modified",
+    "workbench.colorCustomizations": {
+        "editorWhitespace.foreground": "#ff0000"
+    },
+    "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true
+}

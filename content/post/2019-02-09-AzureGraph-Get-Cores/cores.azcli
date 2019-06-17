@@ -1,0 +1,4 @@
+az login
+az extension add --name resource-graph
+az graph query --first 1000 -o tsv -q "project name, size = properties.hardwareProfile.vmSize, properties.licenseType, resourceGroup, subscriptionId, type, properties.storageProfile.osDisk.osType  | where type =~ 'Microsoft.Compute/virtualMachines'" | out-file cores.csv
+az vm list-sizes -o tsv -l westeurope | out-file numberofcores.csv

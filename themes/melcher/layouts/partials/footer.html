@@ -1,0 +1,97 @@
+</div>
+<a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+<!-- Scripts -->
+
+{{ if isset .Site.Params "customjs" }}
+  {{ $.Scratch.Set "jsFiles" .Site.Params.customJS }}
+{{ else }}
+  {{ $.Scratch.Set "jsFiles" false }}
+{{ end }}
+
+<!-- If the value "default" is passed into the param then we will first
+ load the standard js files associated with the theme -->
+{{ if or (in ($.Scratch.Get "jsFiles") "default") (eq ($.Scratch.Get "jsFiles") false) }}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/10.19.0/lazyload.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js" integrity="sha256-srhz/t0GOrmVGZryG24MVDyFDYZpvUH2+dnJ8FbpGi0=" crossorigin="anonymous"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+
+  {{ $util := resources.Get "js/util.js" }}
+  {{ $main := resources.Get "js/main.js" }}
+  {{ $back := resources.Get "js/backToTop.js" }}
+  {{ $elevator := resources.Get "js/elevator.js" }}
+
+  {{ $bundle := slice $util $main $back $elevator | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint }}
+
+  <script src="{{ $bundle.Permalink }}"></script>
+{{ end }}
+
+{{ if ne ($.Scratch.Get "jsFiles") false }}
+{{ range $.Scratch.Get "jsFiles" }}
+      {{ if ne . "default" }}
+          <script src="{{ . | absURL }}"></script>
+      {{ end }}
+  {{ end }}
+{{ end }}
+
+<!-- lazy load the images -->
+<script>
+var myLazyLoad = new LazyLoad({
+    elements_selector: ".lazy"
+});
+</script>
+
+<!-- redirect function -->
+<script>
+$(".record").on("click", function(e) {
+    // abandon if link already aborted or analytics is not available
+    if (e.isDefaultPrevented() || typeof ga !== "function") return;
+
+    // abandon if no active link or link within domain
+    var link = $(e.target).closest("a");
+    if (link.length != 1) return;
+
+    // cancel event and record outbound link
+    e.preventDefault();
+    var href = link[0].href;
+
+    ga("send", {
+        hitType: "event",
+        eventCategory: "record",
+        eventAction: "click",
+        "eventLabel": href,
+        "hitCallback": loadPage
+    });
+
+    // redirect after one second if recording takes too long
+    setTimeout(loadPage, 1000);
+
+    // redirect to outbound page
+    function loadPage() {
+      document.location = href;
+    }
+
+  });
+
+  
+</script>
+
+<!-- This is called by default since this theme uses highlight.js -->
+<script>hljs.initHighlightingOnLoad();</script>
+
+<!-- <script src="/js/elevator.min.js"></script> -->
+<script>
+  window.onload = function() {
+    var elevator = new Elevator({
+      mainAudio: "/audio/elevator.mp3",
+      endAudio: "/audio/ding.mp3",
+      element: document.querySelector("#back-to-top"),
+    });
+  }
+  </script>
+</body>
+</html>

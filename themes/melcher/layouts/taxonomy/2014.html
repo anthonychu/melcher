@@ -1,0 +1,20 @@
+{{ partial "general-title" . }}
+
+{{ partial "header" . }}
+    {{ partial "navbar" . }}
+    <!-- Main -->
+    <div id="main">
+        <header>
+                {{ $months := dict "01" "January" "02" "February" "03" "March" "04" "April" "05" "May" "06" "June" "07" "July" "08" "August" "09" "September" "10" "October" "11" "November" "12" "December" }}
+                <h1>// {{ index $months .Title }} {{ .Section }}</h1>
+        </header>
+        
+        {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+        {{ range $paginator.Pages }}
+            {{ .Render "content-list" }}
+        {{ end }}
+
+        {{ partial "pagination" . }}
+    </div>
+    {{ partial "sidebar" . }}
+{{ partial "footer" . }}

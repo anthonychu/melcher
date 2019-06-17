@@ -1,0 +1,13 @@
+az login
+az group create --name SQLAudit --location westeurope
+az vm create -g SQLAudit --image Win2012R2Datacenter --size Standard_DS2_v2 -n "SQLAudit" --admin-password "r5AWv%u%QwQHQws42" --admin-username "mmelcher" 
+az vm open-port --name "SQLAudit" --port 3389 --resource-group SQLAudit 
+mstsc /v:104.214.223.132
+
+az vm create -n sql -g "SQLAudit" --image MicrosoftSQLServer:SQL2017-WS2016:Standard:14.0.1000200 --admin-username "mmelcher" --admin-password "r5AWv%u%QwQHQws42"
+
+az policy definition create --name 'blacklisted-software' --display-name 'Blacklisted Software' --description 'This policy checks if a given software is installed' --rules 'C:\Git\melcherit\content\post\2018-11-15-AzurePolicy-InstalledApp\CLI\Policy.BlacklistedApplication.json' --mode Indexed
+
+az policy set-definition create -n "Blackelisted Application" --definitions "C:\Git\melcherit\content\post\2018-11-15-AzurePolicy-InstalledApp\CLI\Policy.VMExtension.json" --params "C:\Git\melcherit\content\post\2018-11-15-AzurePolicy-InstalledApp\CLI\Policy.Params.json"
+
+az policy assignment create --scope "/subscriptions/36d3ff36-dc30-4224-9970-6c24b9043705" -d "/providers/Microsoft.Authorization/policyDefinitions/12f7e5d0-42a7-4630-80d8-54fb7cff9bd6" --name "Blacklisted Application" --params "C:\Git\melcherit\content\post\2018-11-15-AzurePolicy-InstalledApp\CLI\Policy.ParamsValue.json"

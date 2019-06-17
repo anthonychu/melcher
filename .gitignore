@@ -1,0 +1,6 @@
+/public/*
+resources/*
+/resources/*
+**.tfstate
+**/.terraform
+**/provider.tf

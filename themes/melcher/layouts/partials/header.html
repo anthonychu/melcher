@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        {{ with $.Scratch.Get "generalTitle" }}
+            <title>{{ . }}</title>
+        {{ else }}
+            {{ $title := .Site.Title }}
+            {{ with .Title }} 
+                <title>{{ . }} - {{ $title }}</title>
+            {{ else }}
+                <title>{{ .Site.Title }}</title>
+            {{ end }}
+        {{ end }}
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {{ hugo.Generator }}
+        {{ partial "favicon" . }}
+
+        {{ with .Params.author }}
+            <meta name="author" content="{{ . }}">
+        {{ end }}
+        {{ with .Keywords }}
+            <meta name="keywords" content="{{ delimit . ", " }}">
+        {{ else }}
+            {{ with .Page.Params.tags }}
+                <meta name="keywords" content="{{ delimit . ", " }}">
+            {{ end }}
+        {{ end }}
+        {{ with .Description }}
+            <meta name="description" content="{{ . }}">
+        {{ else }}
+            {{ with .Site.Params.description }}
+                <meta name="description" content="{{ . }}">
+            {{ end }}
+        {{ end }}
+
+        {{ partial "twitter" . }}
+        {{ template "_internal/opengraph.html" . }}
+        {{ template "_internal/schema.html" . }}
+        {{ template "_internal/google_news.html" . }}
+
+        {{ if isset .Site.Params "customcss" }}
+            {{ $.Scratch.Set "cssFiles" .Site.Params.customCSS }}
+        {{ else }}
+            {{ $.Scratch.Set "cssFiles" false }}
+        {{ end }}
+
+        {{ range .AlternativeOutputFormats -}}
+        <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+        {{ end -}}
+
+        <link rel="canonical" href="{{ .Permalink }}">
+
+        <!-- If the value "default" is passed into the param then we will first
+             load the standard css files associated with the theme -->
+        {{ if or (in ($.Scratch.Get "cssFiles") "default") (eq ($.Scratch.Get "cssFiles") false) }}
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/styles/atom-one-dark.min.css" as="style">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700" as="style">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css" as="style">
+            <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+            
+            {{ $css := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
+            <link rel="stylesheet" href="{{ $css.Permalink }}" as="style">
+        {{ end }}
+
+        {{ if ne ($.Scratch.Get "cssFiles") false }}
+            {{ range $.Scratch.Get "cssFiles" }}
+                {{ if ne . "default" }}
+                    <link rel="stylesheet" href="{{ . | absURL }}">
+                {{ end }}
+            {{ end }}
+        {{ end }}
+
+        {{ if not (in (printf "%#v" .Site.BaseURL) "localhost") }}
+            {{ template "_internal/google_analytics.html" . }}
+        {{ end }}
+
+        <script type="application/ld+json">
+            {
+              "@context": "http://schema.org",
+              "@type": "Person",
+              "name": "Max Melcher",
+              "url": "https://melcher.dev",
+              "sameAs": [
+                "https://www.facebook.com/Maximilianmelcher",
+                "https://linkedin.com/in/maxmelcher",
+                "https://twitter.com/maxmelcher",
+                "https://www.xing.com/profile/Maximilian_Melcher"
+              ]
+            }
+            </script>
+            <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "Organization",
+                "url": "https://melcher.dev",
+                "logo": "https://melcher.dev/logo.png"
+              }              
+            </script>
+            <script type="application/ld+json">
+                {
+                    "@context" : "http://schema.org",
+                    "@type" : "BlogPosting",
+                    "mainEntityOfPage": {
+                         "@type": "WebPage",
+                         "@id": "{{ .Site.BaseURL }}"
+                    },
+                    "articleSection" : "{{ .Section }}",
+                    "name" : "{{ .Title }}",
+                    "headline" : "{{ .Title }}",
+                    "description" : "{{ if .Description }}{{ .Description | plainify }}{{ else }}{{if .IsPage}}{{ .Summary | plainify }}{{ end }}{{ end }}",
+                    "inLanguage" : "{{ .Lang }}",
+
+                    {{  if $.Page.Resources }}
+                        {{ $r := $.Page.Resources.GetMatch ($.Page.Params.featured) }}
+                        "image": "{{ $r.Permalink }}",
+                    {{ else if .Page.Params.image}}
+                        {{ with .Page.Params.image }}
+                            {{ range first 1 . }}
+                                "image": "{{ . | absURL }}",
+                            {{ end }}
+                        {{ end }}
+                    {{ else }}
+                        "image": "https://melcher.dev/melcher.dev.png",
+                    {{ end }}
+
+                    "author" : "Max Melcher",
+                    "creator" : "Max Melcher",
+                    "publisher": {
+                        "@type": "Organization",
+                        "name": "Max Melcher",
+                        "logo": {
+                          "@type": "ImageObject",
+                          "url": "https://melcher.dev/logo.png?v=2"
+                        }
+                    },
+                    "accountablePerson" : "Max Melcher",
+                    "copyrightHolder" : "Max Melcher",
+                    "copyrightYear" : "{{ .Date.Format "2006" }}",
+                    "datePublished": "{{ .Date }}",
+                    "dateModified" : "{{ .Date }}",
+                    "url" : "{{ .Permalink }}",
+                    "wordCount" : "{{ .WordCount }}",
+                    "keywords" : [ {{ if isset .Params "tags" }}{{ range .Params.tags }}"{{ . }}",{{ end }}{{ end }}"Blog" ]
+                }
+                </script>
+
+    <div id="overlay">
+        <div class="overlay-content">
+            <span class="closebtn" title="Close">×</span>
+            <input id="searchinput" type="text" placeholder="Search.." name="search">
+        </div>
+        <div class="overlay-results">
+            
+        </div>
+        <div class="promo">
+            Search results provided by <a href="https://azure.microsoft.com/en-us/services/search/" target="_blank">Azure Search</a> - read how I built it <a href="https://melcher.dev/2019/03/AzureSearch-and-Hugo-free-and-awesome/">in this post</a>.
+        </div>
+    </div>
+
+    <script id="search-template" type="x-tmpl-mustache">
+
+        <div class="count">showing [[count]] of [[total]] hits found in [[time]]ms</div>
+        
+        [[#value]]
+            <div class="search-result">
+                <a href="[[ url ]]">
+                    <h1>[[ &title ]]</h1>
+                    <div class="feature">
+                        <img src="[[ feature ]]">
+                    </div>
+                    <div class="description">
+                        [[ &description ]]
+                    </div>
+                    <div class="clear"></div>
+                    <div class="tags"> [[ #tags ]] #[[&.]] [[ /tags]]</div>
+                    <div class="categories"><i class="fa fa-sitemap">&nbsp;</i> [[ #categories ]] [[&.]] [[ /categories]] </div>
+                </a>
+            </div>
+        [[/value]]
+        [[#noResults]]
+            <div class="no-results">
+                <h1>no results :(</h1>
+            </div>
+        [[/noResults]]
+    </script>
+
+    </head>
+    <body>
+
+    <!-- Wrapper -->
+    <div id="wrapper">

@@ -1,0 +1,217 @@
+baseURL = "https://melcher.dev"
+languageCode = "en-us"
+title = "Melcher.dev"
+theme = "melcher"
+
+
+preserveTaxonomyNames = true
+paginate = 3
+disqusShortname = "melcher"
+googleAnalytics = ""
+pluralizeListTitles = false
+metaDataFormat = "yaml"
+
+pygmentsCodefences = false
+
+author = "Max Melcher"
+Author = "Max Melcher"
+
+enableRobotsTXT = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  2011 = "2011"
+  2012 = "2012"
+  2013 = "2013"
+  2014 = "2014"
+  2015 = "2015"
+  2016 = "2016"
+  2017 = "2017"
+  2018 = "2018"
+  2019 = "2019"
+  2020 = "2020"
+
+
+[permalinks]
+  post = "/:year/:month/:title/"
+  
+[outputFormats.json]
+  mediaType = "application/json"
+  baseName = "feed"
+  path = "feed"
+  isPlainText = true
+
+[outputs]
+  home = ["html", "json", "rss"]
+
+[blackfriday]
+  hrefTargetBlank = true
+  noreferrerLinks = true
+
+[params]
+  # Sets the meta tag description
+  description          = "Blog of Max Melcher about Azure, DevOps, Cloud Architecture and other stuff - personal and opinionated!"
+  teaser               = "Azure, DevOps, Cloud Architecture and other stuff"
+  # Sets the navbarTitle that appears in the top left of the navigation bar
+  navbarTitle          = "Melcher.dev"
+  # Sets where "View More Posts" links
+  viewMorePostLink     = "/post/"
+
+# Optional Params
+  # Sets navbarTitle to match the section of the website
+  dynamicTitles        = true
+  # Sets RSS icons to appear on the sidebar with the social media buttons
+  rssAppearAtTop       = true
+  rssAppearAtBottom    = true
+  # Sets Social Media icons to appear on the sidebar
+  socialAppearAtTop    = true
+  socialAppearAtBottom = true
+  # Sets Categories to sort by number of posts instead of alphabetical
+  categoriesByCount    = true
+  # Sets Estimated Reading Time to appear in post headers
+  includeReadingTime   = true
+
+  # Sets Social Share links to appear on posts
+  socialShare          = true
+  # Load custom CSS or JavaScript files. The variable is an array so that you
+  # can load multiple files if necessary. You can also load the standard theme
+  # files by adding the value, "default".
+  # customCSS            = ["default", "/path/to/file"]
+  # customJS             = ["default", "/path/to/file"]
+  customCSS            = ["default"]
+  customJS             = ["default"]
+
+# Disqus will take priority over Staticman (github.com/eduardoboucas/staticman)
+# due to its ease of use. Feel free to check out both and decide what you would
+# prefer to use. See Staticman.yml for additional settings.
+[params.staticman]
+  # Sets Statiman to be active
+  staticman = false
+  # Sets the location for Staticman to connect to
+  username  = ""
+  repo      = ""
+  branch    = ""
+
+  # These are optional params related to the sidebar. They are recommended, but not
+  # required for proper functionality. HTML is supported within the params.
+[params.intro]
+  header    = "M<span style=\"text-transform:lowercase\">elcher</span><span style=\"color:red;text-transform:lowercase;letter-spacing:0px\">.dev</span>"
+
+  paragraph = "Azure, DevOps and other stuff"
+
+  about     = "Maximilian Melcher is a Cloud Solution Architect working at <a href=\"http://www.microsoft.com\">Microsoft</a> in Munich, Germany. Max is a specialist in Azure cloud technologies focused on business applications, search, web content management and lift&shift. He has led cloud implementations for Dax 30 companies since 2009.  Max’ free time is spent on <a href=\"https://twitter.com/maxmelcher\">twitter</a>, mostly with a good coffee in his hands - or below real clouds when he flies with his paraglider.<br/>You need some consulting experience? Feel free to <a href=\"/contact\"> contact me</a>!"
+
+  # This appears at the top of the sidebar above params.intro.header.
+  # A width of less than 100px is recommended from a design perspective.
+  [params.intro.pic]
+    src       = "/logo.png?v=2"
+    # Sets Image to be a cirlce
+    circle    = false
+    # Sets Image to be Future Imperfect's hexagon
+    imperfect = false
+    width     = ""
+    alt       = "Melcher.it"
+
+[params.postAmount]
+# Sets the number of recent posts to show in the sidebar. The default value is 5.
+    sidebar = 3
+
+# Sets the menu items in the navigation bar
+# Identifier prepends a Font Awesome icon to the menu item
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  identifier = "fa fa-home"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  identifier = "fa fa-id-card-o"
+  weight = 2
+
+[[menu.main]]
+  name = "Blog"
+  url = "/post/"
+  identifier = "fa fa-newspaper-o"
+  weight = 3
+
+[[menu.main]]
+  name = "Events"
+  url = "/events/"
+  identifier = "fa fa-list"
+  weight = 4
+
+[[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  identifier = "fa fa-sitemap"
+  weight = 5
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  identifier = "fa fa-envelope-o"
+  weight = 7
+
+# Sets Social Media icons to appear and link to your account. Value should be your
+# username unless otherwise noted. These are the icons affected by socialAppearAtTop
+# and socialAppearAtBottom.
+[social]
+  # Coding Communities
+  github          = "maxmelcher"
+  gitlab          = ""
+  stackoverflow   = "" # User Number
+  bitbucket       = ""
+  jsfiddle        = ""
+  codepen         = ""
+  # Visual Art Communities
+  deviantart      = ""
+  flickr          = ""
+  behance         = ""
+  dribbble        = ""
+  # Publishing Communities
+  wordpress       = ""
+  medium          = ""
+  # Professional/Business Oriented Communities
+  linkedin        = "maxmelcher"
+  foursquare      = ""
+  xing            = "Maximilian_Melcher"
+  slideshare      = ""
+  # Social Networks
+  facebook        = "Maximilianmelcher"
+  googleplus      = ""
+  reddit          = ""
+  quora           = ""
+  youtube         = ""
+  vimeo           = ""
+  whatsapp        = "" # WhatsApp Number
+    # WeChat and QQ need testing.
+    wechat          = ""
+    qq              = "" # User ID Number
+  instagram       = ""
+  tumblr          = ""
+  twitter         = "maxmelcher"
+  skype           = ""
+  snapchat        = ""
+  pinterest       = ""
+  telegram        = ""
+  vine            = ""
+  # Email
+  email           = ""
+
+[imaging]
+# Default resample filter used for resizing. Default is Box,
+# a simple and fast averaging filter appropriate for downscaling.
+# See https://github.com/disintegration/imaging
+resampleFilter = "box"
+
+# Defatult JPEG quality setting. Default is 75.
+quality = 75
+
+# Anchor used when cropping pictures.
+# Default is "smart" which does Smart Cropping, using https://github.com/muesli/smartcrop
+# Smart Cropping is content aware and tries to find the best crop for each image.
+# Valid values are Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+anchor = "smart"

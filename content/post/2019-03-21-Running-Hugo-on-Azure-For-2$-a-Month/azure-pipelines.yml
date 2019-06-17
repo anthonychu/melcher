@@ -1,0 +1,36 @@
+pool:
+  name: Hosted VS2017
+  demands: azureps
+
+steps:
+- checkout: self
+  submodules: true
+
+- task: giuliovdev.hugo-extension.hugo-build-task.HugoTask@1
+  displayName: 'Hugo generate html files'
+  inputs:
+    destination: public
+
+- task: AzureCLI@1
+  displayName: 'Azure CLI '
+  inputs:
+    azureSubscription: 'MVP MSDN'
+    scriptLocation: inlineScript
+    inlineScript: |
+     set resourceGroupName=website2
+     set storageName=mamelch123456
+     set location=westeurope
+     
+     call az group create --name %resourceGroupName% --location %location%
+     call az extension add --name storage-preview
+     call az storage account create -n %storageName% -g %resourceGroupName% -l %location% --sku Standard_LRS --kind StorageV2
+     call az storage blob service-properties update --account-name %storageName% --static-website --404-document 404.html --index-document index.html
+
+- task: AzureFileCopy@3
+  displayName: 'Copy html files to Azure storage'
+  inputs:
+    SourcePath: public
+    azureSubscription: 'MVP MSDN'
+    Destination: AzureBlob
+    storage: mamelch123456
+    ContainerName: '$web'

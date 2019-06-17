@@ -1,0 +1,28 @@
+{{ partial "general-title" . }}
+{{ partial "header" . }}
+{{ $.Scratch.Set "shareNav" true }} 
+{{ partial "navbar" . }}
+<!-- Main -->
+<div id="main">
+    {{ $paginator := .Paginate (where .Data.Pages "Section" "not in" (slice "s" "draft") ) }} 
+    {{ range $paginator.Pages }} 
+        {{ .Render "content-list" }} 
+        {{ partial "share-menu" . }} 
+    {{ end }}
+
+    <ul class="actions pagination">
+        {{ if .Paginator.HasPrev }}
+        <li>
+            <a href="{{ .Paginator.Prev.URL }}" class="button big previous">Newer posts</a>
+        </li>
+        {{ end }} {{ if .Paginator.HasNext }}
+        <li>
+            <a href="{{ .Paginator.Next.URL }}" class="button big next">Older posts</a>
+        </li>
+        {{ end }}
+    </ul>
+
+
+</div>
+{{ partial "sidebar" . }} 
+{{ partial "footer" . }}

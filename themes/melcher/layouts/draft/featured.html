@@ -1,0 +1,28 @@
+{{ if isset .Params "featured" }}
+    {{ $.Scratch.Set "path" .Params.featuredpath }}
+
+    {{ if isset .Params "featured" }}
+   
+        {{ if $.Page.Resources.GetMatch .Params.featured }}
+            {{ $r := $.Page.Resources.GetMatch .Params.featured }}
+            <a href="{{ $.Page.Permalink }}" class="image featured">
+                <img src="{{ $r.Permalink }}" alt="{{ .Params.featuredalt }}">
+            </a>
+        {{ else}}
+            {{ $.Scratch.Set "structType" "page" }}
+            {{ partial "img-path" . }}
+            {{ $path := $.Scratch.Get "path" }}
+            
+            {{ if hasPrefix .Params.featured "http" }}
+                <a href="{{ .Permalink }}" class="image featured">
+                    <img src="{{ .Params.featured }}" alt="{{ .Params.featuredalt }}">
+                </a>
+            {{ else }}
+                <a href="{{ .Permalink }}" class="image featured">
+                    <img src="{{ $path }}/{{ .Params.featured }}" alt="{{ .Params.featuredalt }}">
+                </a>
+            {{ end}}
+        {{ end }}
+
+    {{ end }}
+{{ end }}

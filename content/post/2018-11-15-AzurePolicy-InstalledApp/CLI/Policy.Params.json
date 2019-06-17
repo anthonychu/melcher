@@ -1,0 +1,9 @@
+{
+    "installedApplication": {
+        "type": "String",
+        "metadata": {
+            "displayName": "Application name (supports wildcard)",
+            "description": "Application name. Example: 'Microsoft SQL Server 2014 (64-bit)' or 'Microsoft SQL Server 2014*' to match any application starting with 'Microsoft SQL Server 2014'."
+        }
+    }
+}

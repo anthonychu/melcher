@@ -1,0 +1,21 @@
+[
+    {{ range $index, $e := (where .Data.Pages "Section" "not in" (slice "s" "draft")) }}
+    {{ if $index }}, {{ end }}
+    {
+      "url": {{ .Permalink | jsonify }},
+      "title": {{ .Title | jsonify }},
+      "date_published": {{ .Date.Format "2006-01-02T15:04:05Z07:00" | jsonify }},
+      "description": {{ .Summary | plainify | jsonify }},
+      "content": {{ .Plain | jsonify }},
+      "tags": {{ .Params.tags | jsonify }},
+      "categories": {{ .Params.categories | jsonify }},
+      {{if .Params.featuredpath}}
+        "feature": {{ printf "%s/%s" .Params.featuredpath .Params.featured | jsonify }}
+      {{else if isset .Params "featured" }}
+        "feature": {{ printf "%s%s" .Permalink .Params.featured | jsonify }}
+      {{else}}
+      "feature": "/melcher.dev.png"
+      {{end}}
+    }
+    {{- end }}
+]

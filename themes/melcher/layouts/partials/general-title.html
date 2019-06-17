@@ -1,0 +1,36 @@
+{{ $.Scratch.Set "generalTitle" .Title }}
+
+{{ $years := slice "2011" "2012" "2013" "2014" "2015" "2016" "2017" "2018" "2019" "2020" "2021" }} 
+{{ $months := dict "01" "January" "02" "February" "03" "March" "04" "April" "05" "May" "06" "June" "07" "July" "08" "August" "09" "September" "10" "October" "11" "November" "12" "December" }}
+
+{{ if eq ($.Scratch.Get "generalTitle") "Blogs" }}
+    {{ $.Scratch.Set "generalTitle" "Blog" }}
+{{ end }}
+
+{{ if and (.IsNode) (eq .Data.Plural "categories") }}
+    {{ if ne .Data.Plural (lower .Title) }}
+        {{ $.Scratch.Add "generalTitle" " Posts - " }}
+    {{ else }}
+        {{ $.Scratch.Add "generalTitle" " - " }}
+    {{ end }}
+{{ else if in $years .Data.Plural }}
+    <!-- add month name as archive title -->
+    {{ if index $months .Title }}
+        {{ $month := index $months .Title }}
+        {{ $.Scratch.Set "generalTitle" $month }}
+        {{ $.Scratch.Add "generalTitle" " " }}
+        {{ $.Scratch.Add "generalTitle" .Data.Plural }}
+    {{ end }}
+    <!-- add archives-->
+    {{ $.Scratch.Add "generalTitle" " archives - " }}
+{{ else }}
+    {{ $.Scratch.Add "generalTitle" " - " }}
+{{ end }}
+{{ $.Scratch.Add "generalTitle" .Site.Title }}
+
+{{ $title := printf "%s%s%s" .Site.Title " - " .Site.Title }}
+{{ if eq $title ($.Scratch.Get "generalTitle") }}
+    {{ $.Scratch.Set "generalTitle" .Site.Title }}
+    {{ $.Scratch.Add "generalTitle" " - " }}
+    {{ $.Scratch.Add "generalTitle" .Site.Params.teaser }}
+{{ end }}

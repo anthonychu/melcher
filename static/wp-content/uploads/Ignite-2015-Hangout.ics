@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 15.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN="Henning Eiben (eiben@busitec.de)";RSVP=TRUE:mailto:eiben@busit
+	ec.de
+ATTENDEE;CN="Andrej Doms";RSVP=TRUE:mailto:andrej.doms@convista.com
+ATTENDEE;CN=melcher.maximilian@googlemail.com;RSVP=TRUE:mailto:melcher.maxi
+	milian@googlemail.com
+CLASS:PUBLIC
+CREATED:20150427T120327Z
+DESCRIPTION:Watch: https://www.youtube.com/live_cards?v=VJhci1NUtno\nPartic
+	ipate: https://plus.google.com/hangouts/_/hoaevent/AP36tYdDTcHhNLG57ow4CUn
+	nNY9nfVs6yqFgpWL9otWKwwWOvwiYPg \n\nBitte verteilen :)\n
+DTEND;TZID="W. Europe Standard Time":20150504T203000
+DTSTAMP:20150427T115528Z
+DTSTART;TZID="W. Europe Standard Time":20150504T153000
+LAST-MODIFIED:20150427T120327Z
+LOCATION:Hangout
+ORGANIZER;CN="Melcher Maximilian":mailto:Maximilian.Melcher@alegri.eu
+PRIORITY:5
+SEQUENCE:3
+SUMMARY;LANGUAGE=en-us:Ignite 2015 Hangout
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000E05B30C7CC7DD001000000000000000
+	0100000009B7A885C4CFF72409D03B2D9A3CA6E3A
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion rmj.rmm.rup.rpr">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted 
+	from text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="de"></SPAN><SPAN LANG="
+	en-us"><FONT FACE="Calibri">Watch:</FONT></SPAN><SPAN LANG="de"> </SPAN><A
+	 HREF="https://www.youtube.com/live_cards?v=VJhci1NUtno"><SPAN LANG="de"><
+	U></U></SPAN><U><SPAN LANG="en-us"><FONT COLOR="#0563C1" FACE="Calibri">ht
+	tps://www.youtube.com/live_cards?v=VJhci1NUtno</FONT></SPAN></U><SPAN LANG
+	="de"></SPAN></A><SPAN LANG="de"></SPAN><SPAN LANG="en-us"></SPAN></P>\n\n
+	<P DIR=LTR><SPAN LANG="de"></SPAN><SPAN LANG="en-us"><FONT FACE="Calibri">
+	Participate:</FONT></SPAN><SPAN LANG="de"> </SPAN><A HREF="https://plus.go
+	ogle.com/hangouts/_/hoaevent/AP36tYdDTcHhNLG57ow4CUnnNY9nfVs6yqFgpWL9otWKw
+	wWOvwiYPg"><SPAN LANG="de"><U></U></SPAN><U><SPAN LANG="en-us"><FONT COLOR
+	="#0563C1" FACE="Calibri">https://plus.google.com/hangouts/_/hoaevent/AP36
+	tYdDTcHhNLG57ow4CUnnNY9nfVs6yqFgpWL9otWKwwWOvwiYPg</FONT></SPAN></U><SPAN 
+	LANG="de"></SPAN></A><SPAN LANG="de"></SPAN><SPAN LANG="en-us"><FONT FACE=
+	"Calibri"></FONT></SPAN><SPAN LANG="de"></SPAN><SPAN LANG="en-us"> </SPAN>
+	</P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Calibri">Bitte verteilen
+	</FONT></SPAN><SPAN LANG="de"></SPAN><SPAN LANG="en-us"> <FONT FACE="Wingd
+	ings" SIZE=3>J</FONT></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"><
+	/SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="de"></SPAN><SPAN LANG="en-us">
+	</SPAN></P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTLASTSEQUENCE:3
+X-MS-OLK-APPTSEQTIME:20150427T115528Z
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

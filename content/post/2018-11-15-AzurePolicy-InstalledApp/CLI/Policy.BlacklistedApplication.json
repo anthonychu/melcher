@@ -1,0 +1,44 @@
+{
+  "if": {
+    "allOf": [
+      {
+        "field": "type",
+        "equals": "Microsoft.Compute/virtualMachines"
+      },
+      {
+        "field": "Microsoft.Compute/imagePublisher",
+        "equals": "MicrosoftWindowsServer"
+      },
+      {
+        "field": "Microsoft.Compute/imageOffer",
+        "equals": "WindowsServer"
+      },
+      {
+        "field": "Microsoft.Compute/imageSKU",
+        "in": [
+          "2012-Datacenter",
+          "2012-Datacenter-smalldisk",
+          "2012-R2-Datacenter",
+          "2012-R2-Datacenter-smalldisk",
+          "2016-Datacenter",
+          "2016-Datacenter-Server-Core",
+          "2016-Datacenter-Server-Core-smalldisk",
+          "2016-Datacenter-smalldisk",
+          "2016-Datacenter-with-Containers",
+          "2016-Datacenter-with-RDSH"
+        ]
+      }
+    ]
+  },
+  "then": {
+    "effect": "auditIfNotExists",
+    "details": {
+      "type": "Microsoft.GuestConfiguration/guestConfigurationAssignments",
+      "name": "WhitelistedApplication",
+      "existenceCondition": {
+        "field": "Microsoft.GuestConfiguration/guestConfigurationAssignments/complianceStatus",
+        "equals": "Non-compliant"
+      }
+    }
+  }
+}

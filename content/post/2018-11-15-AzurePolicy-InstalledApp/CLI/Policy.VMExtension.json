@@ -1,0 +1,13 @@
+[
+  {
+    "policyDefinitionId": "/subscriptions/36d3ff36-dc30-4224-9970-6c24b9043705/providers/Microsoft.Authorization/policyDefinitions/blacklisted-software"
+  },
+  {
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/12f7e5d0-42a7-4630-80d8-54fb7cff9bd6",
+    "parameters": {
+      "installedApplication": {
+        "value": "[parameters('installedApplication')]"
+      }
+    }
+  }
+]

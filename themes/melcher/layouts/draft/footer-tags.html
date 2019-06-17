@@ -1,0 +1,28 @@
+<ul class="stats">
+    {{ if isset .Params "tags" }}
+        {{ $tagsCount := (len .Params.categories) }}
+
+        <!--
+            Set the title before displaying the categories associated with this post.
+            The title will use the variables from the Categories menu set in the Config.
+            If the Categories menu was not set then use the default values instead.
+        -->
+        {{ if ge $tagsCount 1 }}
+            <li>
+                    {{ $.Scratch.Set "tagUrl" "/tags/" }}
+                    <i class="fa fa-tags">&nbsp;</i>
+                    {{ if gt $tagsCount 1 }}
+                        Tags
+                    {{ else }}
+                        Tag
+                    {{ end }}
+            </li>
+        {{ end }}
+    {{ end }}
+
+    <!-- Display the categories associated with this post -->
+    
+    {{ range .Params.tags }}
+        <li><a href='{{ add ($.Scratch.Get "tagUrl") . | urlize }}'>{{ . }}</a></li>
+    {{ end }}
+</ul>

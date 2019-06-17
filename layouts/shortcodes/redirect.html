@@ -1,0 +1,34 @@
+
+
+<h2>Redirecting to</h2>
+
+<i class="fa fa-angle-double-right fa-6" style="margin-right:10px" aria-hidden="true"></i>
+<a href='{{ .Get "src" }}'>
+    {{ if .Get "description"  }} 
+        {{.Get "description"}}
+    {{else}}
+        {{.Get "src"}}
+    {{end}}
+</a>
+<br/>
+<br/>
+<br/>
+<p style="font-style: italic;">
+These links are being provided as a convenience and for informational purposes only; they do not constitute an endorsement or an approval by me. I bear no responsibility for the accuracy, legality or content of the external site or for that of subsequent links. Contact the external site for answers to questions regarding its content.
+</p>
+{{ if not (in (printf "%#v" .Site.BaseURL) "localhost") }}
+<script type="text/javascript">
+    ga('send', {
+        hitType: 'event',
+        eventCategory: 'Outbound Link',
+        eventAction: 'click',
+        eventLabel: '{{ .Get "src" }}'
+    });
+</script>
+{{ end }}
+<script type="text/javascript">
+    setTimeout(function () {
+        window.location = '{{ .Get "src" }}';
+    }
+    , 1000);
+</script>

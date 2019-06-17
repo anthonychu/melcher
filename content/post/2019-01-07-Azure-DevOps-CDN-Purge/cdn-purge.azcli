@@ -1,0 +1,4 @@
+#az login
+
+#purge everything
+az cdn endpoint purge  -g melcherit -n melcher --profile-name melcher --content-paths "/*"

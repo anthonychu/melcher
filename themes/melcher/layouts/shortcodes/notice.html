@@ -1,0 +1,4 @@
+<div class="notices {{ .Get 0 }}" {{ if len .Params | eq 2 }} id="{{ .Get 1 }}" {{ end }}>
+    <span class="fa"><i class="fa fa-exclamation-circle"></i> <span>{{ if len .Params | eq 2 }} {{else}} Note {{ end }}</span></span>
+    {{ .Inner }}
+</div>
