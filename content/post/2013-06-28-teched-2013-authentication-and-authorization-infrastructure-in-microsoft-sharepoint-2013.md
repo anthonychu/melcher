@@ -15,7 +15,7 @@ categories:
 ---
 Session by [Paolo Pialorsi][1] ([@PaoloPia][2])
 
-[<img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb21.png" width="244" height="139" border="0" />][3]{.thickbox}
+[<img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb21.png" width="244" height="139" border="0" />][3]
 
 > In this session, you learn how authentication and authorization work in SharePoint 2013, either when handling direct users’ requests, or running requests for SharePoint apps. In particular, see how to federate with an external Identity Provider like Windows Azure ACS to authenticate users and then authorize them in SharePoint, leveraging claims.
 
@@ -39,7 +39,7 @@ You can create a custom Identity Provider, there is a every well documented exam
 
 After the theory Paolo showed us how to utilize this knowledge in combination with apps. This is my favorite diagram about this:
 
-[<img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="OAuth Authentication flow" alt="Copied from the slides: http://video.ch9.ms/sessions/teched/eu/2013/SES-B402.pptx" src="http://melcher.it/wp-content/uploads/image_thumb22.png" width="244" height="139" border="0" />][5]{.thickbox}
+[<img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="OAuth Authentication flow" alt="Copied from the slides: http://video.ch9.ms/sessions/teched/eu/2013/SES-B402.pptx" src="http://melcher.it/wp-content/uploads/image_thumb22.png" width="244" height="139" border="0" />][5]
 
 This is crazy stuff – but very powerful.
 

@@ -15,7 +15,7 @@ categories:
 ---
 Session by [Simon Skinner][1] ([@CymonSkinner][2])
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb23.png" width="244" height="139" border="0" />][3]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb23.png" width="244" height="139" border="0" />][3]
 
 > SharePoint is now a company standard, but what is supported, sensible, or even practicable? How do we go about monitoring and managing SharePoint? In this session, we discuss the virtualization path and best practices using Hyper-V for high availability and why virtualization makes sense. […]
 
@@ -59,7 +59,7 @@ As usual you can get the [slides][5] and the [recording][6] from the TechEd si
 
 Automation and Best Practices – this was a rock solid session. Many new stuff for me, very valuable. Simon’s presentation was very good – highly recommend it!
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="2013-06-28T15-18-37_0" alt="2013-06-28T15-18-37_0" src="http://melcher.it/wp-content/uploads/2013-06-28T15-18-37_0_thumb.jpg" width="244" height="184" border="0" />][7]{.thickbox}[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="2013-06-28T15-02-23_1" alt="2013-06-28T15-02-23_1" src="http://melcher.it/wp-content/uploads/2013-06-28T15-02-23_1_thumb.jpg" width="244" height="184" border="0" />][8]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="2013-06-28T15-18-37_0" alt="2013-06-28T15-18-37_0" src="http://melcher.it/wp-content/uploads/2013-06-28T15-18-37_0_thumb.jpg" width="244" height="184" border="0" />][7][<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="2013-06-28T15-02-23_1" alt="2013-06-28T15-02-23_1" src="http://melcher.it/wp-content/uploads/2013-06-28T15-02-23_1_thumb.jpg" width="244" height="184" border="0" />][8]
 
  [1]: http://channel9.msdn.com/Events/Speakers/simon-skinner
  [2]: http://twitter.com/CymonSkinner

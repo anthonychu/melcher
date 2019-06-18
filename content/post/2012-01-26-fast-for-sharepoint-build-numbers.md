@@ -25,7 +25,7 @@ Ever wondered what FAST for SharePoint (FS4SP) version is currently installed? E
 
 The best approach is - open "Program and Features" and check the version there:
 
-[<img data-attachment-id="117" data-permalink="https://melcher.it/2012/01/fast-for-sharepoint-build-numbers/fast_version2/" data-orig-file="https://melcher.it/wp-content/uploads/fast_version2.png" data-orig-size="954,695" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="FS4SP Version in Program and Features" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/fast_version2-300x218.png" data-large-file="https://melcher.it/wp-content/uploads/fast_version2.png" class="alignleft size-medium wp-image-117" title="FS4SP Version in Program and Features" src="http://melcher.it/wp-content/uploads/fast_version2-300x218.png" alt="" width="300" height="218" srcset="https://melcher.it/wp-content/uploads/fast_version2-300x218.png 300w, https://melcher.it/wp-content/uploads/fast_version2.png 954w" sizes="(max-width: 300px) 100vw, 300px" />][1]
+{{< fancybox "/wp-content/uploads/" "fast_version2.png" "" "single_image" >}}
 
 With "View installed updates" you can even see if Cumulative Updates have been installed.
 

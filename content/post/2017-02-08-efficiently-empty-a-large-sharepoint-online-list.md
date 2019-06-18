@@ -15,13 +15,7 @@ categories:
 ---
 Ages ago I created a PowerShell script that I used a couple of times by now: [efficiently empty a large SharePoint list][1] - but apparently that code does not work against a SharePoint Online list.
 
-<div id="attachment_2527" style="width: 310px" class="wp-caption aligncenter">
-  <a href="https://melcher.it/wp-content/uploads/empty-list.png"><img data-attachment-id="2527" data-permalink="https://melcher.it/2017/02/efficiently-empty-a-large-sharepoint-online-list/empty-list/" data-orig-file="https://melcher.it/wp-content/uploads/empty-list.png" data-orig-size="1398,372" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="empty-list powershell" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/empty-list-300x80.png" data-large-file="https://melcher.it/wp-content/uploads/empty-list-1024x272.png" class="size-medium wp-image-2527" src="https://melcher.it/wp-content/uploads/empty-list-300x80.png" alt="" width="300" height="80" srcset="https://melcher.it/wp-content/uploads/empty-list-300x80.png 300w, https://melcher.it/wp-content/uploads/empty-list-768x204.png 768w, https://melcher.it/wp-content/uploads/empty-list-1024x272.png 1024w, https://melcher.it/wp-content/uploads/empty-list-930x247.png 930w, https://melcher.it/wp-content/uploads/empty-list-765x204.png 765w, https://melcher.it/wp-content/uploads/empty-list.png 1398w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  
-  <p class="wp-caption-text">
-    a simple script to empty a SharePoint Online List
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "empty-list.png" "" "single_image" >}}
 
 So here is an updated version of the script:
 

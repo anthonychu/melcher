@@ -32,7 +32,7 @@ Office 365: $1.5 billion, 60% of Fortune 500 companies are using it.
 
 > When I became President there were 50 sites on the internet – in total.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1603" alt="IMG_1603" src="http://melcher.it/wp-content/uploads/IMG_1603_thumb.jpg" width="348" height="185" border="0" />][1]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1603" alt="IMG_1603" src="http://melcher.it/wp-content/uploads/IMG_1603_thumb.jpg" width="348" height="185" border="0" />][1]
 
 Key message is that technology is changing our world – faster adoption of technology, cheaper and more reliable.
 
@@ -40,7 +40,7 @@ Key message is that technology is changing our world – faster adoption of tech
 
 4 trends: Cloud, Social, Mobile, Big Data.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1616" alt="IMG_1616" src="http://melcher.it/wp-content/uploads/IMG_1616_thumb.jpg" width="244" height="184" border="0" />][2]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1616" alt="IMG_1616" src="http://melcher.it/wp-content/uploads/IMG_1616_thumb.jpg" width="244" height="184" border="0" />][2]
 
 Jeff Teper, VP now on stage.
 
@@ -68,7 +68,7 @@ Yammer integrated into Outlook hosted on O365.
 
 Preview of Documents on OWA is now with Yammer integration – you can now discuss documents
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="Bh0tORkCQAAUx_w" alt="Bh0tORkCQAAUx_w" src="http://melcher.it/wp-content/uploads/Bh0tORkCQAAUx_w_thumb.png" width="244" height="132" border="0" />][4]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="Bh0tORkCQAAUx_w" alt="Bh0tORkCQAAUx_w" src="http://melcher.it/wp-content/uploads/Bh0tORkCQAAUx_w_thumb.png" width="244" height="132" border="0" />][4]
 
 ### Oslo
 
@@ -76,7 +76,7 @@ Oslo App: Information that is relevant to me comes to me. I don’t have to look
 
 Oslo has a great custom search integration with preset search filters “presented to me”, “trending around me”, “viewed by me” and more”.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1625" alt="IMG_1625" src="http://melcher.it/wp-content/uploads/IMG_1625_thumb.jpg" width="244" height="184" border="0" />][5]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1625" alt="IMG_1625" src="http://melcher.it/wp-content/uploads/IMG_1625_thumb.jpg" width="244" height="184" border="0" />][5]
 
 Oslo has a natural language search. Office Graphs shows who you are working with the most – you can see that from co-workers, too. A personal dashboard.
 
@@ -90,7 +90,7 @@ Julia shows OneDrive for Business with native experience on an iPad – shows th
 
 Julia shows a Q&A Site with a natural language search query – she searches for “average annual income per person vs population” – then the graph updates – awesome stuff.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="Bh0m7BtCIAA90GF" alt="Bh0m7BtCIAA90GF" src="http://melcher.it/wp-content/uploads/Bh0m7BtCIAA90GF_thumb.png" width="244" height="123" border="0" />][6]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="Bh0m7BtCIAA90GF" alt="Bh0m7BtCIAA90GF" src="http://melcher.it/wp-content/uploads/Bh0m7BtCIAA90GF_thumb.png" width="244" height="123" border="0" />][6]
 
 ## Build AMAZING Solutions
 
@@ -108,13 +108,13 @@ Arpin Shah, Senior Director shows a custom SharePoint list. Now he shows how to 
 
 The app shows data sitting in SharePoint and enriches it with context data – one of the approvers was out of office and it was visualized in the app. Simple.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1638" alt="IMG_1638" src="http://melcher.it/wp-content/uploads/IMG_1638_thumb.jpg" width="348" height="185" border="0" />][7]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1638" alt="IMG_1638" src="http://melcher.it/wp-content/uploads/IMG_1638_thumb.jpg" width="348" height="185" border="0" />][7]
 
 ## Manage with Confidence
 
 Security. Privacy. Compliance
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1642" alt="IMG_1642" src="http://melcher.it/wp-content/uploads/IMG_1642_thumb.jpg" width="348" height="185" border="0" />][8]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1642" alt="IMG_1642" src="http://melcher.it/wp-content/uploads/IMG_1642_thumb.jpg" width="348" height="185" border="0" />][8]
 
 More Certifiations for the Cloud – encrypted Storage for Azure – 1TB Site Collections.
 

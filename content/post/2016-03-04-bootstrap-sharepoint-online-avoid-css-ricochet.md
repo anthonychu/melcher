@@ -20,7 +20,7 @@ In this post I show you how to fix that.
 
 ## Bootstrap and SharePoint Online
 
-<img data-attachment-id="2102" data-permalink="https://melcher.it/2016/03/bootstrap-sharepoint-online-avoid-css-ricochet/bootstrap/" data-orig-file="https://melcher.it/wp-content/uploads/Bootstrap.png" data-orig-size="789,396" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Bootstrap" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/Bootstrap-300x151.png" data-large-file="https://melcher.it/wp-content/uploads/Bootstrap.png" class="aligncenter size-medium wp-image-2102" src="https://melcher.it/wp-content/uploads/Bootstrap-300x151.png" alt="Bootstrap" width="300" height="151" srcset="https://melcher.it/wp-content/uploads/Bootstrap-300x151.png 300w, https://melcher.it/wp-content/uploads/Bootstrap-768x385.png 768w, https://melcher.it/wp-content/uploads/Bootstrap-765x384.png 765w, https://melcher.it/wp-content/uploads/Bootstrap.png 789w" sizes="(max-width: 300px) 100vw, 300px" />
+{{< fancybox "/wp-content/uploads/" "Bootstrap.png" "" "single_image" >}}
 
 &nbsp;
 

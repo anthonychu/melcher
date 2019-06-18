@@ -25,25 +25,25 @@ Here are my session notes for “Search architecture and sizing in SharePoint 20
 
 Thomas briefly explained the Search Architecture – nothing new here for me, its very well documented on Technet.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1872" alt="IMG_1872" src="http://melcher.it/wp-content/uploads/IMG_1872_thumb.jpg" width="244" height="184" border="0" />][1]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1872" alt="IMG_1872" src="http://melcher.it/wp-content/uploads/IMG_1872_thumb.jpg" width="244" height="184" border="0" />][1]
 
 ### Scaling
 
 SharePoint 2013 Search scales pretty well –. I tried it in a project and it works.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1873" alt="IMG_1873" src="http://melcher.it/wp-content/uploads/IMG_1873_thumb.jpg" width="244" height="184" border="0" />][2]{.thickbox}.
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1873" alt="IMG_1873" src="http://melcher.it/wp-content/uploads/IMG_1873_thumb.jpg" width="244" height="184" border="0" />][2].
 
 ### Web Front-End
 
 Display Template, Query Rules – quite a lot happens on the web frontend.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1875" alt="IMG_1875" src="http://melcher.it/wp-content/uploads/IMG_1875_thumb.jpg" width="244" height="184" border="0" />][3]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1875" alt="IMG_1875" src="http://melcher.it/wp-content/uploads/IMG_1875_thumb.jpg" width="244" height="184" border="0" />][3]
 
 ### Analytics
 
 With the analytics service you can do very great things because it provides the insights behind the “Trends” in SharePoint. It even provides a view counter.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1879" alt="IMG_1879" src="http://melcher.it/wp-content/uploads/IMG_1879_thumb.jpg" width="244" height="184" border="0" />][4]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1879" alt="IMG_1879" src="http://melcher.it/wp-content/uploads/IMG_1879_thumb.jpg" width="244" height="184" border="0" />][4]
 
 ### 
 

@@ -15,7 +15,7 @@ categories:
 ---
 This keynote is, as the title indicates, all about Windows 8.1.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="IMG_2200" alt="IMG_2200" src="http://melcher.it/wp-content/uploads/IMG_2200_thumb.jpg" width="244" height="184" border="0" />][1]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="IMG_2200" alt="IMG_2200" src="http://melcher.it/wp-content/uploads/IMG_2200_thumb.jpg" width="244" height="184" border="0" />][1]
 
 My takeaways and impressions after the jump.
 
@@ -37,7 +37,7 @@ It seems like there are hundred of little enhancements in Windows 8.1. Here are 
 
 Okay, there are some new fancy form factors. I liked the variety of them:
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_2202" alt="IMG_2202" src="http://melcher.it/wp-content/uploads/IMG_2202_thumb.jpg" width="244" height="184" border="0" />][2]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_2202" alt="IMG_2202" src="http://melcher.it/wp-content/uploads/IMG_2202_thumb.jpg" width="244" height="184" border="0" />][2]
 
 ## Web Things and other stuff
 
@@ -57,9 +57,9 @@ Okay, there are some new fancy form factors. I liked the variety of them:
 
 My iPhone apparently do not like the light settings, but here are some impressions.
 
-## [<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="2013-06-27T09-57-33_0" alt="2013-06-27T09-57-33_0" src="http://melcher.it/wp-content/uploads/2013-06-27T09-57-33_0_thumb.jpg" width="244" height="184" border="0" />][3]{.thickbox}[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="2013-06-27T09-57-33_1" alt="2013-06-27T09-57-33_1" src="http://melcher.it/wp-content/uploads/2013-06-27T09-57-33_1_thumb.jpg" width="244" height="184" border="0" />][4]{.thickbox}[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="2013-06-27T09-57-33_2" alt="2013-06-27T09-57-33_2" src="http://melcher.it/wp-content/uploads/2013-06-27T09-57-33_2_thumb.jpg" width="244" height="184" border="0" />][5]{.thickbox}[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="2013-06-27T09-57-33_3" alt="2013-06-27T09-57-33_3" src="http://melcher.it/wp-content/uploads/2013-06-27T09-57-33_3_thumb.jpg" width="244" height="184" border="0" />][6]{.thickbox}
+## [<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="2013-06-27T09-57-33_0" alt="2013-06-27T09-57-33_0" src="http://melcher.it/wp-content/uploads/2013-06-27T09-57-33_0_thumb.jpg" width="244" height="184" border="0" />][3][<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="2013-06-27T09-57-33_1" alt="2013-06-27T09-57-33_1" src="http://melcher.it/wp-content/uploads/2013-06-27T09-57-33_1_thumb.jpg" width="244" height="184" border="0" />][4][<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="2013-06-27T09-57-33_2" alt="2013-06-27T09-57-33_2" src="http://melcher.it/wp-content/uploads/2013-06-27T09-57-33_2_thumb.jpg" width="244" height="184" border="0" />][5][<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="2013-06-27T09-57-33_3" alt="2013-06-27T09-57-33_3" src="http://melcher.it/wp-content/uploads/2013-06-27T09-57-33_3_thumb.jpg" width="244" height="184" border="0" />][6]
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="IMG_2201" alt="IMG_2201" src="http://melcher.it/wp-content/uploads/IMG_2201_thumb.jpg" width="244" height="184" border="0" />][7]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="IMG_2201" alt="IMG_2201" src="http://melcher.it/wp-content/uploads/IMG_2201_thumb.jpg" width="244" height="184" border="0" />][7]
 
 ## My evaluation
 

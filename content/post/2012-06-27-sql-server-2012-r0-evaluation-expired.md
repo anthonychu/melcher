@@ -21,7 +21,7 @@ categories:
 ---
 Yesterday was the 180th day without problems on my DEV/DEMO environment – until my eval expired without noticeable warning ahead. The whole thing just locked down and of course my SharePoint doesn’t like that:
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="cannot-connect-to-config-db-error" src="http://melcher.it/wp-content/uploads/cannot-connect-to-config-db-error_thumb.jpg" alt="cannot-connect-to-config-db-error" width="244" height="108" border="0" />][1]{.thickbox}
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="cannot-connect-to-config-db-error" src="http://melcher.it/wp-content/uploads/cannot-connect-to-config-db-error_thumb.jpg" alt="cannot-connect-to-config-db-error" width="244" height="108" border="0" />][1]
 
 Great, just great.
 

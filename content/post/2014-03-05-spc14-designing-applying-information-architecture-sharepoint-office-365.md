@@ -22,7 +22,7 @@ categories:
 
 Session "Designing and applying information architecture for SharePoint and Office 365" by [Agnes Molnar][1] and [Israel Vega Jr][2].
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1832" alt="IMG_1832" src="http://melcher.it/wp-content/uploads/IMG_1832_thumb.jpg" width="348" height="185" border="0" />][3]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1832" alt="IMG_1832" src="http://melcher.it/wp-content/uploads/IMG_1832_thumb.jpg" width="348" height="185" border="0" />][3]
 
 Here are my notes.
 
@@ -36,7 +36,7 @@ Three points to think about when designing an Information Architecture.
   2. Cost of development
   3. Value of learning
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1831" alt="IMG_1831" src="http://melcher.it/wp-content/uploads/IMG_1831_thumb.jpg" width="348" height="185" border="0" />][4]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1831" alt="IMG_1831" src="http://melcher.it/wp-content/uploads/IMG_1831_thumb.jpg" width="348" height="185" border="0" />][4]
 
 ## Governance
 
@@ -52,7 +52,7 @@ Don’t rename adjust the Document Content Type – instead inherit from it and 
 
 Minimal Components are: Content Types, Navigation, Taxonomy, Site Structure, Site Types.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1833" alt="IMG_1833" src="http://melcher.it/wp-content/uploads/IMG_1833_thumb.jpg" width="244" height="184" border="0" />][5]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1833" alt="IMG_1833" src="http://melcher.it/wp-content/uploads/IMG_1833_thumb.jpg" width="244" height="184" border="0" />][5]
 
 ## Plan Plan Plan!
 
@@ -64,7 +64,7 @@ Minimal Components are: Content Types, Navigation, Taxonomy, Site Structure, Sit
 
 Key message: SharePoint Search is really good, User need to take care of the document/metadata quality otherwise Search has no chance.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1835" alt="IMG_1835" src="http://melcher.it/wp-content/uploads/IMG_1835_thumb.jpg" width="348" height="185" border="0" />][6]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1835" alt="IMG_1835" src="http://melcher.it/wp-content/uploads/IMG_1835_thumb.jpg" width="348" height="185" border="0" />][6]
 
 &nbsp;
 

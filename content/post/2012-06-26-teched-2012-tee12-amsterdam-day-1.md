@@ -25,7 +25,7 @@ I will blog a bit about the sessions and stuff I saw at TechEd in Amsterdam – 
 
 Its all about cloud and virtualization. Broad coverage of all the new stuff, quite like the new Visual Studio features (List definition builder integrated, wondering how it will work with taxonomy fields)
 
-[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="1 Mio IOPS" src="http://melcher.it/wp-content/uploads/keynote_1mioIOPS_thumb.jpg" alt="1 Mio IOPS" width="244" height="183" border="0" />][1]{.thickbox}[<img style="background-image: none; border: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px;" title="Powerview" src="http://melcher.it/wp-content/uploads/keynote_powerview_thumb.jpg" alt="Powerview" width="244" height="183" border="0" />][2]{.thickbox}
+[<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="1 Mio IOPS" src="http://melcher.it/wp-content/uploads/keynote_1mioIOPS_thumb.jpg" alt="1 Mio IOPS" width="244" height="183" border="0" />][1][<img style="background-image: none; border: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px;" title="Powerview" src="http://melcher.it/wp-content/uploads/keynote_powerview_thumb.jpg" alt="Powerview" width="244" height="183" border="0" />][2]
 
 ## 
 

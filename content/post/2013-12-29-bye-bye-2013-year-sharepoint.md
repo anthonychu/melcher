@@ -71,15 +71,15 @@ It was a great SharePoint year – I had very exciting new projects, a migration
 
 The one and only “tool” is twitter – I received so much help and feedback, meet new and old friends (I am looking at you: [<s>@</s>meligo][15] [<s>@</s>mysharepoint][16] [<s>@</s>zimmergren][17] [<s>@</s>ToddKlindt][18] [<s>@</s>stacyDraper][19] [<s>@</s>HughAJWood][20] [<s>@</s>jimmywim][21] [<s>@</s>MLCarter1976][22] [@hupseb][23] [@michl86][24] – in no particular order!)
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="Most active users" alt="Most active users" src="http://melcher.it/wp-content/uploads/image_thumb24.png" width="244" height="243" border="0" />][25]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="Most active users" alt="Most active users" src="http://melcher.it/wp-content/uploads/image_thumb24.png" width="244" height="243" border="0" />][25]
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="Users most retweeted" alt="Users most retweeted" src="http://melcher.it/wp-content/uploads/image_thumb25.png" width="244" height="94" border="0" />][26]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="Users most retweeted" alt="Users most retweeted" src="http://melcher.it/wp-content/uploads/image_thumb25.png" width="244" height="94" border="0" />][26]
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="Users most replied to" alt="Users most replied to" src="http://melcher.it/wp-content/uploads/image_thumb26.png" width="244" height="94" border="0" />][27]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="Users most replied to" alt="Users most replied to" src="http://melcher.it/wp-content/uploads/image_thumb26.png" width="244" height="94" border="0" />][27]
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="Users most mentioned" alt="Users most mentioned" src="http://melcher.it/wp-content/uploads/image_thumb27.png" width="244" height="94" border="0" />][28]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="Users most mentioned" alt="Users most mentioned" src="http://melcher.it/wp-content/uploads/image_thumb27.png" width="244" height="94" border="0" />][28]
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="Hashtags most used" alt="Hashtags most used" src="http://melcher.it/wp-content/uploads/image_thumb28.png" width="244" height="84" border="0" />][29]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="Hashtags most used" alt="Hashtags most used" src="http://melcher.it/wp-content/uploads/image_thumb28.png" width="244" height="84" border="0" />][29]
 
 Are you on twitter? Why not follow me? 🙂
 

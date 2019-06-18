@@ -47,7 +47,7 @@ Or as I would say: It depends.
 
 > 3 is the new 2 – and 7 is the new 5
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1705" alt="IMG_1705" src="http://melcher.it/wp-content/uploads/IMG_1705_thumb.jpg" width="348" height="185" border="0" />][2]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1705" alt="IMG_1705" src="http://melcher.it/wp-content/uploads/IMG_1705_thumb.jpg" width="348" height="185" border="0" />][2]
 
 Means you need more servers – but think about the fault domain, if you virtualize you need redundant VM servers, if you do load balancing you need redundancy there. Always ask yourself how to patch this?
 
@@ -57,11 +57,11 @@ Routing, caching and database must be fast – every request go through there, i
 
 Search Layer should have <500 msec latency. Many components are based on Search – make it fast!
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1714" alt="IMG_1714" src="http://melcher.it/wp-content/uploads/IMG_1714_thumb.jpg" width="244" height="184" border="0" />][3]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1714" alt="IMG_1714" src="http://melcher.it/wp-content/uploads/IMG_1714_thumb.jpg" width="244" height="184" border="0" />][3]
 
 Search requires different planning in 203 – cross site publishing, analytics, recommendations need to be taken care of. October 2013 CU contains huge improvements.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1711" alt="IMG_1711" src="http://melcher.it/wp-content/uploads/IMG_1711_thumb.jpg" width="244" height="184" border="0" />][4]{.thickbox}[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1716" alt="IMG_1716" src="http://melcher.it/wp-content/uploads/IMG_1716_thumb.jpg" width="244" height="184" border="0" />][5]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1711" alt="IMG_1711" src="http://melcher.it/wp-content/uploads/IMG_1711_thumb.jpg" width="244" height="184" border="0" />][4][<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1716" alt="IMG_1716" src="http://melcher.it/wp-content/uploads/IMG_1716_thumb.jpg" width="244" height="184" border="0" />][5]
 
 Workflow Server: You can install it on 1 or 3 servers – no other options.
 
@@ -93,7 +93,7 @@ Most often requires Host Named Site Collections.
 
 For Host Named Site Collections he recommends a custom site creation provider.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1722" alt="IMG_1722" src="http://melcher.it/wp-content/uploads/IMG_1722_thumb.jpg" width="244" height="184" border="0" />][6]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1722" alt="IMG_1722" src="http://melcher.it/wp-content/uploads/IMG_1722_thumb.jpg" width="244" height="184" border="0" />][6]
 
 Root Site Collection is **required**.
 
@@ -105,7 +105,7 @@ You need a load balancer for the custom http header.
 
 Wictor showed us how to create a Host Named Site Collection (HNSC) with PowerShell. Very straight forward, worked like a charm and is another good reason to use PowerShell.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1724" alt="IMG_1724" src="http://melcher.it/wp-content/uploads/IMG_1724_thumb.jpg" width="348" height="185" border="0" />][7]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1724" alt="IMG_1724" src="http://melcher.it/wp-content/uploads/IMG_1724_thumb.jpg" width="348" height="185" border="0" />][7]
 
 Then Wictor showed some pretty extensive samples – can not write them down, was too complex to summarize, but was very useful to see complex scenarios – would love to see them in Technet as reference.
 

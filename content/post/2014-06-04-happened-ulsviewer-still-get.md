@@ -38,29 +38,17 @@ Why I love the tool?
 
 Additionally, just yesterday I solved an issue with the ULSViewer where the coloring and the real-time functionally was a major part of the issue identification.
 
-<div id="attachment_1672" style="width: 310px" class="wp-caption alignnone">
-  <a href="http://melcher.it/wp-content/uploads/SP2013-WIN2012R2-SQL2014-DEV2014-SP1-on-R9-HV1TP-MUC-Virtual-Machine-Connectio_2014-06-03_10-55-30.png"><img data-attachment-id="1672" data-permalink="https://melcher.it/2014/06/happened-ulsviewer-still-get/sp2013-win2012r2-sql2014-dev2014-sp1-on-r9-hv1tp-muc-virtual-machine-connectio_2014-06-03_10-55-30/" data-orig-file="https://melcher.it/wp-content/uploads/SP2013-WIN2012R2-SQL2014-DEV2014-SP1-on-R9-HV1TP-MUC-Virtual-Machine-Connectio_2014-06-03_10-55-30.png" data-orig-size="1410,809" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Formatting, highlighting and real-time support" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/SP2013-WIN2012R2-SQL2014-DEV2014-SP1-on-R9-HV1TP-MUC-Virtual-Machine-Connectio_2014-06-03_10-55-30-300x172.png" data-large-file="https://melcher.it/wp-content/uploads/SP2013-WIN2012R2-SQL2014-DEV2014-SP1-on-R9-HV1TP-MUC-Virtual-Machine-Connectio_2014-06-03_10-55-30-1024x587.png" class="size-medium wp-image-1672" src="http://melcher.it/wp-content/uploads/SP2013-WIN2012R2-SQL2014-DEV2014-SP1-on-R9-HV1TP-MUC-Virtual-Machine-Connectio_2014-06-03_10-55-30-300x172.png" alt="Formatting, highlighting and real-time support" width="300" height="172" srcset="https://melcher.it/wp-content/uploads/SP2013-WIN2012R2-SQL2014-DEV2014-SP1-on-R9-HV1TP-MUC-Virtual-Machine-Connectio_2014-06-03_10-55-30-300x172.png 300w, https://melcher.it/wp-content/uploads/SP2013-WIN2012R2-SQL2014-DEV2014-SP1-on-R9-HV1TP-MUC-Virtual-Machine-Connectio_2014-06-03_10-55-30-1024x587.png 1024w, https://melcher.it/wp-content/uploads/SP2013-WIN2012R2-SQL2014-DEV2014-SP1-on-R9-HV1TP-MUC-Virtual-Machine-Connectio_2014-06-03_10-55-30-930x533.png 930w, https://melcher.it/wp-content/uploads/SP2013-WIN2012R2-SQL2014-DEV2014-SP1-on-R9-HV1TP-MUC-Virtual-Machine-Connectio_2014-06-03_10-55-30-765x438.png 765w, https://melcher.it/wp-content/uploads/SP2013-WIN2012R2-SQL2014-DEV2014-SP1-on-R9-HV1TP-MUC-Virtual-Machine-Connectio_2014-06-03_10-55-30.png 1410w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  
-  <p class="wp-caption-text">
-    Formatting, highlighting and real-time support helped me solving an authentication issue
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "SP2013-WIN2012R2-SQL2014-DEV2014-SP1-on-R9-HV1TP-MUC-Virtual-Machine-Connectio_2014-06-03_10-55-30.png" "" "single_image" >}}
 
 ## BringBackULSViewer.com
 
 Trevor Seward ([@NaupliusTrevor][1]) launched a [page][2] to express that we want the ULSViewer back - most favorably released with an Open Source license hosted on Github or Codeplex.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="Bring Back ULSViewer! - Internet Explorer_2014-06-04_10-30-57" src="http://melcher.it/wp-content/uploads/Bring-Back-ULSViewer-Internet-Explorer_2014-06-04_10-30-57_thumb.png" alt="Bring Back ULSViewer! - Internet Explorer_2014-06-04_10-30-57" width="244" height="173" border="0" />][3]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="Bring Back ULSViewer! - Internet Explorer_2014-06-04_10-30-57" src="http://melcher.it/wp-content/uploads/Bring-Back-ULSViewer-Internet-Explorer_2014-06-04_10-30-57_thumb.png" alt="Bring Back ULSViewer! - Internet Explorer_2014-06-04_10-30-57" width="244" height="173" border="0" />][3]
 
 If you did not participate in the [survey][4] - please do so now! Collecting our voices helps!
 
-<div id="attachment_1675" style="width: 304px" class="wp-caption alignnone">
-  <a href="http://melcher.it/wp-content/uploads/https___onedrive.live_.com_survey_residCBCE97C71A32BCAE7278authkeyAPsm6fKZjm_2014-06-04_11-16-53.png"><img data-attachment-id="1675" data-permalink="https://melcher.it/2014/06/happened-ulsviewer-still-get/https___onedrive-live-com_survey_residcbce97c71a32bcae7278authkeyapsm6fkzjm_2014-06-04_11-16-53/" data-orig-file="https://melcher.it/wp-content/uploads/https___onedrive.live_.com_survey_residCBCE97C71A32BCAE7278authkeyAPsm6fKZjm_2014-06-04_11-16-53.png" data-orig-size="498,508" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="30 Seconds Survey" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/https___onedrive.live_.com_survey_residCBCE97C71A32BCAE7278authkeyAPsm6fKZjm_2014-06-04_11-16-53-294x300.png" data-large-file="https://melcher.it/wp-content/uploads/https___onedrive.live_.com_survey_residCBCE97C71A32BCAE7278authkeyAPsm6fKZjm_2014-06-04_11-16-53.png" class="size-medium wp-image-1675" src="http://melcher.it/wp-content/uploads/https___onedrive.live_.com_survey_residCBCE97C71A32BCAE7278authkeyAPsm6fKZjm_2014-06-04_11-16-53-294x300.png" alt="30 Seconds Survey" width="294" height="300" srcset="https://melcher.it/wp-content/uploads/https___onedrive.live_.com_survey_residCBCE97C71A32BCAE7278authkeyAPsm6fKZjm_2014-06-04_11-16-53-294x300.png 294w, https://melcher.it/wp-content/uploads/https___onedrive.live_.com_survey_residCBCE97C71A32BCAE7278authkeyAPsm6fKZjm_2014-06-04_11-16-53-36x36.png 36w, https://melcher.it/wp-content/uploads/https___onedrive.live_.com_survey_residCBCE97C71A32BCAE7278authkeyAPsm6fKZjm_2014-06-04_11-16-53.png 498w" sizes="(max-width: 294px) 100vw, 294px" /></a>
-  
-  <p class="wp-caption-text">
-    30 Seconds Survey
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "https___onedrive.live_.com_survey_residCBCE97C71A32BCAE7278authkeyAPsm6fKZjm_2014-06-04_11-16-53.png" "" "single_image" >}}
 
 ## How to still get it?
 
@@ -82,9 +70,9 @@ Install [chocolatey][6] (takes 30 seconds) and use the following command
 
 This downloads the ulsviewer and creates a shortcut on your desktop - <span style="text-decoration: underline;">in less than a minute in total</span> - quite handy and super fast!
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="Clipboard_2014-06-04_10-50-24" src="http://melcher.it/wp-content/uploads/Clipboard_2014-06-04_10-50-24_thumb.png" alt="Clipboard_2014-06-04_10-50-24" width="244" height="144" border="0" />][7]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="Clipboard_2014-06-04_10-50-24" src="http://melcher.it/wp-content/uploads/Clipboard_2014-06-04_10-50-24_thumb.png" alt="Clipboard_2014-06-04_10-50-24" width="244" height="144" border="0" />][7]
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="_2014-06-04_10-53-23" src="http://melcher.it/wp-content/uploads/2014-06-04_10-53-23_thumb.png" alt="_2014-06-04_10-53-23" width="244" height="184" border="0" />][8]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="_2014-06-04_10-53-23" src="http://melcher.it/wp-content/uploads/2014-06-04_10-53-23_thumb.png" alt="_2014-06-04_10-53-23" width="244" height="184" border="0" />][8]
 
 ## More chocolatey?
 

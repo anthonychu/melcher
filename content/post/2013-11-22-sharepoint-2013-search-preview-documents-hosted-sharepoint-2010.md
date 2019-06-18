@@ -26,23 +26,11 @@ Some clients want to start their migration with setting up a new SharePoint 2013
 
 Now let's take it a step further. Replace the SharePoint 2010 Search Center with a Search Center hosted in SharePoint 2013 - replacing is actually wrong, you have to do a redirect from the SharePoint 2010 environment to the Search Center in SharePoint 2013 - with the Search Preview, Display Templates and all the good stuff. Pretty great, I totally love the new features and the business value you can create with it:
 
-<div id="attachment_1007" style="width: 310px" class="wp-caption aligncenter">
-  <a href="http://melcher.it/wp-content/uploads/SP2013_Preview_Default.png"><img data-attachment-id="1007" data-permalink="https://melcher.it/2013/11/sharepoint-2013-search-preview-documents-hosted-sharepoint-2010/sp2013_preview_default/" data-orig-file="https://melcher.it/wp-content/uploads/SP2013_Preview_Default.png" data-orig-size="1178,749" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="SharePoint 2013 Preview of PowerPoint document hosted in SharePoint 2013" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/SP2013_Preview_Default-300x190.png" data-large-file="https://melcher.it/wp-content/uploads/SP2013_Preview_Default-1024x651.png" class="size-medium wp-image-1007" alt="SharePoint 2013 Preview of PowerPoint document hosted in SharePoint 2013" src="http://melcher.it/wp-content/uploads/SP2013_Preview_Default-300x190.png" width="300" height="190" srcset="https://melcher.it/wp-content/uploads/SP2013_Preview_Default-300x190.png 300w, https://melcher.it/wp-content/uploads/SP2013_Preview_Default-1024x651.png 1024w, https://melcher.it/wp-content/uploads/SP2013_Preview_Default-930x591.png 930w, https://melcher.it/wp-content/uploads/SP2013_Preview_Default-765x486.png 765w, https://melcher.it/wp-content/uploads/SP2013_Preview_Default.png 1178w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  
-  <p class="wp-caption-text">
-    SharePoint 2013 Preview of PowerPoint document hosted in SharePoint 2013
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "SP2013_Preview_Default.png" "" "single_image" >}}
 
 But here is the Problem: You crawled the SharePoint 2010 environment - by default you wont get a Preview for documents in the old environment:
 
-<div id="attachment_1008" style="width: 310px" class="wp-caption aligncenter">
-  <a href="http://melcher.it/wp-content/uploads/SP2013_Preview_SP2010.png"><img data-attachment-id="1008" data-permalink="https://melcher.it/2013/11/sharepoint-2013-search-preview-documents-hosted-sharepoint-2010/sp2013_preview_sp2010/" data-orig-file="https://melcher.it/wp-content/uploads/SP2013_Preview_SP2010.png" data-orig-size="1178,749" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Preview of a document hosted in SharePoint 2010" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/SP2013_Preview_SP2010-300x190.png" data-large-file="https://melcher.it/wp-content/uploads/SP2013_Preview_SP2010-1024x651.png" class="size-medium wp-image-1008" alt="Preview of a document hosted in SharePoint 2010" src="http://melcher.it/wp-content/uploads/SP2013_Preview_SP2010-300x190.png" width="300" height="190" srcset="https://melcher.it/wp-content/uploads/SP2013_Preview_SP2010-300x190.png 300w, https://melcher.it/wp-content/uploads/SP2013_Preview_SP2010-1024x651.png 1024w, https://melcher.it/wp-content/uploads/SP2013_Preview_SP2010-930x591.png 930w, https://melcher.it/wp-content/uploads/SP2013_Preview_SP2010-765x486.png 765w, https://melcher.it/wp-content/uploads/SP2013_Preview_SP2010.png 1178w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  
-  <p class="wp-caption-text">
-    Preview of a document hosted in SharePoint 2010
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "SP2013_Preview_SP2010.png" "" "single_image" >}}
 
 There is a <a title="Utilizing Web Apps 2010 to get PowerPoint search document previews of SharePoint 2010 content in SharePoint 2013 search" href="http://blogs.msdn.com/b/murads/archive/2012/10/11/utilizing-web-apps-2010-to-get-powerpoint-previews-of-sharepoint-2010-content-from-sharepoint-2013-search.aspx" target="_blank">great article by Murad Sæter</a> how you could substitute the Preview with Office Web Apps 2010 (the service application in SharePoint 2010 that needs expensive Office 2010 licenses!). Many of my clients don't have the Office 2010 licenses - many of them still use Office 2007 - so a show stopper. PDF Preview with old Office Web Apps - nope. This additionally applies to documents hosted on a fileshare - that does not work either.
 
@@ -70,13 +58,7 @@ Figuring out a solution cost me 4 days "brain time" - thinking about the problem
 
 In the following picture I show you the flow how the requests go from one server to another:
 
-<div id="attachment_1014" style="width: 310px" class="wp-caption aligncenter">
-  <a href="http://melcher.it/wp-content/uploads/Search_Preview_SP2010_Flow.png"><img data-attachment-id="1014" data-permalink="https://melcher.it/2013/11/sharepoint-2013-search-preview-documents-hosted-sharepoint-2010/search_preview_sp2010_flow/" data-orig-file="https://melcher.it/wp-content/uploads/Search_Preview_SP2010_Flow.png" data-orig-size="880,660" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Flow of the requests to render a document hosted in SharePoint 2010" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/Search_Preview_SP2010_Flow-300x224.png" data-large-file="https://melcher.it/wp-content/uploads/Search_Preview_SP2010_Flow.png" class="size-medium wp-image-1014" alt="Flow of the requests to render a document hosted in SharePoint 2010" src="http://melcher.it/wp-content/uploads/Search_Preview_SP2010_Flow-300x224.png" width="300" height="224" srcset="https://melcher.it/wp-content/uploads/Search_Preview_SP2010_Flow-300x224.png 300w, https://melcher.it/wp-content/uploads/Search_Preview_SP2010_Flow-765x573.png 765w, https://melcher.it/wp-content/uploads/Search_Preview_SP2010_Flow.png 880w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  
-  <p class="wp-caption-text">
-    Flow of the requests to render a document hosted in SharePoint 2010
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "Search_Preview_SP2010_Flow.png" "" "single_image" >}}
 
 In order to make this all happen, I created a SharePoint Farm Solution (full trust) that needs to be deployed on the SharePoint 2013 side. This provides two handlers that do the following.
 
@@ -90,13 +72,7 @@ SP2010Preview.ashx: Accepts the request back from the Office Web Apps server wit
 
 &nbsp;
 
-<div id="attachment_1006" style="width: 310px" class="wp-caption aligncenter">
-  <a href="http://melcher.it/wp-content/uploads/SP2013_Preview_SP2010_working.png"><img data-attachment-id="1006" data-permalink="https://melcher.it/2013/11/sharepoint-2013-search-preview-documents-hosted-sharepoint-2010/sp2013_preview_sp2010_working/" data-orig-file="https://melcher.it/wp-content/uploads/SP2013_Preview_SP2010_working.png" data-orig-size="1224,749" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Working Preview of Document hosted in SharePoint 2010" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/SP2013_Preview_SP2010_working-300x183.png" data-large-file="https://melcher.it/wp-content/uploads/SP2013_Preview_SP2010_working-1024x626.png" class="size-medium wp-image-1006" alt="Working Preview of Document hosted in SharePoint 2010" src="http://melcher.it/wp-content/uploads/SP2013_Preview_SP2010_working-300x183.png" width="300" height="183" srcset="https://melcher.it/wp-content/uploads/SP2013_Preview_SP2010_working-300x183.png 300w, https://melcher.it/wp-content/uploads/SP2013_Preview_SP2010_working-1024x626.png 1024w, https://melcher.it/wp-content/uploads/SP2013_Preview_SP2010_working-930x569.png 930w, https://melcher.it/wp-content/uploads/SP2013_Preview_SP2010_working-765x468.png 765w, https://melcher.it/wp-content/uploads/SP2013_Preview_SP2010_working.png 1224w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  
-  <p class="wp-caption-text">
-    Working Preview of Document hosted in SharePoint 2010
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "SP2013_Preview_SP2010_working.png" "" "single_image" >}}
 
 ## Flaws of the current implementation /
 

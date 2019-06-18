@@ -33,13 +33,7 @@ Because it sounds cool - and because we do not only talk about (SharePoint) sear
  12. Major events & conferences this year (e.g. Microsoft Ignite in Atlanta)
  13. IaaS, Saas, Paas and all the new options available in a "cloud first, mobile first" world.
 
-<div id="attachment_2089" style="width: 281px" class="wp-caption aligncenter">
-  <a href="https://melcher.it/wp-content/uploads/painkiller.jpg"><img data-attachment-id="2089" data-permalink="https://melcher.it/2016/02/search-stammtisch-in-munich/painkiller/" data-orig-file="https://melcher.it/wp-content/uploads/painkiller.jpg" data-orig-size="478,530" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Painkiller" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/painkiller-271x300.jpg" data-large-file="https://melcher.it/wp-content/uploads/painkiller.jpg" class="wp-image-2089 size-medium" src="https://melcher.it/wp-content/uploads/painkiller-271x300.jpg" alt="Painkiller - one of the best drinks in the world!" width="271" height="300" srcset="https://melcher.it/wp-content/uploads/painkiller-271x300.jpg 271w, https://melcher.it/wp-content/uploads/painkiller.jpg 478w" sizes="(max-width: 271px) 100vw, 271px" /></a>
-  
-  <p class="wp-caption-text">
-    Painkiller - one of the best drinks in the world!
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "painkiller.jpg" "" "single_image" >}}
 
 The list could go on and on because we are a really diverse group of IT professionals, IT vendors, partners and customers - and the mix makes the fun!
 

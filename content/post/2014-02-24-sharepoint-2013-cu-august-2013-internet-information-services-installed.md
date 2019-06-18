@@ -20,7 +20,7 @@ Today it was time to update my SharePoint 2013 installation from March PU 2013 t
 
 Wow, 1.8GB patch – that is huge! Compared to the RTM version of SharePoint 2013 with 2.4GB they rewrote 75% - or the patching strategy is not that optimal.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="MSDN Subscriber Downloads_2014-02-21_15-36-30" alt="MSDN Subscriber Downloads_2014-02-21_15-36-30" src="http://melcher.it/wp-content/uploads/MSDN-Subscriber-Downloads_2014-02-21_15-36-30_thumb.png" width="244" height="29" border="0" />][3]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="MSDN Subscriber Downloads_2014-02-21_15-36-30" alt="MSDN Subscriber Downloads_2014-02-21_15-36-30" src="http://melcher.it/wp-content/uploads/MSDN-Subscriber-Downloads_2014-02-21_15-36-30_thumb.png" width="244" height="29" border="0" />][3]
 
 Its time for a new baseline so patches can be smaller again. Lets see what happens after the [SPC][4].
 
@@ -40,7 +40,7 @@ For the patching part I always take the script from the article
 
 After the patching you have to start the Config Wizard. I was a little surprised as it responds with a nice error –  I even tried the PowerShell command in case there is a difference, but no:
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="Terminals 3.4.0 (Files store)_2014-02-21_15-12-49" alt="Terminals 3.4.0 (Files store)_2014-02-21_15-12-49" src="http://melcher.it/wp-content/uploads/Terminals-3.4.0-Files-store_2014-02-21_15-12-49_thumb.png" width="244" height="211" border="0" />][6]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="Terminals 3.4.0 (Files store)_2014-02-21_15-12-49" alt="Terminals 3.4.0 (Files store)_2014-02-21_15-12-49" src="http://melcher.it/wp-content/uploads/Terminals-3.4.0-Files-store_2014-02-21_15-12-49_thumb.png" width="244" height="211" border="0" />][6]
 
 What? IIS not installed anymore? Something must be broken with the Patch – let’s blame Todd for it:
 
@@ -58,27 +58,27 @@ What? IIS not installed anymore? Something must be broken with the Patch – let
 
 But then I tried to reproduce my steps – of course it must be an user error. After reading the patch script (reading things sometimes helps), I noticed that the script disables the IIS Admin service…
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="Terminals 3.4.0 (Files store)_2014-02-21_15-31-32" alt="Terminals 3.4.0 (Files store)_2014-02-21_15-31-32" src="http://melcher.it/wp-content/uploads/Terminals-3.4.0-Files-store_2014-02-21_15-31-32_thumb.png" width="216" height="244" border="0" />][7]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="Terminals 3.4.0 (Files store)_2014-02-21_15-31-32" alt="Terminals 3.4.0 (Files store)_2014-02-21_15-31-32" src="http://melcher.it/wp-content/uploads/Terminals-3.4.0-Files-store_2014-02-21_15-31-32_thumb.png" width="216" height="244" border="0" />][7]
 
 SharePoint does not like that – set it back to Automatic start and start the service.
 
 Starting the site is a good idea, too:
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="_2014-02-21_16-11-08" alt="_2014-02-21_16-11-08" src="http://melcher.it/wp-content/uploads/2014-02-21_16-11-08_thumb.png" width="244" height="174" border="0" />][8]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="_2014-02-21_16-11-08" alt="_2014-02-21_16-11-08" src="http://melcher.it/wp-content/uploads/2014-02-21_16-11-08_thumb.png" width="244" height="174" border="0" />][8]
 
 And then start the config wizard again:
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="_2014-02-21_16-11-45" alt="_2014-02-21_16-11-45" src="http://melcher.it/wp-content/uploads/2014-02-21_16-11-45_thumb.png" width="244" height="126" border="0" />][9]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="_2014-02-21_16-11-45" alt="_2014-02-21_16-11-45" src="http://melcher.it/wp-content/uploads/2014-02-21_16-11-45_thumb.png" width="244" height="126" border="0" />][9]
 
 And wait until every database is updated:
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="Terminals 3.4.0 (Files store)_2014-02-21_16-15-49" alt="Terminals 3.4.0 (Files store)_2014-02-21_16-15-49" src="http://melcher.it/wp-content/uploads/Terminals-3.4.0-Files-store_2014-02-21_16-15-49_thumb.png" width="244" height="126" border="0" />][10]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="Terminals 3.4.0 (Files store)_2014-02-21_16-15-49" alt="Terminals 3.4.0 (Files store)_2014-02-21_16-15-49" src="http://melcher.it/wp-content/uploads/Terminals-3.4.0-Files-store_2014-02-21_16-15-49_thumb.png" width="244" height="126" border="0" />][10]
 
 ## Search "Paused for:External request"
 
 Then I tried do do a Search – without a success. I went to the Search Service Application page and saw the status: “Paused for:External request” – that means something paused the Service Application (maybe, just maybe someone tried to patch):
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="Terminals 3.4.0 (Files store)_2014-02-21_16-28-37" alt="Terminals 3.4.0 (Files store)_2014-02-21_16-28-37" src="http://melcher.it/wp-content/uploads/Terminals-3.4.0-Files-store_2014-02-21_16-28-37_thumb.png" width="244" height="83" border="0" />][11]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="Terminals 3.4.0 (Files store)_2014-02-21_16-28-37" alt="Terminals 3.4.0 (Files store)_2014-02-21_16-28-37" src="http://melcher.it/wp-content/uploads/Terminals-3.4.0-Files-store_2014-02-21_16-28-37_thumb.png" width="244" height="83" border="0" />][11]
 
 and we should resume it – 3 lines of PowerShell:
 

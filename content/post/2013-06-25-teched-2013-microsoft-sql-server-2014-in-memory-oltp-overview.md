@@ -37,7 +37,7 @@ Wrong, if you want the full potential, you have to adjust, e.g. the schema.
 
 Wrong, data is persisted.
 
-[<img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="Jos showing that stored procedures are 11x faster now" alt="Jos showing that stored procedures are 11x faster now" src="http://melcher.it/wp-content/uploads/2013-06-25T14-15-20_0_thumb.jpg" width="244" height="184" border="0" />][2]{.thickbox}
+[<img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="Jos showing that stored procedures are 11x faster now" alt="Jos showing that stored procedures are 11x faster now" src="http://melcher.it/wp-content/uploads/2013-06-25T14-15-20_0_thumb.jpg" width="244" height="184" border="0" />][2]
 
 ## Interesting Question
 

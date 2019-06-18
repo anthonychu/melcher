@@ -27,17 +27,17 @@ Here are my notes:
 
 Richard showed the options you have to deploy apps in a corporate environment – from cloud to corporate marketplace - and showed the different types of Office Apps – from Word to Excel.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="20140302_220146928_iOS" alt="20140302_220146928_iOS" src="http://melcher.it/wp-content/uploads/20140302_220146928_iOS_thumb.jpg" width="348" height="185" border="0" />][4]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="20140302_220146928_iOS" alt="20140302_220146928_iOS" src="http://melcher.it/wp-content/uploads/20140302_220146928_iOS_thumb.jpg" width="348" height="185" border="0" />][4]
 
 > When you use copy & paste something to Outlook – it’s a good candidate for a Mail App.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="20140302_220853244_iOS" alt="20140302_220853244_iOS" src="http://melcher.it/wp-content/uploads/20140302_220853244_iOS_thumb.jpg" width="348" height="185" border="0" />][5]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="20140302_220853244_iOS" alt="20140302_220853244_iOS" src="http://melcher.it/wp-content/uploads/20140302_220853244_iOS_thumb.jpg" width="348" height="185" border="0" />][5]
 
 ## Demo
 
 Richard created a Word App that triggers on a selection and can replace the selection with a link.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="20140302_224536861_iOS" alt="20140302_224536861_iOS" src="http://melcher.it/wp-content/uploads/20140302_224536861_iOS_thumb.jpg" width="244" height="184" border="0" />][6]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="20140302_224536861_iOS" alt="20140302_224536861_iOS" src="http://melcher.it/wp-content/uploads/20140302_224536861_iOS_thumb.jpg" width="244" height="184" border="0" />][6]
 
 He showed that in order to publish an Office App Project you basically need to publish twice. One time for the service (e.g. hosted on azure) and the second time for the App Manifest (xml file) where you tell Office how to reach the service and what type of office app it is.
 
@@ -49,13 +49,13 @@ So that was a new thing to me – you can create bindings (subscriptions) to let
 
 Kirk showed a Mail App and plenty of options how to get known entities out of emails – discovery of element inside an email (addresses, phone numbers and more) – good stuff.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="20140303_005018025_iOS" alt="20140303_005018025_iOS" src="http://melcher.it/wp-content/uploads/20140303_005018025_iOS_thumb.jpg" width="348" height="185" border="0" />][8]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="20140303_005018025_iOS" alt="20140303_005018025_iOS" src="http://melcher.it/wp-content/uploads/20140303_005018025_iOS_thumb.jpg" width="348" height="185" border="0" />][8]
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="20140303_005104277_iOS" alt="20140303_005104277_iOS" src="http://melcher.it/wp-content/uploads/20140303_005104277_iOS_thumb.jpg" width="348" height="185" border="0" />][9]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="20140303_005104277_iOS" alt="20140303_005104277_iOS" src="http://melcher.it/wp-content/uploads/20140303_005104277_iOS_thumb.jpg" width="348" height="185" border="0" />][9]
 
 ## Call to Action
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="20140303_010315882_iOS" alt="20140303_010315882_iOS" src="http://melcher.it/wp-content/uploads/20140303_010315882_iOS_thumb.jpg" width="348" height="185" border="0" />][10]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="20140303_010315882_iOS" alt="20140303_010315882_iOS" src="http://melcher.it/wp-content/uploads/20140303_010315882_iOS_thumb.jpg" width="348" height="185" border="0" />][10]
 
 Kirk said there is more to come and more to announced during this SPC.
 

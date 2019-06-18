@@ -18,7 +18,7 @@ categories:
 
 Session “Build your own REST service with WebAPI 2” by [Scot Hillier][1] – here are my notes.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1839" alt="IMG_1839" src="http://melcher.it/wp-content/uploads/IMG_1839_thumb.jpg" width="348" height="185" border="0" />][2]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1839" alt="IMG_1839" src="http://melcher.it/wp-content/uploads/IMG_1839_thumb.jpg" width="348" height="185" border="0" />][2]
 
 Level 400 – yes!
 
@@ -26,7 +26,7 @@ Level 400 – yes!
 
 Client pulls data – stateless, cache indication, accessible through a url.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1842" alt="IMG_1842" src="http://melcher.it/wp-content/uploads/IMG_1842_thumb.jpg" width="348" height="185" border="0" />][3]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1842" alt="IMG_1842" src="http://melcher.it/wp-content/uploads/IMG_1842_thumb.jpg" width="348" height="185" border="0" />][3]
 
 ## WebAPI
 

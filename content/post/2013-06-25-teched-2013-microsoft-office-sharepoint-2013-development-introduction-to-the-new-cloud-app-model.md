@@ -30,7 +30,7 @@ Demo in Excel: Apps for Office right from the ribbon. Rolando showed a funny app
 
 3rd demo: Rolando showed AvePoint Meetings – apparently the first time it did not work – but generally the idea behind it is simple and very cool.
 
-[<img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="2013-06-25T13-41-57_16" alt="2013-06-25T13-41-57_16" src="http://melcher.it/wp-content/uploads/2013-06-25T13-41-57_16_thumb.jpg" width="244" height="184" border="0" />][1]{.thickbox}
+[<img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="2013-06-25T13-41-57_16" alt="2013-06-25T13-41-57_16" src="http://melcher.it/wp-content/uploads/2013-06-25T13-41-57_16_thumb.jpg" width="244" height="184" border="0" />][1]
 
 ## History
 

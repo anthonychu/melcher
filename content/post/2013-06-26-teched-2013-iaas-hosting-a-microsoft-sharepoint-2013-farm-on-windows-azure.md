@@ -22,7 +22,7 @@ Session notes after the jump.
 
 Provisioning SharePoint with PowerShell in the Cloud – sounds awesome, is awesome. Michael showed us how to provision and configure Azure virtual machines to host high available SharePoint farms – load balanced and what not. For the load balancer part, there has to be an anonymous site so that the load balancer can determine the state of the web app, he's coming in with no credentials.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="Michael provisioning Azure VMs with PowerShell" alt="Michael provisioning Azure VMs with PowerShell" src="http://melcher.it/wp-content/uploads/2013-06-26T12-14-22_0_thumb.jpg" width="244" height="184" border="0" />][3]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="Michael provisioning Azure VMs with PowerShell" alt="Michael provisioning Azure VMs with PowerShell" src="http://melcher.it/wp-content/uploads/2013-06-26T12-14-22_0_thumb.jpg" width="244" height="184" border="0" />][3]
 
 ## Small Farm Architecture Tips
 

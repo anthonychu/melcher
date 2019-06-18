@@ -22,25 +22,25 @@ If your SharePoint is hosted on Windows Server 2012 this does not work without c
 
 Open the Server Manager.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb5.png" width="244" height="161" border="0" />][1]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb5.png" width="244" height="161" border="0" />][1]
 
 Click next until “Features”.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb6.png" width="244" height="160" border="0" />][2]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb6.png" width="244" height="160" border="0" />][2]
 
 Expand the greyed-out “User Interfaces and Infrastructure”, check the Desktop Experience entry _(I took the screenshot after installing it)._
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb7.png" width="244" height="158" border="0" />][3]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb7.png" width="244" height="158" border="0" />][3]
 
 Click next and install the feature. Then you have to reboot the Server.
 
 After the reboot open the Service Manager (services.msc) and start the WebClient service – and if you want set it to automatic start so it works after the next reboot.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb8.png" width="244" height="192" border="0" />][4]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb8.png" width="244" height="192" border="0" />][4]
 
 After this open an explorer and try to connect to [\\<hostname>\_catalogs\][5] and the result should look like this:
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb9.png" width="244" height="188" border="0" />][6]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb9.png" width="244" height="188" border="0" />][6]
 
  [1]: http://melcher.it/wp-content/uploads/image5.png
  [2]: http://melcher.it/wp-content/uploads/image6.png

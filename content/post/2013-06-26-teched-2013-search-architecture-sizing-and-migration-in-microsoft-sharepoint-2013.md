@@ -37,13 +37,13 @@ Jan showed how easy it is to add Metadata and visualize them as a pie chart refi
 
 I should invest more time with this beauty –  there is some hidden potential when you ask for “Suggested sites to follow” or “Are you looking for these again?”.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="2013-06-25T17-34-25_0" alt="2013-06-25T17-34-25_0" src="http://melcher.it/wp-content/uploads/2013-06-25T17-34-25_0_thumb.jpg" width="244" height="184" border="0" />][1]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="2013-06-25T17-34-25_0" alt="2013-06-25T17-34-25_0" src="http://melcher.it/wp-content/uploads/2013-06-25T17-34-25_0_thumb.jpg" width="244" height="184" border="0" />][1]
 
 ## Migration Scenarios
 
 Okay, there is new information here. I had in mind that there is now migration story from FAST Search Server to SharePoint 2013 – but it seems there is one:
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="Migration Scenarios for SharePoint Search" alt="Migration Paths - taken from http://channel9.msdn.com/Events/TechEd/NorthAmerica/2013/SES-B310#fbid=WGzBjalI8qs" src="http://melcher.it/wp-content/uploads/image_thumb16.png" width="244" height="139" border="0" />][2]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="Migration Scenarios for SharePoint Search" alt="Migration Paths - taken from http://channel9.msdn.com/Events/TechEd/NorthAmerica/2013/SES-B310#fbid=WGzBjalI8qs" src="http://melcher.it/wp-content/uploads/image_thumb16.png" width="244" height="139" border="0" />][2]
 
 Maybe its supported, but the custom PowerShell line could be a “It depends!”. Jan said “undocumented”.
 

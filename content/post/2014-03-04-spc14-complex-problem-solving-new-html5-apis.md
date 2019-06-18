@@ -27,7 +27,7 @@ SP2013: Provider Hosted Apps, SharePoint Hosted Apps, App Parts
 
 Good analogy – SharePoint developer will be transformed to Web Developer – we are responsible for greater parts now.
 
-[<img data-attachment-id="1261" data-permalink="https://melcher.it/2014/03/spc14-complex-problem-solving-new-html5-apis/img_1732/" data-orig-file="https://melcher.it/wp-content/uploads/IMG_1732.jpg" data-orig-size="3264,2448" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.4&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 4S&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1393930060&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.28&quot;,&quot;iso&quot;:&quot;160&quot;,&quot;shutter_speed&quot;:&quot;0.05&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="IMG_1732" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/IMG_1732-300x225.jpg" data-large-file="https://melcher.it/wp-content/uploads/IMG_1732-1024x768.jpg" class="size-medium wp-image-1261 " alt="From Bricks to Houses" src="http://melcher.it/wp-content/uploads/IMG_1732-300x225.jpg" width="300" height="225" srcset="https://melcher.it/wp-content/uploads/IMG_1732-300x225.jpg 300w, https://melcher.it/wp-content/uploads/IMG_1732-1024x768.jpg 1024w, https://melcher.it/wp-content/uploads/IMG_1732-930x697.jpg 930w, https://melcher.it/wp-content/uploads/IMG_1732-765x573.jpg 765w" sizes="(max-width: 300px) 100vw, 300px" />][2] From Bricks to Houses
+{{< fancybox "/wp-content/uploads/" "IMG_1732.jpg" "" "single_image" >}}
 
 ## Responsive App Parts / iFrames
 
@@ -55,7 +55,7 @@ Web API supports SSE to push streams to clients.
 
 > For HTML5 Apps you need to know what your browser supports – modernizer.js is your friend.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1736" alt="IMG_1736" src="http://melcher.it/wp-content/uploads/IMG_1736_thumb.jpg" width="348" height="185" border="0" />][3]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1736" alt="IMG_1736" src="http://melcher.it/wp-content/uploads/IMG_1736_thumb.jpg" width="348" height="185" border="0" />][3]
 
 IE does not support SSE (I would recommend <a href="http://signalr.net/" target="_blank">SignalR</a> here, that handles everything for you).
 

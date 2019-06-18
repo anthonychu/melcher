@@ -16,7 +16,7 @@ categories:
 ---
 [Corey Burke][1] ([@cburke007][2]) and Todd Klindt ([@toddklindt][3])– Entertaining SharePoint Administration
 
-[<img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb20.png" width="244" height="139" border="0" />][4]{.thickbox}
+[<img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb20.png" width="244" height="139" border="0" />][4]
 
 > In this session, we cover what's new in SharePoint 2013. First, we cover installing SharePoint 2013 and configuring your new farm. This session provides what to need to start planning your new SharePoint 2013 farm and dovetails nicely into Part 2, which covers changes in SharePoint 2013 the SharePoint administrator should know about. We cover changes to how you’ll plan your farm topology. We also cover the changes to the Search service application and how that impacts scale. Finally, we spend some time talking about everyone’s favorite part of SharePoint Server, the User Profile Service.
 
@@ -66,11 +66,11 @@ You can grab the [slides][10] and the [recording][11] from the TechEd site – I
 
 Laughing and learning – that’s why I love Todd’s sessions for years now. I even bought his book at TechEd, but he took it from me to shamelessly promote it in the session:
 
-[<img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="2013-06-27T17-34-35_0" alt="2013-06-27T17-34-35_0" src="http://melcher.it/wp-content/uploads/2013-06-27T17-34-35_0_thumb.jpg" width="184" height="244" border="0" />][12]{.thickbox}
+[<img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="2013-06-27T17-34-35_0" alt="2013-06-27T17-34-35_0" src="http://melcher.it/wp-content/uploads/2013-06-27T17-34-35_0_thumb.jpg" width="184" height="244" border="0" />][12]
 
 The Todd and Corey combo worked very well, I (and I assume the 100 attendees) had a very good time! Thanks!
 
-[<img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="2013-06-27T17-34-35_3" alt="2013-06-27T17-34-35_3" src="http://melcher.it/wp-content/uploads/2013-06-27T17-34-35_3_thumb.jpg" width="244" height="184" border="0" />][13]{.thickbox}
+[<img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="2013-06-27T17-34-35_3" alt="2013-06-27T17-34-35_3" src="http://melcher.it/wp-content/uploads/2013-06-27T17-34-35_3_thumb.jpg" width="244" height="184" border="0" />][13]
 
  [1]: http://blog.sharepoint-voodoo.net/
  [2]: https://twitter.com/cburke007

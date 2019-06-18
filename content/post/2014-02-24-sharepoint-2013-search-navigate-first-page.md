@@ -20,7 +20,7 @@ Sometimes clients come up with crazy requests “I can not go back to first page
 
 As the caption says, you can change almost every design aspect in SharePoint 2013 Search by changing a html file (or a .js file if you are on Foundation) – this includes the general rendering of the search results and with it the pagination.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb30.png" width="244" height="67" border="0" />][1]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb30.png" width="244" height="67" border="0" />][1]
 
 So let's try to change it to the desired behavior - of course I know that you can remove the #s or click on the search loop again.
 

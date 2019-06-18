@@ -25,13 +25,7 @@ In the very first version the tool was quite simple and most of the search param
 
 I implemented the schema overview (actually that was not that much but looks great):
 
-<div id="attachment_1949" style="width: 310px" class="wp-caption aligncenter">
-  <a href="https://melcher.it/wp-content/uploads/AzureSearchTool_IndexStatistics.png"><img data-attachment-id="1949" data-permalink="https://melcher.it/2015/06/azuresearchtool-more-options-more-fun/azuresearchtool_indexstatistics/" data-orig-file="https://melcher.it/wp-content/uploads/AzureSearchTool_IndexStatistics.png" data-orig-size="1080,800" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="AzureSearchTool IndexStatistics" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/AzureSearchTool_IndexStatistics-300x222.png" data-large-file="https://melcher.it/wp-content/uploads/AzureSearchTool_IndexStatistics-1024x759.png" class="size-medium wp-image-1949" src="https://melcher.it/wp-content/uploads/AzureSearchTool_IndexStatistics-300x222.png" alt="Index Schema and Statistics" width="300" height="222" srcset="https://melcher.it/wp-content/uploads/AzureSearchTool_IndexStatistics-300x222.png 300w, https://melcher.it/wp-content/uploads/AzureSearchTool_IndexStatistics-1024x759.png 1024w, https://melcher.it/wp-content/uploads/AzureSearchTool_IndexStatistics-930x689.png 930w, https://melcher.it/wp-content/uploads/AzureSearchTool_IndexStatistics-765x567.png 765w, https://melcher.it/wp-content/uploads/AzureSearchTool_IndexStatistics.png 1080w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  
-  <p class="wp-caption-text">
-    Index Schema and Statistics
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "AzureSearchTool_IndexStatistics.png" "" "single_image" >}}
 
 So now you can see what fields of what type you have - and how those fields are specified.
 
@@ -59,13 +53,7 @@ Create that by hand or with Postman? Rather not.
 
 If you managed to enter invalid values in the search query parameters, the AzureSearchTool now shows the error that is returned by Azure Search:
 
-<div id="attachment_1950" style="width: 140px" class="wp-caption aligncenter">
-  <a href="https://melcher.it/wp-content/uploads/2015-06-06-22_01_52-Azure-Search-Tool.png"><img data-attachment-id="1950" data-permalink="https://melcher.it/2015/06/azuresearchtool-more-options-more-fun/2015-06-06-22_01_52-azure-search-tool/" data-orig-file="https://melcher.it/wp-content/uploads/2015-06-06-22_01_52-Azure-Search-Tool.png" data-orig-size="297,688" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="AzureSearchTool Errors" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/2015-06-06-22_01_52-Azure-Search-Tool-130x300.png" data-large-file="https://melcher.it/wp-content/uploads/2015-06-06-22_01_52-Azure-Search-Tool.png" class="size-medium wp-image-1950" src="https://melcher.it/wp-content/uploads/2015-06-06-22_01_52-Azure-Search-Tool-130x300.png" alt="That error is really helpful!" width="130" height="300" srcset="https://melcher.it/wp-content/uploads/2015-06-06-22_01_52-Azure-Search-Tool-130x300.png 130w, https://melcher.it/wp-content/uploads/2015-06-06-22_01_52-Azure-Search-Tool.png 297w" sizes="(max-width: 130px) 100vw, 130px" /></a>
-  
-  <p class="wp-caption-text">
-    That error is really helpful!
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "2015-06-06-22_01_52-Azure-Search-Tool.png" "" "single_image" >}}
 
 ## Overall
 

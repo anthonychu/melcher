@@ -106,13 +106,7 @@ $result
 
 The result looks like this:
 
-<div id="attachment_1842" style="width: 257px" class="wp-caption aligncenter">
-  <a href="https://melcher.it/wp-content/uploads/2015-03-22-20_05_35-Administrator_-SharePoint-2013-Management-Shell.png"><img data-attachment-id="1842" data-permalink="https://melcher.it/2015/03/powershell-script-to-efficiently-locate-large-files-in-sharepoint-20102013/2015-03-22-20_05_35-administrator_-sharepoint-2013-management-shell/" data-orig-file="https://melcher.it/wp-content/uploads/2015-03-22-20_05_35-Administrator_-SharePoint-2013-Management-Shell.png" data-orig-size="677,823" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Get Large files script in Action" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/2015-03-22-20_05_35-Administrator_-SharePoint-2013-Management-Shell-247x300.png" data-large-file="https://melcher.it/wp-content/uploads/2015-03-22-20_05_35-Administrator_-SharePoint-2013-Management-Shell.png" class="size-medium wp-image-1842" src="https://melcher.it/wp-content/uploads/2015-03-22-20_05_35-Administrator_-SharePoint-2013-Management-Shell-247x300.png" alt="Get large files script in action" width="247" height="300" srcset="https://melcher.it/wp-content/uploads/2015-03-22-20_05_35-Administrator_-SharePoint-2013-Management-Shell-247x300.png 247w, https://melcher.it/wp-content/uploads/2015-03-22-20_05_35-Administrator_-SharePoint-2013-Management-Shell.png 677w" sizes="(max-width: 247px) 100vw, 247px" /></a>
-  
-  <p class="wp-caption-text">
-    Get large files script in actionYou can easily export that to a csv file
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "2015-03-22-20_05_35-Administrator_-SharePoint-2013-Management-Shell.png" "" "single_image" >}}
 
 You can easily export that to a csv file with:
 

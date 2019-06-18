@@ -58,12 +58,6 @@ Get-SPManagedAccount | select UserName, @{Name="Password"; Expression={ConvertTo
 
 See:
 
-<div id="attachment_1851" style="width: 310px" class="wp-caption aligncenter">
-  <a href="https://melcher.it/wp-content/uploads/GetManagedAccountPasswords.png"><img data-attachment-id="1851" data-permalink="https://melcher.it/2015/04/retrieve-managed-account-passwords-for-sharepoint-2010-sharepoint-2013/getmanagedaccountpasswords/" data-orig-file="https://melcher.it/wp-content/uploads/GetManagedAccountPasswords.png" data-orig-size="677,535" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Get Managed Account Passwords" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/GetManagedAccountPasswords-300x237.png" data-large-file="https://melcher.it/wp-content/uploads/GetManagedAccountPasswords.png" class="size-medium wp-image-1851" src="https://melcher.it/wp-content/uploads/GetManagedAccountPasswords-300x237.png" alt="Get Managed Account Passwords" width="300" height="237" srcset="https://melcher.it/wp-content/uploads/GetManagedAccountPasswords-300x237.png 300w, https://melcher.it/wp-content/uploads/GetManagedAccountPasswords.png 677w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  
-  <p class="wp-caption-text">
-    Get Managed Account Passwords
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "GetManagedAccountPasswords.png" "" "single_image" >}}
 
 The output is a nice table with all passwords in plain text - unexpected but nice, isn't it?

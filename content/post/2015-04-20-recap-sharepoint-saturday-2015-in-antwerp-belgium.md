@@ -21,7 +21,7 @@ categories:
 ---
 300 attendees on a Saturday - all “SharePoint-crazy”. Its my first visit to Belgium and I must say: I am impressed of the community and the spirit here. In the following I recap SharePoint Saturday 2015 in Antwerp.
 
-<img data-attachment-id="1881" data-permalink="https://melcher.it/2015/04/recap-sharepoint-saturday-2015-in-antwerp-belgium/antwerp-2/" data-orig-file="https://melcher.it/wp-content/uploads/antwerp1.png" data-orig-size="960,393" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="antwerp" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/antwerp1-300x123.png" data-large-file="https://melcher.it/wp-content/uploads/antwerp1.png" class="wp-image-1881 size-full" src="https://melcher.it/wp-content/uploads/antwerp1.png" alt="Antwerp" width="960" height="393" srcset="https://melcher.it/wp-content/uploads/antwerp1.png 960w, https://melcher.it/wp-content/uploads/antwerp1-300x123.png 300w, https://melcher.it/wp-content/uploads/antwerp1-930x381.png 930w, https://melcher.it/wp-content/uploads/antwerp1-765x313.png 765w" sizes="(max-width: 960px) 100vw, 960px" />
+{{< fancybox "/wp-content/uploads/" "antwerp1.png" "" "single_image" >}}
 
 &nbsp;
 

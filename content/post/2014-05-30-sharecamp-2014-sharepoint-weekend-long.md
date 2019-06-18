@@ -98,13 +98,7 @@ ShareCamp 2014 was last weekend (05/23/2014 - 05/25/2014) hosted by Microsoft in
               &nbsp;
             </p>
             
-            <div id="attachment_1537" style="width: 310px" class="wp-caption alignnone">
-              <a href="http://melcher.it/wp-content/uploads/20140525_114329268_iOS2.jpg"><img data-attachment-id="1537" data-permalink="https://melcher.it/2014/05/sharecamp-2014-sharepoint-weekend-long/20140525_114329268_ios-2/" data-orig-file="https://melcher.it/wp-content/uploads/20140525_114329268_iOS2.jpg" data-orig-size="3264,2448" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.4&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 4S&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1401025409&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.28&quot;,&quot;iso&quot;:&quot;50&quot;,&quot;shutter_speed&quot;:&quot;0.0070422535211268&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/20140525_114329268_iOS2-300x225.jpg" data-large-file="https://melcher.it/wp-content/uploads/20140525_114329268_iOS2-1024x768.jpg" class="size-medium wp-image-1537" src="http://melcher.it/wp-content/uploads/20140525_114329268_iOS2-300x225.jpg" alt="Christian Heindel about context-aware apps" width="300" height="225" srcset="https://melcher.it/wp-content/uploads/20140525_114329268_iOS2-300x225.jpg 300w, https://melcher.it/wp-content/uploads/20140525_114329268_iOS2-1024x768.jpg 1024w, https://melcher.it/wp-content/uploads/20140525_114329268_iOS2-930x697.jpg 930w, https://melcher.it/wp-content/uploads/20140525_114329268_iOS2-765x573.jpg 765w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-              
-              <p class="wp-caption-text">
-                Christian Heindel about context-aware apps
-              </p>
-            </div>
+            {{< fancybox "/wp-content/uploads/" "20140525_114329268_iOS2.jpg" "" "single_image" >}}
             
             <h2>
               Sessions I presented

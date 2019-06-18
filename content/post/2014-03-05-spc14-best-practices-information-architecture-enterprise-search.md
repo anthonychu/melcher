@@ -25,7 +25,7 @@ Session “Best practices for Information Architecture and Enterprise Search” 
 
 Another session by Agnes – really looked forward to this session, here are my notes.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="IMG_1853" alt="IMG_1853" src="http://melcher.it/wp-content/uploads/IMG_1853_thumb.jpg" width="184" height="244" border="0" />][2]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="IMG_1853" alt="IMG_1853" src="http://melcher.it/wp-content/uploads/IMG_1853_thumb.jpg" width="184" height="244" border="0" />][2]
 
 ## Information Overload
 
@@ -41,7 +41,7 @@ And “social” does not make this any better – it gets “worse” because y
 
 Search is not only a technology problem – the challenge is to have a good search, where users can find the right information. [Project Oslo][3] helps tackle that, increase findability, discover relevant information around me.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="IMG_1848" alt="IMG_1848" src="http://melcher.it/wp-content/uploads/IMG_1848_thumb.jpg" width="348" height="185" border="0" />][4]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="IMG_1848" alt="IMG_1848" src="http://melcher.it/wp-content/uploads/IMG_1848_thumb.jpg" width="348" height="185" border="0" />][4]
 
 ## Users
 
@@ -55,7 +55,7 @@ Analyze what you have (Inventory), review the content (Audit), gather what Metad
 
 With SharePoint OOTB (out of the box) you can interpret the query and correlate it to the current users profile – with this you can control what the user will get, even with the same search query. Sales Manager search for “presentation” and will get sales presentation. Consultant search for “presentation and get consulting presentations – very powerful tool in SharePoint.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1858" alt="IMG_1858" src="http://melcher.it/wp-content/uploads/IMG_1858_thumb.jpg" width="244" height="184" border="0" />][5]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1858" alt="IMG_1858" src="http://melcher.it/wp-content/uploads/IMG_1858_thumb.jpg" width="244" height="184" border="0" />][5]
 
 ## Metadata and Properties
 

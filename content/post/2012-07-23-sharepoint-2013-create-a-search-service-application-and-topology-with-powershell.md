@@ -128,13 +128,7 @@ The whole script took about 3 minutes on my machine.
 
 &nbsp;
 
-<div style="width: 310px" class="wp-caption alignnone">
-  <a href="http://melcher.it/wp-content/uploads/SharePoint-2013-Preview-VMware-Workstation_2012-07-23_15-39-40.png" rel="lightbox"><img data-attachment-id="275" data-permalink="https://melcher.it/2012/07/sharepoint-2013-create-a-search-service-application-and-topology-with-powershell/sharepoint-2013-preview-vmware-workstation_2012-07-23_15-39-40/" data-orig-file="https://melcher.it/wp-content/uploads/SharePoint-2013-Preview-VMware-Workstation_2012-07-23_15-39-40.png" data-orig-size="1335,863" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="SharePoint 2013 Preview - VMware Workstation_2012-07-23_15-39-40" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/SharePoint-2013-Preview-VMware-Workstation_2012-07-23_15-39-40-300x193.png" data-large-file="https://melcher.it/wp-content/uploads/SharePoint-2013-Preview-VMware-Workstation_2012-07-23_15-39-40-1024x661.png" class="size-medium wp-image-275 " title="SharePoint 2013 Preview - VMware Workstation_2012-07-23_15-39-40" src="http://melcher.it/wp-content/uploads/SharePoint-2013-Preview-VMware-Workstation_2012-07-23_15-39-40-300x193.png" alt="" width="300" height="193" srcset="https://melcher.it/wp-content/uploads/SharePoint-2013-Preview-VMware-Workstation_2012-07-23_15-39-40-300x193.png 300w, https://melcher.it/wp-content/uploads/SharePoint-2013-Preview-VMware-Workstation_2012-07-23_15-39-40-1024x661.png 1024w, https://melcher.it/wp-content/uploads/SharePoint-2013-Preview-VMware-Workstation_2012-07-23_15-39-40.png 1335w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  
-  <p class="wp-caption-text">
-    The result
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "SharePoint-2013-Preview-VMware-Workstation_2012-07-23_15-39-40.png" "" "single_image" >}}
 
 ## References
 

@@ -28,13 +28,7 @@ Installing software with chocolatey is quite simple - just open a CMD and copy t
 
 Thats it - you now can install packages with Powershell. Pretty easy! Currently there are over 1000 packages available - I automated my whole environment with it. For the SharePoint Tooling its a little different, but at least 19 tools are available, yet.
 
-<div id="attachment_717" style="width: 515px" class="wp-caption aligncenter">
-  <a href="http://melcher.it/wp-content/uploads/Chocolatey-Gallery-_-Packages_2013-06-16_16-50-20.png"><img data-attachment-id="717" data-permalink="https://melcher.it/2013/06/install-sharepoint-designer-with-powershell-chocolatey-sharepoint/chocolatey-gallery-_-packages_2013-06-16_16-50-20/" data-orig-file="https://melcher.it/wp-content/uploads/Chocolatey-Gallery-_-Packages_2013-06-16_16-50-20.png" data-orig-size="1011,605" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Chocolatey Gallery" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/Chocolatey-Gallery-_-Packages_2013-06-16_16-50-20-300x179.png" data-large-file="https://melcher.it/wp-content/uploads/Chocolatey-Gallery-_-Packages_2013-06-16_16-50-20.png" class=" wp-image-717 " alt="1067 packages are waiting for you! " src="http://melcher.it/wp-content/uploads/Chocolatey-Gallery-_-Packages_2013-06-16_16-50-20.png" width="505" height="302" srcset="https://melcher.it/wp-content/uploads/Chocolatey-Gallery-_-Packages_2013-06-16_16-50-20.png 1011w, https://melcher.it/wp-content/uploads/Chocolatey-Gallery-_-Packages_2013-06-16_16-50-20-300x179.png 300w, https://melcher.it/wp-content/uploads/Chocolatey-Gallery-_-Packages_2013-06-16_16-50-20-930x556.png 930w, https://melcher.it/wp-content/uploads/Chocolatey-Gallery-_-Packages_2013-06-16_16-50-20-765x457.png 765w" sizes="(max-width: 505px) 100vw, 505px" /></a>
-  
-  <p class="wp-caption-text">
-    1067 packages are waiting for you!
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "Chocolatey-Gallery-_-Packages_2013-06-16_16-50-20.png" "" "single_image" >}}
 
 ## SharePoint Packages
 
@@ -78,7 +72,7 @@ After running the command from above, open a new PowerShell and type
 
 and SharePoint Designer is installed for you:
   
-[<img data-attachment-id="725" data-permalink="https://melcher.it/2013/06/install-sharepoint-designer-with-powershell-chocolatey-sharepoint/sharepoint2013-remote-desktop-connection_2013-06-16_17-16-47/" data-orig-file="https://melcher.it/wp-content/uploads/sharepoint2013-Remote-Desktop-Connection_2013-06-16_17-16-47.png" data-orig-size="1407,268" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Install SharePoint Designer with PowerShell" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/sharepoint2013-Remote-Desktop-Connection_2013-06-16_17-16-47-300x57.png" data-large-file="https://melcher.it/wp-content/uploads/sharepoint2013-Remote-Desktop-Connection_2013-06-16_17-16-47-1024x195.png" class="aligncenter size-full wp-image-725" alt="Install SharePoint Designer with PowerShell" src="http://melcher.it/wp-content/uploads/sharepoint2013-Remote-Desktop-Connection_2013-06-16_17-16-47.png" width="1407" height="268" srcset="https://melcher.it/wp-content/uploads/sharepoint2013-Remote-Desktop-Connection_2013-06-16_17-16-47.png 1407w, https://melcher.it/wp-content/uploads/sharepoint2013-Remote-Desktop-Connection_2013-06-16_17-16-47-300x57.png 300w, https://melcher.it/wp-content/uploads/sharepoint2013-Remote-Desktop-Connection_2013-06-16_17-16-47-1024x195.png 1024w, https://melcher.it/wp-content/uploads/sharepoint2013-Remote-Desktop-Connection_2013-06-16_17-16-47-930x177.png 930w, https://melcher.it/wp-content/uploads/sharepoint2013-Remote-Desktop-Connection_2013-06-16_17-16-47-765x145.png 765w" sizes="(max-width: 1407px) 100vw, 1407px" />][20]
+{{< fancybox "/wp-content/uploads/" "sharepoint2013-Remote-Desktop-Connection_2013-06-16_17-16-47.png" "" "single_image" >}}
 
 ## Something missing?
 

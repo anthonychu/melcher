@@ -33,7 +33,7 @@ Traditional: Runs on SharePoint, maybe even full trust code. Runs as user or omn
 
 Modern: Designed for the cloud, runs outside SharePoint, run with granular App permissions.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1785" alt="IMG_1785" src="http://melcher.it/wp-content/uploads/IMG_1785_thumb.jpg" width="348" height="185" border="0" />][2]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1785" alt="IMG_1785" src="http://melcher.it/wp-content/uploads/IMG_1785_thumb.jpg" width="348" height="185" border="0" />][2]
 
 Switch from traditional, server-side solutions to client-side solutions will take some time – but we cant continue to create server-side solutions like nothing has changed. Bob asked the audience how many are still on SP2010 or work with it – roughly 90% raised the hand.
 
@@ -50,7 +50,7 @@ Bob showed a pretty cool demo that renders a ticket system based on (knockout, h
 
 I would sign that.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1792" alt="IMG_1792" src="http://melcher.it/wp-content/uploads/IMG_1792_thumb.jpg" width="348" height="185" border="0" />][3]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1792" alt="IMG_1792" src="http://melcher.it/wp-content/uploads/IMG_1792_thumb.jpg" width="348" height="185" border="0" />][3]
 
 ## 
 

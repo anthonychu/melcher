@@ -18,7 +18,7 @@ categories:
 ---
 Session by [Dan Holme][1] ([@danholme][2])
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="2013-06-26T16-32-31_0" alt="2013-06-26T16-32-31_0" src="http://melcher.it/wp-content/uploads/2013-06-26T16-32-31_0_thumb.jpg" width="244" height="184" border="0" />][3]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="2013-06-26T16-32-31_0" alt="2013-06-26T16-32-31_0" src="http://melcher.it/wp-content/uploads/2013-06-26T16-32-31_0_thumb.jpg" width="244" height="184" border="0" />][3]
 
 This is one of my most anticipated sessions at this years TechEd. Part of my job is it to consult my clients why, when and how they can migrate to SharePoint 2013, so this is a perfect session for me. Here are my notes from Dan’s Session – with many quotes because they rock and have totally influenced my decisions in the past!
 
@@ -28,7 +28,7 @@ This is one of my most anticipated sessions at this years TechEd. Part of my job
 
 SharePoint 2010 was designed 2006 – at least the specification:
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="2013-06-26T16-32-31_1" alt="2013-06-26T16-32-31_1" src="http://melcher.it/wp-content/uploads/2013-06-26T16-32-31_1_thumb.jpg" width="244" height="184" border="0" />][4]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="2013-06-26T16-32-31_1" alt="2013-06-26T16-32-31_1" src="http://melcher.it/wp-content/uploads/2013-06-26T16-32-31_1_thumb.jpg" width="244" height="184" border="0" />][4]
 
 So the answer should be SharePoint 2013.
 
@@ -44,7 +44,7 @@ That’s ancient, new versions are tested with Million customers in the cloud / 
 
 Picture tells more than 1000 words – I like the decision tree because of its simplicity:
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="2013-06-26T16-32-31_2" alt="2013-06-26T16-32-31_2" src="http://melcher.it/wp-content/uploads/2013-06-26T16-32-31_2_thumb.jpg" width="244" height="184" border="0" />][5]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="2013-06-26T16-32-31_2" alt="2013-06-26T16-32-31_2" src="http://melcher.it/wp-content/uploads/2013-06-26T16-32-31_2_thumb.jpg" width="244" height="184" border="0" />][5]
 
 > Upgrade is dead – migrate and move forward
 

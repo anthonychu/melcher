@@ -51,7 +51,7 @@ Important: If you don’t use the enterprise search center you do not get the ht
 
 Jan showed one demo from the content enrichment, BDC to the final display templates – easy to follow, nothing to complex. The result looked like this:
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb17.png" width="244" height="69" border="0" />][1]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb17.png" width="244" height="69" border="0" />][1]
 
 I assume, the audience get the idea how powerful that new design is – or as Jan said:
 

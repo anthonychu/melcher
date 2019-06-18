@@ -43,7 +43,7 @@ That was my first SharePoint Saturday ever - and it was epic. The spirit of the 
 
 <a href="http://sharecamp.de/" target="_blank">ShareCamp </a>is totally unique, I totally love the open style of the conference - everybody can speak there, beginner, experts, customers, everybody. I totally like the mix, especially when there are topics that are outside of the "SharePoint box", I learned a lot there and for me that is perfect infotainment.
 
-<img data-attachment-id="1927" data-permalink="https://melcher.it/2015/06/sharecamp-2015-recap/sharecamp_sessionvote/" data-orig-file="https://melcher.it/wp-content/uploads/sharecamp_sessionvote.jpg" data-orig-size="1918,1080" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Lumia 925&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1432977385&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;125&quot;,&quot;shutter_speed&quot;:&quot;0.02&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="ShareCamp Sessionvote" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/sharecamp_sessionvote-300x169.jpg" data-large-file="https://melcher.it/wp-content/uploads/sharecamp_sessionvote-1024x577.jpg" class="aligncenter size-medium wp-image-1927" src="https://melcher.it/wp-content/uploads/sharecamp_sessionvote-300x169.jpg" alt="ShareCamp Sessionvote" width="300" height="169" srcset="https://melcher.it/wp-content/uploads/sharecamp_sessionvote-300x169.jpg 300w, https://melcher.it/wp-content/uploads/sharecamp_sessionvote-1024x577.jpg 1024w, https://melcher.it/wp-content/uploads/sharecamp_sessionvote-930x524.jpg 930w, https://melcher.it/wp-content/uploads/sharecamp_sessionvote-765x431.jpg 765w" sizes="(max-width: 300px) 100vw, 300px" />
+{{< fancybox "/wp-content/uploads/" "sharecamp_sessionvote.jpg" "" "single_image" >}}
 
 &nbsp;
 
@@ -51,13 +51,7 @@ That was my first SharePoint Saturday ever - and it was epic. The spirit of the 
 
 We are only few, but dynamite comes in small packages 🙂 Every first Monday we meet in my favorite cocktail bar. It is the best place to talk about SharePoint Search and everything around it, from 3rd party to hybrid, to Azure Search - we covered everything. I hope to see more people this year, but well, Search is a niche and won't attract hundreds.
 
-<div id="attachment_2061" style="width: 277px" class="wp-caption aligncenter">
-  <img data-attachment-id="2061" data-permalink="https://melcher.it/2016/01/the-king-is-dead-long-live-the-king-2015-recap/welcomeimg/" data-orig-file="https://melcher.it/wp-content/uploads/welcomeImg.jpg" data-orig-size="267,191" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Pussers New York Bar" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/welcomeImg.jpg" data-large-file="https://melcher.it/wp-content/uploads/welcomeImg.jpg" class="size-full wp-image-2061" src="https://melcher.it/wp-content/uploads/welcomeImg.jpg" alt="http://www.pussersbar.de/en/pussers-bar.html" width="267" height="191" />
-  
-  <p class="wp-caption-text">
-    taken from http://www.pussersbar.de/en/pussers-bar.html
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "welcomeImg.jpg" "" "single_image" >}}
 
 #### SharePoint User Group Munich
 
@@ -75,23 +69,11 @@ From a content producing side, 2015 wasn't my best. I only crafted 16 posts, but
 
 I like figures and statistics and all that - 89.000 page views is not that bad for my tiny blog, isn't it? I have nothing to compare too, but I am quite happy with it. +12% from last year!
 
-<div id="attachment_2063" style="width: 310px" class="wp-caption aligncenter">
-  <img data-attachment-id="2063" data-permalink="https://melcher.it/2016/01/the-king-is-dead-long-live-the-king-2015-recap/stats_2015/" data-orig-file="https://melcher.it/wp-content/uploads/Stats_2015.png" data-orig-size="737,354" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Blog Stats 2015" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/Stats_2015-300x144.png" data-large-file="https://melcher.it/wp-content/uploads/Stats_2015.png" class="wp-image-2063 size-medium" src="https://melcher.it/wp-content/uploads/Stats_2015-300x144.png" alt="Blog Stats 2015" width="300" height="144" srcset="https://melcher.it/wp-content/uploads/Stats_2015-300x144.png 300w, https://melcher.it/wp-content/uploads/Stats_2015.png 737w" sizes="(max-width: 300px) 100vw, 300px" />
-  
-  <p class="wp-caption-text">
-    blog stats for 2015
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "Stats_2015.png" "" "single_image" >}}
 
 &nbsp;
 
-<div id="attachment_2062" style="width: 310px" class="wp-caption aligncenter">
-  <img data-attachment-id="2062" data-permalink="https://melcher.it/2016/01/the-king-is-dead-long-live-the-king-2015-recap/countries_2015/" data-orig-file="https://melcher.it/wp-content/uploads/Countries_2015.png" data-orig-size="818,650" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Countries 2015" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/Countries_2015-300x238.png" data-large-file="https://melcher.it/wp-content/uploads/Countries_2015.png" class="wp-image-2062 size-medium" src="https://melcher.it/wp-content/uploads/Countries_2015-300x238.png" alt="Countries 2015" width="300" height="238" srcset="https://melcher.it/wp-content/uploads/Countries_2015-300x238.png 300w, https://melcher.it/wp-content/uploads/Countries_2015-768x610.png 768w, https://melcher.it/wp-content/uploads/Countries_2015-765x608.png 765w, https://melcher.it/wp-content/uploads/Countries_2015.png 818w" sizes="(max-width: 300px) 100vw, 300px" />
-  
-  <p class="wp-caption-text">
-    180 countries - I say "hello" from Germany!
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "Countries_2015.png" "" "single_image" >}}
 
 My most visited blog posts are apparently from 2014 - luckily two are about search and that makes me happy:
 
@@ -118,13 +100,7 @@ Lots of work a head, many challenges to be solved - there is a good year ahead o
 
 Main goals for next year: SharePoint Search, Apps, Azure, Community, SharePoint Search, Hybrid, Azure Search, Paragliding. I am a simple man 🙂
 
-<div id="attachment_2001" style="width: 310px" class="wp-caption aligncenter">
-  <img data-attachment-id="2001" data-permalink="https://melcher.it/2015/10/off-topic-paragliding-performance-training-in-oludeniz-turkey-mount-babadag/dcim100gopro-2/" data-orig-file="https://melcher.it/wp-content/uploads/G0060768.jpg" data-orig-size="3840,2880" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.8&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Hero3-Silver Edition&quot;,&quot;caption&quot;:&quot;DCIM100GOPRO&quot;,&quot;created_timestamp&quot;:&quot;1444991402&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;2,5&quot;,&quot;iso&quot;:&quot;100&quot;,&quot;shutter_speed&quot;:&quot;0,00035868005738881&quot;,&quot;title&quot;:&quot;DCIM100GOPRO&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="just hanging there" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/G0060768-300x225.jpg" data-large-file="https://melcher.it/wp-content/uploads/G0060768-1024x768.jpg" class="size-medium wp-image-2001" src="https://melcher.it/wp-content/uploads/G0060768-300x225.jpg" alt="just hanging there" width="300" height="225" srcset="https://melcher.it/wp-content/uploads/G0060768-300x225.jpg 300w, https://melcher.it/wp-content/uploads/G0060768-1024x768.jpg 1024w, https://melcher.it/wp-content/uploads/G0060768-930x698.jpg 930w, https://melcher.it/wp-content/uploads/G0060768-765x574.jpg 765w" sizes="(max-width: 300px) 100vw, 300px" />
-  
-  <p class="wp-caption-text">
-    Happy new year!
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "G0060768.jpg" "" "single_image" >}}
 
 With that said, I wish you all the best for 2016, health, prosperity, lots of excitement and fun!
 

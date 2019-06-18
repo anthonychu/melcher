@@ -80,7 +80,7 @@ Then add the template "build-location-link" close to the end of the xslt. I adde
 
 The result should look like this:  
 
-{{< fancybox "/wp-content/uploads" "FAST_OpenLibrary.png" "alt" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "FAST_OpenLibrary.png" "" "single_image" >}}
 
 In my eyes the xslt is not the most elegant solution (any way to remove the recursion with xslt?) - but - I tested it in several installations now - the users loves it!
 

@@ -17,7 +17,7 @@ Session by Glenn Condron
 
 Okay, this room is packed – there is some serious interest in this topic.
 
-[<img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="2013-06-25T15-12-21_0" alt="2013-06-25T15-12-21_0" src="http://melcher.it/wp-content/uploads/2013-06-25T15-12-21_0_thumb.jpg" width="244" height="184" border="0" />][1]{.thickbox}
+[<img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="2013-06-25T15-12-21_0" alt="2013-06-25T15-12-21_0" src="http://melcher.it/wp-content/uploads/2013-06-25T15-12-21_0_thumb.jpg" width="244" height="184" border="0" />][1]
 
 Here are my notes from the session.
 
@@ -55,7 +55,7 @@ Migrations for Code First creates a class file with instructions how to handle m
 
 Stored procedures have been added to EF6 – some people are very happy in the audience. Glenn created a quite extensive demo in a very short time – I got the idea and why its useful.
 
-[<img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="2013-06-25T16-01-00_0" alt="2013-06-25T16-01-00_0" src="http://melcher.it/wp-content/uploads/2013-06-25T16-01-00_0_thumb.jpg" width="244" height="184" border="0" />][2]{.thickbox}
+[<img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="2013-06-25T16-01-00_0" alt="2013-06-25T16-01-00_0" src="http://melcher.it/wp-content/uploads/2013-06-25T16-01-00_0_thumb.jpg" width="244" height="184" border="0" />][2]
 
 ## Async
 

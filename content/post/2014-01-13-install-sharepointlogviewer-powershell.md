@@ -43,7 +43,7 @@ After [installing chocolatey][4] you can install SharePointLogViewer with one li
 
 <span style="line-height: 1.5em;">as you can see in this screenshot:</span>
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb29.png" width="244" height="96" border="0" />][5]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb29.png" width="244" height="96" border="0" />][5]
 
 &nbsp;
 

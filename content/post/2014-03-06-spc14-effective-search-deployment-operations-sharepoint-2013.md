@@ -36,7 +36,7 @@ Best to do it in PowerShell – I have a sample script [here][2], there is a bet
 
 > Its not supported that you change the index location after provisioning,
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1943" alt="IMG_1943" src="http://melcher.it/wp-content/uploads/IMG_1943_thumb.jpg" width="348" height="185" border="0" />][4]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1943" alt="IMG_1943" src="http://melcher.it/wp-content/uploads/IMG_1943_thumb.jpg" width="348" height="185" border="0" />][4]
 
 I need to clarify that quote – I thought it is supported when you migrate to a new topology where the index is in the new location.
 
@@ -66,7 +66,7 @@ The yellow state in the UI means its degraded and (might) recover, red means har
 
 Kristopher showed some nice tricks how to get insights out of the many search reports – need to rewatch the video afterwards to internalized this for me.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1949" alt="IMG_1949" src="http://melcher.it/wp-content/uploads/IMG_1949_thumb.jpg" width="348" height="185" border="0" />][6]{.thickbox}[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1950" alt="IMG_1950" src="http://melcher.it/wp-content/uploads/IMG_1950_thumb.jpg" width="348" height="185" border="0" />][7]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1949" alt="IMG_1949" src="http://melcher.it/wp-content/uploads/IMG_1949_thumb.jpg" width="348" height="185" border="0" />][6][<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1950" alt="IMG_1950" src="http://melcher.it/wp-content/uploads/IMG_1950_thumb.jpg" width="348" height="185" border="0" />][7]
 
 ### Daily/Weekly tasks
 
@@ -78,7 +78,7 @@ Business users: create best bets and query rules, check zero results and abandon
 
 Its recommended to install March PU and at least October 2013 CU. Many changes that regarding to scale.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1955" alt="IMG_1955" src="http://melcher.it/wp-content/uploads/IMG_1955_thumb.jpg" width="348" height="185" border="0" />][8]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1955" alt="IMG_1955" src="http://melcher.it/wp-content/uploads/IMG_1955_thumb.jpg" width="348" height="185" border="0" />][8]
 
 ## High Availability
 

@@ -41,13 +41,7 @@ If you have FAST for SharePoint installed the refiner count worked flawlessly bu
 
 The refiner count is still possible with SharePoint 2013 – the concept is not new but the implementation has changed. And as already mentioned, the count is disabled by default:
 
-<div id="attachment_683" style="width: 830px" class="wp-caption aligncenter">
-  <a href="http://melcher.it/wp-content/uploads/refinercount_disabled.png"><img data-attachment-id="683" data-permalink="https://melcher.it/2013/05/powershell-enable-refiner-count-for-sharepoint-2013-search-results/refinercount_disabled/" data-orig-file="https://melcher.it/wp-content/uploads/refinercount_disabled.png" data-orig-size="820,689" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Refiner count not visible (default)" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/refinercount_disabled-300x252.png" data-large-file="https://melcher.it/wp-content/uploads/refinercount_disabled.png" class="size-full wp-image-683 " title="Refiner count not visible (default)" alt="Refiner Count for SharePoint 2013 not visible" src="http://melcher.it/wp-content/uploads/refinercount_disabled.png" width="820" height="689" srcset="https://melcher.it/wp-content/uploads/refinercount_disabled.png 820w, https://melcher.it/wp-content/uploads/refinercount_disabled-300x252.png 300w, https://melcher.it/wp-content/uploads/refinercount_disabled-765x642.png 765w" sizes="(max-width: 820px) 100vw, 820px" /></a>
-  
-  <p class="wp-caption-text">
-    Refiner count not visible (default)
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "refinercount_disabled.png" "" "single_image" >}}
 
 As you might know, you can change the rendering/design of elements with Display Templates in SharePoint 2013, most importantly for search results – this also applies to refiners – which is great if you ask me. Basically all you have to do is change the Display Template for the Refiner Filter which is a html file and you are good to go.
 
@@ -69,13 +63,7 @@ Change the lines (replace the false with the true in line 2) to:
 
 And voila, the refiner count is visible:
 
-<div id="attachment_682" style="width: 831px" class="wp-caption aligncenter">
-  <a href="http://melcher.it/wp-content/uploads/refinercount_visible.png"><img data-attachment-id="682" data-permalink="https://melcher.it/2013/05/powershell-enable-refiner-count-for-sharepoint-2013-search-results/refinercount_visible/" data-orig-file="https://melcher.it/wp-content/uploads/refinercount_visible.png" data-orig-size="821,748" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Refiner count is visible" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/refinercount_visible-300x273.png" data-large-file="https://melcher.it/wp-content/uploads/refinercount_visible.png" class="size-full wp-image-682 " alt="Refiner Count for SharePoint 2013 visible" src="http://melcher.it/wp-content/uploads/refinercount_visible.png" width="821" height="748" srcset="https://melcher.it/wp-content/uploads/refinercount_visible.png 821w, https://melcher.it/wp-content/uploads/refinercount_visible-300x273.png 300w, https://melcher.it/wp-content/uploads/refinercount_visible-765x696.png 765w" sizes="(max-width: 821px) 100vw, 821px" /></a>
-  
-  <p class="wp-caption-text">
-    Refiner count for SharePoint 2013
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "refinercount_visible.png" "" "single_image" >}}
 
 ## 
 
@@ -148,13 +136,7 @@ or add -hide to hide the refiner count again:
 
 <pre lang="&quot;powershell">Enable-RefinerCount.ps1 –siteUrl http://sharepoint2013 –hide</pre>
 
-<div id="attachment_684" style="width: 687px" class="wp-caption aligncenter">
-  <a href="http://melcher.it/wp-content/uploads/refinercount_powershell.png"><img data-attachment-id="684" data-permalink="https://melcher.it/2013/05/powershell-enable-refiner-count-for-sharepoint-2013-search-results/refinercount_powershell/" data-orig-file="https://melcher.it/wp-content/uploads/refinercount_powershell.png" data-orig-size="677,319" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Enable Refiner Count for SharePoint 2013 with PowerShell" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/refinercount_powershell-300x141.png" data-large-file="https://melcher.it/wp-content/uploads/refinercount_powershell.png" class="size-full wp-image-684  " alt="Enable the Refiner Count for SharePoint 2013 - automated with PowerShell" src="http://melcher.it/wp-content/uploads/refinercount_powershell.png" width="677" height="319" srcset="https://melcher.it/wp-content/uploads/refinercount_powershell.png 677w, https://melcher.it/wp-content/uploads/refinercount_powershell-300x141.png 300w" sizes="(max-width: 677px) 100vw, 677px" /></a>
-  
-  <p class="wp-caption-text">
-    Enabling/Disabling the refiner count made easy!
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "refinercount_powershell.png" "" "single_image" >}}
 
 ## Pretty easy, isn't it?
 

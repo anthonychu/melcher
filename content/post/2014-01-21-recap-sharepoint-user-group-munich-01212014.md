@@ -35,13 +35,7 @@ SharePoint Toolbox
   
 SharePoint Podcasts (appears biweekly in German)
 
-<div id="attachment_1057" style="width: 310px" class="wp-caption alignnone">
-  <a href="http://melcher.it/wp-content/uploads/20140121_182918000_iOS.jpg"><img data-attachment-id="1057" data-permalink="https://melcher.it/2014/01/recap-sharepoint-user-group-munich-01212014/20140121_182918000_ios/" data-orig-file="https://melcher.it/wp-content/uploads/20140121_182918000_iOS.jpg" data-orig-size="1024,768" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Michael Greth on stage" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/20140121_182918000_iOS-300x225.jpg" data-large-file="https://melcher.it/wp-content/uploads/20140121_182918000_iOS.jpg" class="size-medium wp-image-1057" alt="&quot;iOS has greater apps for recording&quot;" src="http://melcher.it/wp-content/uploads/20140121_182918000_iOS-300x225.jpg" width="300" height="225" srcset="https://melcher.it/wp-content/uploads/20140121_182918000_iOS-300x225.jpg 300w, https://melcher.it/wp-content/uploads/20140121_182918000_iOS-930x697.jpg 930w, https://melcher.it/wp-content/uploads/20140121_182918000_iOS-765x573.jpg 765w, https://melcher.it/wp-content/uploads/20140121_182918000_iOS.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  
-  <p class="wp-caption-text">
-    "iOS has greater apps for recording"
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "20140121_182918000_iOS.jpg" "" "single_image" >}}
 
 In the second part Michael showed us his audio equipment and how simple it is to record a podcast - impressive!
   
@@ -55,13 +49,7 @@ Last but not least a session by Mario Spies (AvePoint) about SQL high availabili
   
 **Always On Availability Groups**: Basically a mirror, up to 1:4 mirroring.
 
-<div id="attachment_1058" style="width: 310px" class="wp-caption alignnone">
-  <a href="http://melcher.it/wp-content/uploads/20140121_192935662_iOS.jpg"><img data-attachment-id="1058" data-permalink="https://melcher.it/2014/01/recap-sharepoint-user-group-munich-01212014/20140121_192935662_ios/" data-orig-file="https://melcher.it/wp-content/uploads/20140121_192935662_iOS.jpg" data-orig-size="3264,2448" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.4&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 4S&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1390336175&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.28&quot;,&quot;iso&quot;:&quot;50&quot;,&quot;shutter_speed&quot;:&quot;0.05&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="20140121_192935662_iOS" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/20140121_192935662_iOS-300x225.jpg" data-large-file="https://melcher.it/wp-content/uploads/20140121_192935662_iOS-1024x768.jpg" class="size-medium wp-image-1058" title="SQL Server 2012 Always On" alt="" src="http://melcher.it/wp-content/uploads/20140121_192935662_iOS-300x225.jpg" width="300" height="225" srcset="https://melcher.it/wp-content/uploads/20140121_192935662_iOS-300x225.jpg 300w, https://melcher.it/wp-content/uploads/20140121_192935662_iOS-1024x768.jpg 1024w, https://melcher.it/wp-content/uploads/20140121_192935662_iOS-930x697.jpg 930w, https://melcher.it/wp-content/uploads/20140121_192935662_iOS-765x573.jpg 765w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  
-  <p class="wp-caption-text">
-    Mario Spies explaining the differences between SQL Always On and SQL Clustering.
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "20140121_192935662_iOS.jpg" "" "single_image" >}}
 
 Then Mario showed a live demo with failover - nice one! Learned a lot, thanks!
 

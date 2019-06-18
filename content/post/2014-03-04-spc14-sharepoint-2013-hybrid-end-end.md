@@ -26,7 +26,7 @@ Here are my session notes.
 
 O365 + Azure/On-premises = hybrid. This gives you somewhat more flexibility – at higher pace.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1665" alt="IMG_1665" src="http://melcher.it/wp-content/uploads/IMG_1665_thumb.jpg" width="244" height="184" border="0" />][2]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1665" alt="IMG_1665" src="http://melcher.it/wp-content/uploads/IMG_1665_thumb.jpg" width="244" height="184" border="0" />][2]
 
 ### Hybrid Options
 
@@ -38,7 +38,7 @@ Duet Enterprise Online: Read & write against on-prem SAP systems
   
 Identity Management: Single sign on and single identity for end users.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1668" alt="IMG_1668" src="http://melcher.it/wp-content/uploads/IMG_1668_thumb.jpg" width="244" height="184" border="0" />][3]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1668" alt="IMG_1668" src="http://melcher.it/wp-content/uploads/IMG_1668_thumb.jpg" width="244" height="184" border="0" />][3]
 
 <span style="text-decoration: underline;"><strong>Enhanced capabilities will be announced for search</strong></span> – single, merged result set would be very nice –  I asked Sam after the session if he knows when this will be, probably not at this SPC.
 
@@ -46,7 +46,7 @@ Identity Management: Single sign on and single identity for end users.
 
 Recommendation is that when you implement DirSync that you take it one step further and implement ADFS for the best user experience – single sign on.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1667" alt="IMG_1667" src="http://melcher.it/wp-content/uploads/IMG_1667_thumb.jpg" width="244" height="184" border="0" />][4]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1667" alt="IMG_1667" src="http://melcher.it/wp-content/uploads/IMG_1667_thumb.jpg" width="244" height="184" border="0" />][4]
 
 DirSync is limited to 50.000 – you can add filters based on OU, Domain or User Attributes – by default every 3 hours.
 
@@ -60,19 +60,19 @@ Configure SSO: Server 2003 R2 and UPN are set if the domain on prem is different
 
 Sam showed us how to implement a federated search, Query Rules and floating result containers. I knew that already and I skip this for brevity.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1666" alt="IMG_1666" src="http://melcher.it/wp-content/uploads/IMG_1666_thumb.jpg" width="244" height="184" border="0" />][5]{.thickbox}[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1671" alt="IMG_1671" src="http://melcher.it/wp-content/uploads/IMG_1671_thumb.jpg" width="348" height="185" border="0" />][6]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1666" alt="IMG_1666" src="http://melcher.it/wp-content/uploads/IMG_1666_thumb.jpg" width="244" height="184" border="0" />][5][<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1671" alt="IMG_1671" src="http://melcher.it/wp-content/uploads/IMG_1671_thumb.jpg" width="348" height="185" border="0" />][6]
 
 ### Social
 
 Social was another broad topic – where is your User Profile is a key question. Is it on-prem, O365 or even on Yammer. Synchronize them?
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1672" alt="IMG_1672" src="http://melcher.it/wp-content/uploads/IMG_1672_thumb.jpg" width="348" height="185" border="0" />][7]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1672" alt="IMG_1672" src="http://melcher.it/wp-content/uploads/IMG_1672_thumb.jpg" width="348" height="185" border="0" />][7]
 
 ## Summary
 
 That was quite a good session – very thorough information from a to z what challenges you face. Good stuff!
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1678" alt="IMG_1678" src="http://melcher.it/wp-content/uploads/IMG_1678_thumb.jpg" width="244" height="184" border="0" />][8]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1678" alt="IMG_1678" src="http://melcher.it/wp-content/uploads/IMG_1678_thumb.jpg" width="244" height="184" border="0" />][8]
 
  [1]: https://twitter.com/samhassa
  [2]: http://melcher.it/wp-content/uploads/IMG_1665.jpg

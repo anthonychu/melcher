@@ -25,23 +25,11 @@ Fun from the start at 9:00am until the official end of [SPSBE (SharePoint Saturd
   
 I apparently had to optimize my session on this Saturday (_50 minutes slots instead of 60!_), tests my demos and pimp my slides - so I could only attend one full session (_Deep Dive building solutions on the SharePoint Framework_ by Waldek Mastykarz [@waldekm][2]), but there was enough time for me to talk to friends, community members, [BIWUG][3] board members and other speakers - good times, good fun.
 
-<div id="attachment_2499" style="width: 310px" class="wp-caption aligncenter">
-  <a href="https://melcher.it/wp-content/uploads/WP_20161015_10_33_27_Rich.jpg"><img data-attachment-id="2499" data-permalink="https://melcher.it/2016/10/recap-sharepoint-saturday-belgium-2016/wp_20161015_10_33_27_rich/" data-orig-file="https://melcher.it/wp-content/uploads/WP_20161015_10_33_27_Rich.jpg" data-orig-size="5258,2960" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;1.9&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Lumia 950&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1476527607&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;125&quot;,&quot;shutter_speed&quot;:&quot;0.040018&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="SPSBE 2016: SharePoint Framework" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/WP_20161015_10_33_27_Rich-300x169.jpg" data-large-file="https://melcher.it/wp-content/uploads/WP_20161015_10_33_27_Rich-1024x576.jpg" class="wp-image-2499 size-medium" src="https://melcher.it/wp-content/uploads/WP_20161015_10_33_27_Rich-300x169.jpg" alt="SPSBE 2016: Deep Dive building solutions on the SharePoint Framework by Waldek Mastykarz @waldekm" width="300" height="169" srcset="https://melcher.it/wp-content/uploads/WP_20161015_10_33_27_Rich-300x169.jpg 300w, https://melcher.it/wp-content/uploads/WP_20161015_10_33_27_Rich-768x432.jpg 768w, https://melcher.it/wp-content/uploads/WP_20161015_10_33_27_Rich-1024x576.jpg 1024w, https://melcher.it/wp-content/uploads/WP_20161015_10_33_27_Rich-930x524.jpg 930w, https://melcher.it/wp-content/uploads/WP_20161015_10_33_27_Rich-765x431.jpg 765w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  
-  <p class="wp-caption-text">
-    Deep Dive building solutions on the SharePoint Framework by Waldek Mastykarz
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "WP_20161015_10_33_27_Rich.jpg" "" "single_image" >}}
 
 Great venue, great speaker lineup - everything was great! I am leaving Belgium the second time - impressed!
 
-<div id="attachment_2498" style="width: 310px" class="wp-caption aligncenter">
-  <a href="https://melcher.it/wp-content/uploads/WP_20161015_17_14_54_Rich.jpg"><img data-attachment-id="2498" data-permalink="https://melcher.it/2016/10/recap-sharepoint-saturday-belgium-2016/wp_20161015_17_14_54_rich/" data-orig-file="https://melcher.it/wp-content/uploads/WP_20161015_17_14_54_Rich.jpg" data-orig-size="5144,2896" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;1.9&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Lumia 950&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1476551695&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;200&quot;,&quot;shutter_speed&quot;:&quot;0.043154&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="SPS2016: Venue" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/WP_20161015_17_14_54_Rich-300x169.jpg" data-large-file="https://melcher.it/wp-content/uploads/WP_20161015_17_14_54_Rich-1024x576.jpg" class="size-medium wp-image-2498" src="https://melcher.it/wp-content/uploads/WP_20161015_17_14_54_Rich-300x169.jpg" alt="Great venue!" width="300" height="169" srcset="https://melcher.it/wp-content/uploads/WP_20161015_17_14_54_Rich-300x169.jpg 300w, https://melcher.it/wp-content/uploads/WP_20161015_17_14_54_Rich-768x432.jpg 768w, https://melcher.it/wp-content/uploads/WP_20161015_17_14_54_Rich-1024x576.jpg 1024w, https://melcher.it/wp-content/uploads/WP_20161015_17_14_54_Rich-930x524.jpg 930w, https://melcher.it/wp-content/uploads/WP_20161015_17_14_54_Rich-765x431.jpg 765w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  
-  <p class="wp-caption-text">
-    Great venue!
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "WP_20161015_17_14_54_Rich.jpg" "" "single_image" >}}
 
 Thanks again to all the sponsors who made the event possible!
 
@@ -105,13 +93,7 @@ Thanks again to all the sponsors who made the event possible!
   
 > From Design to a modern Style Guide - Branding Strategies for SharePoint and Add-ins by Stefan Bauer
 
-<div id="attachment_2496" style="width: 179px" class="wp-caption aligncenter">
-  <a href="https://melcher.it/wp-content/uploads/WP_20161015_15_05_27_Rich-e1476620760772.jpg"><img data-attachment-id="2496" data-permalink="https://melcher.it/2016/10/recap-sharepoint-saturday-belgium-2016/wp_20161015_15_05_27_rich/" data-orig-file="https://melcher.it/wp-content/uploads/WP_20161015_15_05_27_Rich-e1476620760772.jpg" data-orig-size="2976,5296" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;1.9&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Lumia 950&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1476543927&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;160&quot;,&quot;shutter_speed&quot;:&quot;0.040051&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;6&quot;}" data-image-title="SPSBE 2016 Schedule" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/WP_20161015_15_05_27_Rich-e1476620760772-169x300.jpg" data-large-file="https://melcher.it/wp-content/uploads/WP_20161015_15_05_27_Rich-e1476620760772-575x1024.jpg" class="size-medium wp-image-2496" src="https://melcher.it/wp-content/uploads/WP_20161015_15_05_27_Rich-e1476620760772-169x300.jpg" alt="SPSBE 2016 Schedule" width="169" height="300" srcset="https://melcher.it/wp-content/uploads/WP_20161015_15_05_27_Rich-e1476620760772-169x300.jpg 169w, https://melcher.it/wp-content/uploads/WP_20161015_15_05_27_Rich-e1476620760772-768x1367.jpg 768w, https://melcher.it/wp-content/uploads/WP_20161015_15_05_27_Rich-e1476620760772-575x1024.jpg 575w, https://melcher.it/wp-content/uploads/WP_20161015_15_05_27_Rich-e1476620760772-523x930.jpg 523w, https://melcher.it/wp-content/uploads/WP_20161015_15_05_27_Rich-e1476620760772-765x1361.jpg 765w" sizes="(max-width: 169px) 100vw, 169px" /></a>
-  
-  <p class="wp-caption-text">
-    SPSBE 2016 Schedule
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "WP_20161015_15_05_27_Rich-e1476620760772.jpg" "" "single_image" >}}
 
 Impressive schedule packed with insights and speakers from around the world.
 
@@ -137,13 +119,7 @@ During and after the talk there were like 5 to 10 questions (Data Privacy and r
 
 > Good questions gives you good beer!
 
-<div id="attachment_2497" style="width: 178px" class="wp-caption aligncenter">
-  <a href="https://melcher.it/wp-content/uploads/WP_20161015_15_24_38_Rich.jpg"><img data-attachment-id="2497" data-permalink="https://melcher.it/2016/10/recap-sharepoint-saturday-belgium-2016/wp_20161015_15_24_38_rich/" data-orig-file="https://melcher.it/wp-content/uploads/WP_20161015_15_24_38_Rich-e1476621443734.jpg" data-orig-size="2960,5280" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;1.9&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Lumia 950&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1476545078&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;50&quot;,&quot;shutter_speed&quot;:&quot;0.03&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;6&quot;}" data-image-title="wp_20161015_15_24_38_rich" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/WP_20161015_15_24_38_Rich-e1476621443734-168x300.jpg" data-large-file="https://melcher.it/wp-content/uploads/WP_20161015_15_24_38_Rich-e1476621443734-574x1024.jpg" class="wp-image-2497 size-medium" src="https://melcher.it/wp-content/uploads/WP_20161015_15_24_38_Rich-e1476621443734-168x300.jpg" alt="wp_20161015_15_24_38_rich" width="168" height="300" srcset="https://melcher.it/wp-content/uploads/WP_20161015_15_24_38_Rich-e1476621443734-168x300.jpg 168w, https://melcher.it/wp-content/uploads/WP_20161015_15_24_38_Rich-e1476621443734-768x1370.jpg 768w, https://melcher.it/wp-content/uploads/WP_20161015_15_24_38_Rich-e1476621443734-574x1024.jpg 574w, https://melcher.it/wp-content/uploads/WP_20161015_15_24_38_Rich-e1476621443734-521x930.jpg 521w, https://melcher.it/wp-content/uploads/WP_20161015_15_24_38_Rich-e1476621443734-765x1365.jpg 765w" sizes="(max-width: 168px) 100vw, 168px" /></a>
-  
-  <p class="wp-caption-text">
-    For every good questions you could get a German beer! Participation was high 🙂
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "WP_20161015_15_24_38_Rich.jpg" "" "single_image" >}}
 
 And I closed my session right in time for the closing SharePint and raffle!
 

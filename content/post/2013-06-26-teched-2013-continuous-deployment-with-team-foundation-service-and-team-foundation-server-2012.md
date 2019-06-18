@@ -15,7 +15,7 @@ categories:
 ---
 Session by [Brian Randell][1] ([@brianrandell][2])
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="2013-06-26T18-18-07_0" alt="2013-06-26T18-18-07_0" src="http://melcher.it/wp-content/uploads/2013-06-26T18-18-07_0_thumb.jpg" width="244" height="184" border="0" />][3]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="2013-06-26T18-18-07_0" alt="2013-06-26T18-18-07_0" src="http://melcher.it/wp-content/uploads/2013-06-26T18-18-07_0_thumb.jpg" width="244" height="184" border="0" />][3]
 
 It started with music – and then Brian started a great session. Here are my notes!
 

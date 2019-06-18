@@ -46,7 +46,7 @@
 
     {{ $file := $.Scratch.Get "file" }}
     {{ $type := $.Scratch.Get "type" }}
-    {{ $alt  := $.Scratch.Get "alt" }}
+    {{ $alt  := $.Scratch.Get "" }}
 
     {{ $.Scratch.Set "structType" "shortcode" }}
     {{ partial "img-path" . }}

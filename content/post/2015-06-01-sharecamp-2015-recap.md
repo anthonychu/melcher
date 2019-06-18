@@ -24,21 +24,9 @@ categories:
 ---
 Germany's latest and greatest SharePoint community event was last weekend (30.05.2015 & 31.05.2015 at Microsoft in Munich) - and it was awesome, once again!
 
-<div id="attachment_1926" style="width: 310px" class="wp-caption alignleft">
-  <a href="https://melcher.it/wp-content/uploads/sharecamp_sessionvote2.jpg"><img data-attachment-id="1926" data-permalink="https://melcher.it/2015/06/sharecamp-2015-recap/sharecamp_sessionvote2/" data-orig-file="https://melcher.it/wp-content/uploads/sharecamp_sessionvote2.jpg" data-orig-size="1918,1080" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Lumia 925&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1432977067&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;125&quot;,&quot;shutter_speed&quot;:&quot;0.070508&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="ShareCamp Session Vote" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/sharecamp_sessionvote2-300x169.jpg" data-large-file="https://melcher.it/wp-content/uploads/sharecamp_sessionvote2-1024x577.jpg" class="size-medium wp-image-1926" src="https://melcher.it/wp-content/uploads/sharecamp_sessionvote2-300x169.jpg" alt="ShareCamp Session Vote" width="300" height="169" srcset="https://melcher.it/wp-content/uploads/sharecamp_sessionvote2-300x169.jpg 300w, https://melcher.it/wp-content/uploads/sharecamp_sessionvote2-1024x577.jpg 1024w, https://melcher.it/wp-content/uploads/sharecamp_sessionvote2-930x524.jpg 930w, https://melcher.it/wp-content/uploads/sharecamp_sessionvote2-765x431.jpg 765w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  
-  <p class="wp-caption-text">
-    ShareCamp Session Vote
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "sharecamp_sessionvote2.jpg" "" "single_image" >}}
 
-<div id="attachment_1927" style="width: 310px" class="wp-caption alignleft">
-  <a href="https://melcher.it/wp-content/uploads/sharecamp_sessionvote.jpg"><img data-attachment-id="1927" data-permalink="https://melcher.it/2015/06/sharecamp-2015-recap/sharecamp_sessionvote/" data-orig-file="https://melcher.it/wp-content/uploads/sharecamp_sessionvote.jpg" data-orig-size="1918,1080" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Lumia 925&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1432977385&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;125&quot;,&quot;shutter_speed&quot;:&quot;0.02&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="ShareCamp Sessionvote" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/sharecamp_sessionvote-300x169.jpg" data-large-file="https://melcher.it/wp-content/uploads/sharecamp_sessionvote-1024x577.jpg" class="wp-image-1927 size-medium" src="https://melcher.it/wp-content/uploads/sharecamp_sessionvote-300x169.jpg" alt="sharecamp_sessionvote" width="300" height="169" srcset="https://melcher.it/wp-content/uploads/sharecamp_sessionvote-300x169.jpg 300w, https://melcher.it/wp-content/uploads/sharecamp_sessionvote-1024x577.jpg 1024w, https://melcher.it/wp-content/uploads/sharecamp_sessionvote-930x524.jpg 930w, https://melcher.it/wp-content/uploads/sharecamp_sessionvote-765x431.jpg 765w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  
-  <p class="wp-caption-text">
-    200 attendees!
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "sharecamp_sessionvote.jpg" "" "single_image" >}}
 
 ## 
 
@@ -52,13 +40,7 @@ Germany's latest and greatest SharePoint community event was last weekend (30.05
 
 What is so special about [ShareCamp][1]? Easy question, it is entirely community-driven. On both days, Saturday and Sunday, there is a session vote before the "conference" starts. So the attendees prepare presentations and do a short intro during the vote - if more than 3 people raise their hand there will be a session and there were lots of em. **6 tracks** in parallel if I recall it right. And the concept works for many years now, **more than 200 attendees** had a good time this year! Not to mention the SharePint party. The good thing here? No only experienced and known speakers get the chance to present their ideas. And not only the mainstream sessions get voted - there were a lot of close to or far way from SharePoint sessions. And I met a lot of old SharePoint friends that are spread over the country - good to see ya! 🙂
 
-<div id="attachment_1932" style="width: 310px" class="wp-caption alignleft">
-  <a href="https://melcher.it/wp-content/uploads/Alegri-Team.jpg"><img data-attachment-id="1932" data-permalink="https://melcher.it/2015/06/sharecamp-2015-recap/alegri-team/" data-orig-file="https://melcher.it/wp-content/uploads/Alegri-Team.jpg" data-orig-size="1024,767" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Alegri-Team" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/Alegri-Team-300x225.jpg" data-large-file="https://melcher.it/wp-content/uploads/Alegri-Team-1024x767.jpg" class="size-medium wp-image-1932" src="https://melcher.it/wp-content/uploads/Alegri-Team-300x225.jpg" alt="Alegri Team @ ShareCamp" width="300" height="225" srcset="https://melcher.it/wp-content/uploads/Alegri-Team-300x225.jpg 300w, https://melcher.it/wp-content/uploads/Alegri-Team.jpg 1024w, https://melcher.it/wp-content/uploads/Alegri-Team-930x697.jpg 930w, https://melcher.it/wp-content/uploads/Alegri-Team-765x573.jpg 765w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  
-  <p class="wp-caption-text">
-    Alegri Team @ ShareCamp
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "Alegri-Team.jpg" "" "single_image" >}}
 
 ## 
 
@@ -96,13 +78,7 @@ Expect some blog posts here, I really like Azure Search!
 
 My second session on Saturday with my colleagues Marco Schmucker and Matthias Edom - we talked about the blessings and curses of JavaScript solutions - what you can do and what it will cost you/your clients. The entire session was based on the scenario that you upgrade you SharePoint to a next version and should estimate how much effort you have to put into it - and what could essentially break. And we discussed with the audience, we gather a lot of different aspects and experiences. Good fun!
 
-<div id="attachment_1928" style="width: 310px" class="wp-caption alignleft">
-  <a href="https://melcher.it/wp-content/uploads/ScriptingAndGovernance.jpg"><img data-attachment-id="1928" data-permalink="https://melcher.it/2015/06/sharecamp-2015-recap/scriptingandgovernance/" data-orig-file="https://melcher.it/wp-content/uploads/ScriptingAndGovernance.jpg" data-orig-size="1918,1080" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Lumia 925&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1432999218&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;125&quot;,&quot;shutter_speed&quot;:&quot;0.074&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="ScriptingAndGovernance" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/ScriptingAndGovernance-300x169.jpg" data-large-file="https://melcher.it/wp-content/uploads/ScriptingAndGovernance-1024x577.jpg" class="size-medium wp-image-1928" src="https://melcher.it/wp-content/uploads/ScriptingAndGovernance-300x169.jpg" alt="Scripting and Governance session" width="300" height="169" srcset="https://melcher.it/wp-content/uploads/ScriptingAndGovernance-300x169.jpg 300w, https://melcher.it/wp-content/uploads/ScriptingAndGovernance-1024x577.jpg 1024w, https://melcher.it/wp-content/uploads/ScriptingAndGovernance-930x524.jpg 930w, https://melcher.it/wp-content/uploads/ScriptingAndGovernance-765x431.jpg 765w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  
-  <p class="wp-caption-text">
-    Scripting and Governance session
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "ScriptingAndGovernance.jpg" "" "single_image" >}}
 
 &nbsp;
 
@@ -144,13 +120,7 @@ The weekend was packed and I learned a lot - I totally enjoyed it. I am really l
 
 Thanks again to all sponsors, organizers and speakers - Germany's SharePoint community would not work without you!
 
-<div id="attachment_1929" style="width: 310px" class="wp-caption alignleft">
-  <a href="https://melcher.it/wp-content/uploads/Raffle.jpg"><img data-attachment-id="1929" data-permalink="https://melcher.it/2015/06/sharecamp-2015-recap/raffle/" data-orig-file="https://melcher.it/wp-content/uploads/Raffle.jpg" data-orig-size="1918,1080" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Lumia 925&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1433088481&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;200&quot;,&quot;shutter_speed&quot;:&quot;0.02&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Raffle" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/Raffle-300x169.jpg" data-large-file="https://melcher.it/wp-content/uploads/Raffle-1024x577.jpg" class="size-medium wp-image-1929" src="https://melcher.it/wp-content/uploads/Raffle-300x169.jpg" alt="ShareCamp raffle - lots of prices and gadgets!" width="300" height="169" srcset="https://melcher.it/wp-content/uploads/Raffle-300x169.jpg 300w, https://melcher.it/wp-content/uploads/Raffle-1024x577.jpg 1024w, https://melcher.it/wp-content/uploads/Raffle-930x524.jpg 930w, https://melcher.it/wp-content/uploads/Raffle-765x431.jpg 765w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  
-  <p class="wp-caption-text">
-    ShareCamp raffle - lots of prices and gadgets!
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "Raffle.jpg" "" "single_image" >}}
 
  [1]: http://melcher.it/s/50
  [2]: http://melcher.it/s/4X

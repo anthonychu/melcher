@@ -20,13 +20,13 @@ categories:
 
 My notes for the session: “Futuristic Search applications using Kinect and Yammer!” by [Chris Givens][1] and and [Ben Lower][2] at SPC 2014 In Las Vegas.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="IMG_1859" alt="IMG_1859" src="http://melcher.it/wp-content/uploads/IMG_1859_thumb.jpg" width="244" height="184" border="0" />][3]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="IMG_1859" alt="IMG_1859" src="http://melcher.it/wp-content/uploads/IMG_1859_thumb.jpg" width="244" height="184" border="0" />][3]
 
 ## Yammer Search
 
 Yammer offers a search rest endpoint but its not used for this – you need Enterprise Yammer to export data, that’s how Chris did it.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1860" alt="IMG_1860" src="http://melcher.it/wp-content/uploads/IMG_1860_thumb.jpg" width="244" height="184" border="0" />][4]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1860" alt="IMG_1860" src="http://melcher.it/wp-content/uploads/IMG_1860_thumb.jpg" width="244" height="184" border="0" />][4]
 
 ## On-Premise Integration
 
@@ -38,7 +38,7 @@ To integrate the extracted data you need a BCS connector to get the data into th
 
 Dang – this demo took a while to create – and we only saw 50% so far.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1861" alt="IMG_1861" src="http://melcher.it/wp-content/uploads/IMG_1861_thumb.jpg" width="348" height="185" border="0" />][5]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1861" alt="IMG_1861" src="http://melcher.it/wp-content/uploads/IMG_1861_thumb.jpg" width="348" height="185" border="0" />][5]
 
 ## Kinect Basics
 
@@ -50,21 +50,21 @@ Ben explained the basics of Kinect – wow, impressive. Natural User Interface, 
 
 Kinect can listen and speaking – and so much more. Ben showed a demo application – simply impressive.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1869" alt="IMG_1869" src="http://melcher.it/wp-content/uploads/IMG_1869_thumb.jpg" width="244" height="184" border="0" />][7]{.thickbox}[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1865" alt="IMG_1865" src="http://melcher.it/wp-content/uploads/IMG_1865_thumb.jpg" width="244" height="184" border="0" />][8]{.thickbox}[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1866" alt="IMG_1866" src="http://melcher.it/wp-content/uploads/IMG_1866_thumb.jpg" width="244" height="184" border="0" />][9]{.thickbox}[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1867" alt="IMG_1867" src="http://melcher.it/wp-content/uploads/IMG_1867_thumb.jpg" width="244" height="184" border="0" />][10]{.thickbox}[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1868" alt="IMG_1868" src="http://melcher.it/wp-content/uploads/IMG_1868_thumb.jpg" width="244" height="184" border="0" />][11]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1869" alt="IMG_1869" src="http://melcher.it/wp-content/uploads/IMG_1869_thumb.jpg" width="244" height="184" border="0" />][7][<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1865" alt="IMG_1865" src="http://melcher.it/wp-content/uploads/IMG_1865_thumb.jpg" width="244" height="184" border="0" />][8][<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1866" alt="IMG_1866" src="http://melcher.it/wp-content/uploads/IMG_1866_thumb.jpg" width="244" height="184" border="0" />][9][<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1867" alt="IMG_1867" src="http://melcher.it/wp-content/uploads/IMG_1867_thumb.jpg" width="244" height="184" border="0" />][10][<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1868" alt="IMG_1868" src="http://melcher.it/wp-content/uploads/IMG_1868_thumb.jpg" width="244" height="184" border="0" />][11]
 
 ## Minority Report Demo
 
 Creating this demo took him 5 weeks - applause for that!
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1864" alt="IMG_1864" src="http://melcher.it/wp-content/uploads/IMG_1864_thumb.jpg" width="348" height="185" border="0" />][12]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1864" alt="IMG_1864" src="http://melcher.it/wp-content/uploads/IMG_1864_thumb.jpg" width="348" height="185" border="0" />][12]
 
 Natural language searching
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1862" alt="IMG_1862" src="http://melcher.it/wp-content/uploads/IMG_1862_thumb.jpg" width="348" height="185" border="0" />][13]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1862" alt="IMG_1862" src="http://melcher.it/wp-content/uploads/IMG_1862_thumb.jpg" width="348" height="185" border="0" />][13]
 
 Grabbing and moving stuff with your hand
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1863" alt="IMG_1863" src="http://melcher.it/wp-content/uploads/IMG_1863_thumb.jpg" width="348" height="185" border="0" />][14]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1863" alt="IMG_1863" src="http://melcher.it/wp-content/uploads/IMG_1863_thumb.jpg" width="348" height="185" border="0" />][14]
 
 I don’t have a good photo, but Chris said “Search Chris” and his app connected to SharePoint search and read out the yammer search results – very slick one!
 
@@ -74,7 +74,7 @@ I am a search guy, so this session was a must for me: Fun, search and new techno
 
 Asking a question got me this book – thanks for that, I had a blast.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1870" alt="IMG_1870" src="http://melcher.it/wp-content/uploads/IMG_1870_thumb.jpg" width="184" height="244" border="0" />][15]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1870" alt="IMG_1870" src="http://melcher.it/wp-content/uploads/IMG_1870_thumb.jpg" width="184" height="244" border="0" />][15]
 
  [1]: https://twitter.com/givenscj
  [2]: https://twitter.com/benlower

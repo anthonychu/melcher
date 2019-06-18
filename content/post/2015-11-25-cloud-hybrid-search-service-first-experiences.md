@@ -37,14 +37,7 @@ The setup in this case is the most challenging here, at least from the requireme
 
 The user experience is a little cumbersome in my eyes, because you don't have a single, combined result set. Sorting and refining both works, but having two different rankings - or in other words: the two search systems shows the user the two best results - but there should be only one right?
 
-<div id="attachment_2035" style="width: 228px" class="wp-caption aligncenter">
-  <a href="https://melcher.it/wp-content/uploads/hybrid_inbound.jpg"><img data-attachment-id="2035" data-permalink="https://melcher.it/2015/11/cloud-hybrid-search-service-first-experiences/hybrid_inbound/" data-orig-file="https://melcher.it/wp-content/uploads/hybrid_inbound.jpg" data-orig-size="450,620" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Hybrid Inbound Search" data-image-description="<p>Taken from https://technet.microsoft.com/en-us/library/dn197174.aspx</p>
-" data-medium-file="https://melcher.it/wp-content/uploads/hybrid_inbound-218x300.jpg" data-large-file="https://melcher.it/wp-content/uploads/hybrid_inbound.jpg" class="wp-image-2035 size-medium" title="On-premise results are shown in a result block" src="https://melcher.it/wp-content/uploads/hybrid_inbound-218x300.jpg" alt="Hybrid Inbound Search" width="218" height="300" srcset="https://melcher.it/wp-content/uploads/hybrid_inbound-218x300.jpg 218w, https://melcher.it/wp-content/uploads/hybrid_inbound.jpg 450w" sizes="(max-width: 218px) 100vw, 218px" /></a>
-  
-  <p class="wp-caption-text">
-    On-premises results are shown in a result block
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "hybrid_inbound.jpg" "" "single_image" >}}
 
 &nbsp;
 
@@ -58,14 +51,7 @@ The setup is almost the same as with the inbound hybrid - but you don't need a r
 
 #### User Experience
 
-<div id="attachment_2036" style="width: 226px" class="wp-caption aligncenter">
-  <a href="https://melcher.it/wp-content/uploads/hybrid_outbound.jpg"><img data-attachment-id="2036" data-permalink="https://melcher.it/2015/11/cloud-hybrid-search-service-first-experiences/hybrid_outbound/" data-orig-file="https://melcher.it/wp-content/uploads/hybrid_outbound.jpg" data-orig-size="448,621" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="hybrid outbound" data-image-description="<p>taken from https://technet.microsoft.com/EN-US/library/dn197173.aspx</p>
-" data-medium-file="https://melcher.it/wp-content/uploads/hybrid_outbound-216x300.jpg" data-large-file="https://melcher.it/wp-content/uploads/hybrid_outbound.jpg" class="wp-image-2036 size-medium" title="Remote results are shown in a result block" src="https://melcher.it/wp-content/uploads/hybrid_outbound-216x300.jpg" alt="hybrid outbound" width="216" height="300" srcset="https://melcher.it/wp-content/uploads/hybrid_outbound-216x300.jpg 216w, https://melcher.it/wp-content/uploads/hybrid_outbound.jpg 448w" sizes="(max-width: 216px) 100vw, 216px" /></a>
-  
-  <p class="wp-caption-text">
-    Remote results are shown in a result block
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "hybrid_outbound.jpg" "" "single_image" >}}
 
 As already mentioned, this is the inverse setup, so everything from inbound hybrid applies here too.
 
@@ -87,13 +73,7 @@ Starting September 7th there is a new preview option available for hybrid searc
 
 In the following screenshot you can see my on-premises Cloud Search Service Application up and running - from a UI perspective there is no directly visible indication that this is a cloud hybrid search service - except the name that I provided of course.
 
-<div id="attachment_2037" style="width: 310px" class="wp-caption aligncenter">
-  <a href="https://melcher.it/wp-content/uploads/CloudHybridSearchSErviceApplication.png"><img data-attachment-id="2037" data-permalink="https://melcher.it/2015/11/cloud-hybrid-search-service-first-experiences/cloudhybridsearchserviceapplication/" data-orig-file="https://melcher.it/wp-content/uploads/CloudHybridSearchSErviceApplication.png" data-orig-size="1342,917" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Cloud Hybrid Search Service Application" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/CloudHybridSearchSErviceApplication-300x205.png" data-large-file="https://melcher.it/wp-content/uploads/CloudHybridSearchSErviceApplication-1024x700.png" class="wp-image-2037 size-medium" title="Searchable items: 0 - No local index, no count." src="https://melcher.it/wp-content/uploads/CloudHybridSearchSErviceApplication-300x205.png" alt="Searchable items: 0 " width="300" height="205" srcset="https://melcher.it/wp-content/uploads/CloudHybridSearchSErviceApplication-300x205.png 300w, https://melcher.it/wp-content/uploads/CloudHybridSearchSErviceApplication-1024x700.png 1024w, https://melcher.it/wp-content/uploads/CloudHybridSearchSErviceApplication-930x635.png 930w, https://melcher.it/wp-content/uploads/CloudHybridSearchSErviceApplication-765x523.png 765w, https://melcher.it/wp-content/uploads/CloudHybridSearchSErviceApplication.png 1342w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  
-  <p class="wp-caption-text">
-    Searchable items: 0 - No local index, no count.
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "CloudHybridSearchSErviceApplication.png" "" "single_image" >}}
 
 What I really like here is the option to connect on-premises Content with SharePoint Online - you can even index **SharePoint 2007** or **SharePoint 2010** and bring it to your users. **Fileshares** - yes, that works too. Or imagine you have multiple farms in multiple countries - maybe even with weak network connections between them. Ever tried to remotely crawl a farm from Europe to Asia? Not the best experience, I can tell! But with the new cloud hybrid search service you can **combine the index in the cloud** - and get rid of some on-premises servers (less SharePoint Server licenses, less patching & maintenance, less hardware). Of course you need SharePoint Online licenses for your users tho - my went for E1 to get going.
 
@@ -118,13 +98,7 @@ If you don't use those features yet and not legally bound to stick on-premises i
 
 The user experience is by far the best for this setup. The key point for me is that the user most of the time do not care if this content is from on-premises or SharePoint Online (or hidden in whatever information silo) - most of the times they even do not know it. Most importantly they get the most relevant result from all the available systems presented in the nice and customizable Search Center:
 
-<div id="attachment_2039" style="width: 310px" class="wp-caption aligncenter">
-  <a href="https://melcher.it/wp-content/uploads/Hybrid_SPO.png"><img data-attachment-id="2039" data-permalink="https://melcher.it/2015/11/cloud-hybrid-search-service-first-experiences/hybrid_spo/" data-orig-file="https://melcher.it/wp-content/uploads/Hybrid_SPO.png" data-orig-size="958,870" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Hybrid Results in SharePoint Online" data-image-description="" data-medium-file="https://melcher.it/wp-content/uploads/Hybrid_SPO-300x272.png" data-large-file="https://melcher.it/wp-content/uploads/Hybrid_SPO.png" class="wp-image-2039 size-medium" title="The results come from three different systems: SharePoint Online, SharePoint 2013 on-premises and a fileshare" src="https://melcher.it/wp-content/uploads/Hybrid_SPO-300x272.png" alt="" width="300" height="272" srcset="https://melcher.it/wp-content/uploads/Hybrid_SPO-300x272.png 300w, https://melcher.it/wp-content/uploads/Hybrid_SPO-930x845.png 930w, https://melcher.it/wp-content/uploads/Hybrid_SPO-765x695.png 765w, https://melcher.it/wp-content/uploads/Hybrid_SPO.png 958w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  
-  <p class="wp-caption-text">
-    The results come from three different systems: SharePoint Online, SharePoint 2013 on-premises and a file share
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "Hybrid_SPO.png" "" "single_image" >}}
 
 No UI clutter with a single result block - perfect for many many users. I like it, too.
 

@@ -17,7 +17,7 @@ If SQL Server does not perform, SharePoint can not show its full potential – t
 
 > More than 90% of the content accessed via SharePoint is stored in SQL Server and without the correct configuration of SQL Server it can have a detrimental impact on the performance of SharePoint. Regardless of whether you have a dedicated DBA or the SharePoint administrator is also the DBA there are critical SQL Server configurations that can be made that will optimize SharePoint […]
 
-[<img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb18.png" width="244" height="139" border="0" />][1]{.thickbox}
+[<img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb18.png" width="244" height="139" border="0" />][1]
 
 Here are my session about the session by [Brian Alderman][2] ([@brianalderman][3])
 
@@ -36,7 +36,7 @@ Set the default grow sizes to per MB instead of percent growth rate. If your dat
 
 Split the content db and the log file if possible – different drives, more performance.
 
-[<img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb19.png" width="244" height="139" border="0" />][4]{.thickbox}
+[<img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border: 0px;" title="image" alt="image" src="http://melcher.it/wp-content/uploads/image_thumb19.png" width="244" height="139" border="0" />][4]
 
 ## Plan Site Collections
 

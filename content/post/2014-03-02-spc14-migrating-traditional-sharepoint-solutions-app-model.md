@@ -107,7 +107,7 @@ As a start, Kirk showed how to get properties of webs and lists over oData – c
 
 You tried to use app authorization or ADFS –. then you know this guy and I skip this for brevity.
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="20140302_182554245_iOS" alt="20140302_182554245_iOS" src="http://melcher.it/wp-content/uploads/20140302_182554245_iOS_thumb.jpg" width="348" height="185" border="0" />][6]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="20140302_182554245_iOS" alt="20140302_182554245_iOS" src="http://melcher.it/wp-content/uploads/20140302_182554245_iOS_thumb.jpg" width="348" height="185" border="0" />][6]
 
 ### 
 
@@ -121,13 +121,13 @@ During creation of a SharePoint App Project you can now choose to use MVC – th
 
 ### Permissions
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="20140302_185926193_iOS" alt="20140302_185926193_iOS" src="http://melcher.it/wp-content/uploads/20140302_185926193_iOS_thumb.jpg" width="348" height="185" border="0" />][9]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="20140302_185926193_iOS" alt="20140302_185926193_iOS" src="http://melcher.it/wp-content/uploads/20140302_185926193_iOS_thumb.jpg" width="348" height="185" border="0" />][9]
 
 Effective Permissions: Apps + User or App only
 
 Kirk explained that permissions are a tough area – you need a lot time to figure out how things are connected and what permissions you need. And the “App-only permission” flag is making things more interesting. Read more on Kirk’s [blog post about that][10].
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="20140302_192204788_iOS" alt="20140302_192204788_iOS" src="http://melcher.it/wp-content/uploads/20140302_192204788_iOS_thumb.jpg" width="348" height="185" border="0" />][11]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="20140302_192204788_iOS" alt="20140302_192204788_iOS" src="http://melcher.it/wp-content/uploads/20140302_192204788_iOS_thumb.jpg" width="348" height="185" border="0" />][11]
 
 ### Feature Stapling with an App
 
@@ -141,11 +141,11 @@ Quite simple to implement, need to keep that in mind.
 
 Richard showed a way to override the “Create new subsite” link to redirect to an app page that renders a form. On that form you can then specify metadata about the subweb (e.g. business impact or create yammer group) – good stuff, many clients requests that. There are different approaches – you can grab the code [here][12] or [here][13].
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="20140302_200145130_iOS" alt="20140302_200145130_iOS" src="http://melcher.it/wp-content/uploads/20140302_200145130_iOS_thumb.jpg" width="244" height="184" border="0" />][14]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="20140302_200145130_iOS" alt="20140302_200145130_iOS" src="http://melcher.it/wp-content/uploads/20140302_200145130_iOS_thumb.jpg" width="244" height="184" border="0" />][14]
 
 ### Workflows
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="20140302_201945699_iOS" alt="20140302_201945699_iOS" src="http://melcher.it/wp-content/uploads/20140302_201945699_iOS_thumb1.jpg" width="348" height="185" border="0" />][15]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="20140302_201945699_iOS" alt="20140302_201945699_iOS" src="http://melcher.it/wp-content/uploads/20140302_201945699_iOS_thumb1.jpg" width="348" height="185" border="0" />][15]
 
 There are several activities to get values from a web service. In this example Suman showed how to use the _api endpoint to fetches values and then set values on a list item.
 

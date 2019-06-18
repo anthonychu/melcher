@@ -52,7 +52,7 @@ You can add verticals that present search results and make it look like the resu
 
 ### Microsoft Search Center
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="IMG_1798" alt="IMG_1798" src="http://melcher.it/wp-content/uploads/IMG_1798_thumb.jpg" width="244" height="184" border="0" />][1]{.thickbox}[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="IMG_1800" alt="IMG_1800" src="http://melcher.it/wp-content/uploads/IMG_1800_thumb.jpg" width="244" height="184" border="0" />][2]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="IMG_1798" alt="IMG_1798" src="http://melcher.it/wp-content/uploads/IMG_1798_thumb.jpg" width="244" height="184" border="0" />][1][<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="IMG_1800" alt="IMG_1800" src="http://melcher.it/wp-content/uploads/IMG_1800_thumb.jpg" width="244" height="184" border="0" />][2]
 
 Interesting to see what they implemented – I saw a feedback option for on-prem but not on the O365 version. The refiners where adjusted for some results, but I saw no custom Display Templates. Refiner Count was enabled for on-prem but not O365. The on-prem has a glossary search, too. For a “cloud-first” strategy they had pretty few features for their cloud search center, just saying.
 
@@ -76,11 +76,11 @@ STS; Dir Sync + password syn, SSL, Login options, VPN or Direct Access
 
 ## Content Best Practices
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1805" alt="IMG_1805" src="http://melcher.it/wp-content/uploads/IMG_1805_thumb.jpg" width="348" height="185" border="0" />][3]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1805" alt="IMG_1805" src="http://melcher.it/wp-content/uploads/IMG_1805_thumb.jpg" width="348" height="185" border="0" />][3]
 
 ## Future of Search
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1808" alt="IMG_1808" src="http://melcher.it/wp-content/uploads/IMG_1808_thumb.jpg" width="348" height="185" border="0" />][4]{.thickbox}
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="IMG_1808" alt="IMG_1808" src="http://melcher.it/wp-content/uploads/IMG_1808_thumb.jpg" width="348" height="185" border="0" />][4]
 
 This slide lists all pain-points – the last bullet is the most important thing – but as usual no ETA when we can use it.
 

@@ -43,29 +43,13 @@ CKSDev - Community Kit for SharePoint: Development Tools Edition
 
 It really speeds up my daily work - quick "deploy" is awesome same is "attach to all SharePoint processes" for debugging!
 
-<div id="attachment_74" style="width: 301px" class="wp-caption aligncenter">
-  <a href="http://melcher.it/wp-content/uploads/cksdev.png" rel="lightbox" target="_blank"><img data-attachment-id="74" data-permalink="https://melcher.it/2012/01/tools-cksdev-the-first-tool-i-always-install/cksdev/" data-orig-file="https://melcher.it/wp-content/uploads/cksdev.png" data-orig-size="733,755" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Cksdev - quick deploy context menu" data-image-description="<p>Quick deploy acitons</p>
-" data-medium-file="https://melcher.it/wp-content/uploads/cksdev-291x300.png" data-large-file="https://melcher.it/wp-content/uploads/cksdev.png" class="size-medium wp-image-74   " title="Cksdev - quick deploy context menu" src="http://melcher.it/wp-content/uploads/cksdev-291x300.png" alt="" width="291" height="300" srcset="https://melcher.it/wp-content/uploads/cksdev-291x300.png 291w, https://melcher.it/wp-content/uploads/cksdev.png 733w" sizes="(max-width: 291px) 100vw, 291px" /></a>
-  
-  <p class="wp-caption-text">
-    CKSDev - quick deploy context menu
-  </p>
-</div>
+{{< fancybox "/wp-content/uploads/" "cksdev.png" "" "single_image" >}}
 
 ## How to get it:
 
 <a title="CKSDev project site" href="http://cksdev.codeplex.com" target="_blank">CKSDev.codeplex.com</a> or in the Visual Studio Extension:
 
-<div id="attachment_75" style="width: 310px" class="wp-caption aligncenter">
-  <a href="http://melcher.it/wp-content/uploads/Bildschirmfoto-2012-01-07-um-13.17.08.png" rel="lightbox" target="_blank"><img data-attachment-id="75" data-permalink="https://melcher.it/2012/01/tools-cksdev-the-first-tool-i-always-install/bildschirmfoto-2012-01-07-um-13-17-08/" data-orig-file="https://melcher.it/wp-content/uploads/Bildschirmfoto-2012-01-07-um-13.17.08.png" data-orig-size="967,676" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Install cksdev" data-image-description="<p>How to install cksdev</p>
-" data-medium-file="https://melcher.it/wp-content/uploads/Bildschirmfoto-2012-01-07-um-13.17.08-300x209.png" data-large-file="https://melcher.it/wp-content/uploads/Bildschirmfoto-2012-01-07-um-13.17.08.png" class="size-medium wp-image-75  " title="Install cksdev" src="http://melcher.it/wp-content/uploads/Bildschirmfoto-2012-01-07-um-13.17.08-300x209.png" alt="" width="300" height="209" srcset="https://melcher.it/wp-content/uploads/Bildschirmfoto-2012-01-07-um-13.17.08-300x209.png 300w, https://melcher.it/wp-content/uploads/Bildschirmfoto-2012-01-07-um-13.17.08.png 967w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  
-  <p class="wp-caption-text">
-    CKSDev installation
-  </p>
-</div>
-
-## 
+{{< fancybox "/wp-content/uploads/" "Bildschirmfoto-2012-01-07-um-13.17.08.png" "" "single_image" >}}
 
 ## I am a plugin hunter!
 
