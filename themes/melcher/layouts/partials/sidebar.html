@@ -41,7 +41,8 @@
       <div class="posts-container">
         {{ $pages := .Site.Pages }}
         {{ with .File }}
-          {{ $recent := where $pages ".File.UniqueID" "!=" .UniqueID  }}
+          {{ $filtered := where $pages ".File" "!=" nil }}
+          {{ $recent := where $filtered ".File.UniqueID" "!=" .UniqueID }}
           {{ $.Scratch.Set "recentPosts" $recent }}
         {{ end }}
 
