@@ -40,8 +40,8 @@
       </header>
       <div class="posts-container">
         
-        {{ $recent := where .Site.Pages "UniqueID" "!=" .File.UniqueID  }}
-        {{ $.Scratch.Set "recentPosts" $recent }}
+        {{ $recentPages := where site.RegularPages ".File.UniqueID" "!=" .File.UniqueID }}
+        {{ $.Scratch.Set "recentPosts" $recentPages }}
 
         {{ with .Site.Params.postAmount.sidebar }}
           {{ $.Scratch.Set "postLimit" . }}
