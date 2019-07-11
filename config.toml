@@ -100,7 +100,7 @@ enableRobotsTXT = true
 
   paragraph = "Azure, DevOps and other stuff"
 
-  about     = "Maximilian Melcher is a Cloud Solution Architect working at <a href=\"http://www.microsoft.com\">Microsoft</a> in Munich, Germany. Max is a specialist in Azure cloud technologies focused on business applications, search, web content management and lift&shift. He has led cloud implementations for Dax 30 companies since 2009.  Max’ free time is spent on <a href=\"https://twitter.com/maxmelcher\">twitter</a>, mostly with a good coffee in his hands - or below real clouds when he flies with his paraglider.<br/>You need some consulting experience? Feel free to <a href=\"/contact\"> contact me</a>!"
+  about     = "Maximilian Melcher is a Cloud Solution Architect working at <a href=\"http://www.microsoft.com\">Microsoft</a> in Munich, Germany. Max is a specialist in Azure cloud technologies focused on Application Development, DevOps and Lift&Shift in an enterprise context. He has led cloud implementations for Dax 30 companies since 2009.  Max’ free time is spent on <a href=\"https://twitter.com/maxmelcher\">twitter</a>, mostly with a good coffee in his hands - or below real clouds when he flies with his paraglider.<br/>You need some consulting experience? Feel free to <a href=\"/contact\"> contact me</a>!"
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.

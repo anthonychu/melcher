@@ -14,13 +14,6 @@ contact details:
 {{< fancybox "" "qrcode_mme.png" "QRCode" "single_image" >}}
 --->
 
-## Skills
-
-- Envisioning Workshops
-- Project Management for enterprise Azure implementations
-- Search, Content and Knowledge Management
-- Real-time client-side Applications (Architecture and Development)
- 
 ## Certifications
 
 - Microsoft Certified: Azure DevOps Engineer (AZ-400)
