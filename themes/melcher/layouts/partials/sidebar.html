@@ -39,29 +39,28 @@
         <h3>Recent Posts</h3>
       </header>
       <div class="posts-container">
-        
-        {{ $recentPages := where site.RegularPages ".File.UniqueID" "!=" .File.UniqueID }}
-        {{ $.Scratch.Set "recentPosts" $recentPages }}
 
+        {{ $page := .Page }}
         {{ with .Site.Params.postAmount.sidebar }}
           {{ $.Scratch.Set "postLimit" . }}
         {{ else }}
           {{ $.Scratch.Set "postLimit" 5 }}
         {{ end }}
 
-        {{ range first ($.Scratch.Get "postLimit") (where ($.Scratch.Get "recentPosts") "Type" "post") }}
-          <article class="mini-post">
-            <header>
-              <h3>
-                <a href="{{ .Permalink }}">{{ .Title }}</a>
-              </h3>
-              {{ $.Scratch.Set "dateType" .Date }}
-              <time class="published" datetime='{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
-                {{ ($.Scratch.Get "dateType").Format "January 2, 2006" }}
-              </time>
-            </header>
-            {{ .Render "featured" }}
-          </article>
+        {{ $recentPages := where site.RegularPages ".File.UniqueID" "!=" $page.File.UniqueID }}
+        {{ range first ($.Scratch.Get "postLimit") (where $recentPages "Type" "post") }}
+            <article class="mini-post">
+              <header>
+                <h3>
+                  <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </h3>
+                {{ $.Scratch.Set "dateType" .Date }}
+                <time class="published" datetime='{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
+                  {{ ($.Scratch.Get "dateType").Format "January 2, 2006" }}
+                </time>
+              </header>
+              {{ .Render "featured" }}
+            </article>
         {{ end }}
       </div>
 
