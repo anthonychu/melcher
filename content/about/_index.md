@@ -16,8 +16,9 @@ contact details:
 
 ## Certifications
 
-- Microsoft Certified: Azure DevOps Engineer (AZ-400)
-- Microsoft Certified: Azure Developer Associate (AZ-203)
+- Microsoft Certified: Azure Security Engineer Associate ([AZ-500](https://www.microsoft.com/en-us/learning/azure-security-engineer.aspx))
+- Microsoft Certified: Azure DevOps Engineer Expert ([AZ-400](https://www.microsoft.com/en-us/learning/azure-devops.aspx))
+- Microsoft Certified: Azure Developer Associate ([AZ-203](https://www.microsoft.com/en-us/learning/azure-developer.aspx))
 - Microsoft Certified Solutions Expert: Productivity (SharePoint 2013)
 - Core Solutions of Microsoft SharePoint Server 2013 (70-331)
 - Advanced Solutions of Microsoft SharePoint Server 2013 (70-332)
