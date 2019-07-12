@@ -40,14 +40,15 @@
       </header>
       <div class="posts-container">
 
-        {{ $page := .Page }}
         {{ with .Site.Params.postAmount.sidebar }}
           {{ $.Scratch.Set "postLimit" . }}
         {{ else }}
           {{ $.Scratch.Set "postLimit" 5 }}
         {{ end }}
 
-        {{ $recentPages := where site.RegularPages ".File.UniqueID" "!=" $page.File.UniqueID }}
+        <!-- get the recent 3 pages but exclude the current shown one -->
+        {{ $recentPages := site.RegularPages | complement (slice .) }}
+        
         {{ range first ($.Scratch.Get "postLimit") (where $recentPages "Type" "post") }}
             <article class="mini-post">
               <header>
