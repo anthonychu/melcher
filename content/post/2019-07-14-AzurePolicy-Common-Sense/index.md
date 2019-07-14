@@ -21,7 +21,7 @@ As of writing this post (July 14, 2019) there are 149 [Azure Policies](https://d
 
 ## Available Azure Policies
 
-The following tables contains all the policies that are available for production environments. I removed all that started with [Deprecated]. I used a [simple powershell script](get-policy.ps1) that exports the available policies so I can use them in this post. [Scroll all the way down]() if you want to see my recommendation.
+The following tables contains all the policies that are available for production environments. I removed all that started with [Deprecated]. I used a [simple powershell script](get-policy.ps1) that exports the available policies so I can use them in this post. [Scroll all the way down](#recommendation) if you want to see my recommendation.
 
 | Name        | Description           |
 |:------------- |:--------------|
