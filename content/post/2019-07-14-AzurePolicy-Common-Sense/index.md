@@ -1,15 +1,15 @@
 ---
-title: "2019 07 14 AzurePolicy Common Sense"
+title: "AzurePolicy - Common Sense"
 date: 2019-07-14T16:42:32+02:00
 2019: "07"
 author: "Max Melcher"
 draft: true
 categories:
-  - Website
+  - Azure
 tags:
-  - Wordpress
-  - Hugo
-  - Performance
+  - Azure Policy
+  - Azure
+  - Governance
 featured: "images/featured.jpg"
 featuredalt : ""
 hashtags: 
@@ -21,7 +21,7 @@ As of writing this post (July 14, 2019) there are 149 [Azure Policies](https://d
 
 ## Available Azure Policies
 
-The following tables contains all the policies that are available for production environments. I removed all that started with [Deprecated]. I used a [simple powershell script](get-policy.ps1) that exports the available policies so I can use them in this post. [Scroll all the way down](#recommendation) if you want to see my recommendation.
+The following tables contains all the policies that are available for production environments. I removed all that started with [Deprecated] (24 as of now). I used a [simple powershell script](get-policy.ps1) that exports the available policies so I can use them in this post. [Scroll all the way down](#recommendation) if you want to see my recommendation.
 
 | Name        | Description           |
 |:------------- |:--------------|
@@ -234,6 +234,8 @@ And the following policies are not yet supported for production:
 | [Preview]: Sensitive data in your SQL databases should be classified | Azure Security Center monitors the data discovery and classification scan results for your SQL databases and provides recommendations to classify the sensitive data in your databases for better monitoring and security |
 
 ## Recommendation
+
+Allow resource creation if ‘environment’ tag value in allowed values
 
 ## Summary
 
