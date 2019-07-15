@@ -235,7 +235,43 @@ And the following policies are not yet supported for production:
 
 ## Recommendation
 
-Allow resource creation if ‘environment’ tag value in allowed values
+The following 14 policies belong to my favorites - I selected them with a typical "large enterprise central IT hub & spoke" setup in mind and do not cover specific cases, more the general basic hardening. Imagine you would have to secure the spokes without having direct access to it and still want to provide the business units with the flexibility and power of Azure. If you are in doubt if the policy guides the users or blocks them, start with an [audit effect](https://docs.microsoft.com/en-us/azure/governance/policy/concepts/effects#audit) so you can assess the impact first and talk to the users that would be affected. Security and Governance is never a one-man-show and there are always scenarios that you could not come up with.
+
+### Allow resource creation if ‘environment’ tag value in allowed values
+
+Specifying if a resource is crucial or not can be super important. So having this policy in place enables transparency of what it dev, test or production. I would go a little further and combine the policy with [resource locks](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-lock-resources). When a resource is flagged for production, there should be resource lock that prevents deletion - the policy should configured with an audit effect.
+
+### Allowed locations
+
+Typically there are agreed locations that can be used - prevent resource creation in other places. Ensure that the regions with [availability zones](https://docs.microsoft.com/en-us/azure/availability-zones/az-overview#services-support-by-region) are included - and do not forget the [paired regions](https://docs.microsoft.com/en-us/azure/best-practices-availability-paired-regions) for disaster recovery.
+
+### Audit virtual machines without disaster recovery configured
+
+That is a great policy. At least for all production VMs there should be Azure Size Recovery configured so that you can recover to a secondary region (I like [the idea](https://adinermie.com/auditing-for-disaster-recovery-with-azure-policy/) to combine it with further tags to have the policy more specific).
+
+### Audit VMs that do not use managed disks
+
+
+
+### Disk encryption should be applied on virtual machines
+
+### Function App should only be accessible over HTTPS
+
+### MFA should be enabled on accounts with owner permissions on your subscription
+
+### Network Security Group Rules for Internet facing virtual machines should be hardened
+
+### Secure transfer to storage accounts should be enabled
+
+### There should be more than one owner assigned to your subscription
+
+### Web Application should only be accessible over HTTPS
+
+### [Preview]: Audit Linux VMs that have accounts without passwords
+
+### [Preview]: Audit Linux VMs that do not have the passwd file permissions set to 0644
+
+### [Preview]: Audit Windows VMs that contain certificates expiring within the specified number of days
 
 ## Summary
 
