@@ -3,7 +3,6 @@ title: "AzurePolicy - Common Sense"
 date: 2019-07-14T16:42:32+02:00
 2019: "07"
 author: "Max Melcher"
-draft: true
 categories:
   - Azure
 tags:
@@ -251,9 +250,11 @@ That is a great policy. At least for all production VMs there should be Azure Si
 
 ### Audit VMs that do not use managed disks
 
-
+It would discuss all usages of unmanged disks - if you create a new workload, I would use managed disks everywhere.
 
 ### Disk encryption should be applied on virtual machines
+
+
 
 ### Function App should only be accessible over HTTPS
 
