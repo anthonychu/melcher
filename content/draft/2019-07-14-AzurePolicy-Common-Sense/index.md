@@ -254,8 +254,6 @@ It would discuss all usages of unmanged disks - if you create a new workload, I 
 
 ### Disk encryption should be applied on virtual machines
 
-
-
 ### Function App should only be accessible over HTTPS
 
 ### MFA should be enabled on accounts with owner permissions on your subscription
@@ -273,6 +271,11 @@ It would discuss all usages of unmanged disks - if you create a new workload, I 
 ### [Preview]: Audit Linux VMs that do not have the passwd file permissions set to 0644
 
 ### [Preview]: Audit Windows VMs that contain certificates expiring within the specified number of days
+
+## Policies I would add
+
+### Deny Public IP on VMs
+### Audit Marketplace 
 
 ## Summary
 
