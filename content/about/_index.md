@@ -16,6 +16,7 @@ contact details:
 
 ## Certifications
 
+- Microsoft Certified: Azure Solutions Architect Expert ([AZ-300](https://www.microsoft.com/en-us/learning/azure-solutions-architect.aspx) + [AZ-301](https://www.microsoft.com/en-us/learning/azure-solutions-architect.aspx))
 - Microsoft Certified: Azure Security Engineer Associate ([AZ-500](https://www.microsoft.com/en-us/learning/azure-security-engineer.aspx))
 - Microsoft Certified: Azure DevOps Engineer Expert ([AZ-400](https://www.microsoft.com/en-us/learning/azure-devops.aspx))
 - Microsoft Certified: Azure Developer Associate ([AZ-203](https://www.microsoft.com/en-us/learning/azure-developer.aspx))
