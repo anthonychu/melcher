@@ -1,0 +1,90 @@
+---
+title: "Native Hugo deployment to Azure"
+date: 2019-08-07T10:47:56+02:00
+2019: "08"
+author: "Max Melcher"
+categories:
+  - Azure
+  - Hugo
+tags:
+  - Azure CLI
+featured: "images/hugodeploy.gif"
+featuredalt : ""
+hashtags: 
+  - "#azure"
+---
+
+In Hugo version 0.56 a native deployment command was introduced to deploy your blog/website to various cloud providers - one of them is Azure. In this post I show how I simplified my deployment pipeline with this command.
+
+## Hugo deploy
+
+The Hugo deploy command uses [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) and your config.toml / config.yaml file and checks for a [deployment] section.
+Additionally, you need to have two environment variables present - even tho the [documentation](https://gohugo.io/hosting-and-deployment/hugo-deploy/#assumptions) says you have to use **az login** (thats incorrect, it works without). That has the benefit that your config file does not have the secrets and you can still publicly store it on github.
+
+## Environment Variables
+You must have the environment variable **AZURE_STORAGE_ACCOUNT** and one of the following: **AZURE_STORAGE_KEY** or **AZURE_STORAGE_SAS_TOKEN**. 
+
+In powershell you can configure them like this: 
+{{< highlight powershell >}}
+$Env:AZURE_STORAGE_ACCOUNT = "<AccountName>"
+$Env:AZURE_STORAGE_KEY = "<AccountKey>"
+{{< /highlight >}}
+
+Or if you want to have it dynamic - that requires you to be logged in with Azure CLI:
+{{< highlight powershell >}}
+$Env:AZURE_STORAGE_ACCOUNT = "<AccountName>"
+$Env:AZURE_STORAGE_KEY = az storage account keys list -n <AccountName> --query [0].value -o tsv
+{{< /highlight >}}
+
+## Deployment Configuration
+
+My deployment configuration looks like this:
+
+{{< highlight toml >}}
+[deployment]
+order = [".jpg$", ".gif$"]
+
+[[deployment.targets]]
+name = "azure"
+
+# Azure Blob Storage; see https://gocloud.dev/howto/blob/#azure
+URL = "azblob://$web"
+
+[[deployment.matchers]]
+#  Cache static assets for 20 years.
+pattern = "^.+\\.(js|css|svg|ttf)$"
+cacheControl = "max-age=630720000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg)$"
+cacheControl = "max-age=630720000, no-transform, public"
+gzip = false
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true
+{{< /highlight >}}
+
+## And in action
+
+{{< fancybox "images" "hugodeploy.gif" "Hugo native deployment to Azure" "single_image" >}}
+
+## Simplified deployment with Azure DevOps
+
+As described in the post [RUNNING HUGO ON AZURE FOR 2$ A MONTH](/2019/03/running-hugo-on-azure-for-2-a-month/), I use Azure DevOps to automatically deploy Hugo to Azure and have everything version-controlled. My old pipeline did the following:
+
+* Generate Hugo content
+* Sync the content to Azure Storage (upload new files, delete no longer required files)
+* Set the cache header of files
+* Purge the Azure CDN 
+* Index the content with Azure Search
+
+{{< fancybox "images" "Hugo_AzureDevOps_Deployment.png" "My Azure DevOps pipeline to deploy hugo on Azure" "single_image" >}}
+
+I could combine the sync and cache header job with the Hugo native deployment - but as of know, the build task that I use, [does not support that](https://github.com/giuliov/hugo-vsts-extension/issues/13).
+
+For local testing, the native deployment is great!
+
+Hope it helps,  
+Max

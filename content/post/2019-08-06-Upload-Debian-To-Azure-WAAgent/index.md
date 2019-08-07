@@ -3,7 +3,6 @@ title: "Upload custom Debian image to Azure - waagent stuck"
 date: 2019-08-06T10:47:56+02:00
 2019: "08"
 author: "Max Melcher"
-draft: true
 categories:
   - Azure
 tags:
