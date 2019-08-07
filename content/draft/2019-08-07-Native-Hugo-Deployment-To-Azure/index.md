@@ -83,7 +83,7 @@ As described in the post [RUNNING HUGO ON AZURE FOR 2$ A MONTH](/2019/03/running
 
 {{< fancybox "images" "Hugo_AzureDevOps_Deployment.png" "My Azure DevOps pipeline to deploy hugo on Azure" "single_image" >}}
 
-I could combine the sync and cache header job with the Hugo native deployment - but as of know, the build task that I use [does not support that](https://github.com/giuliov/hugo-vsts-extension/issues/13).
+I could combine the sync and cache header job with the Hugo native deployment - but as of now, the build task that I use [does not support that](https://github.com/giuliov/hugo-vsts-extension/issues/13).
 
 For local testing, the native deployment is great!
 
