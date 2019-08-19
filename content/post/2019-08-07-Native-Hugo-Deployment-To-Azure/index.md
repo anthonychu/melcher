@@ -84,7 +84,30 @@ As described in the post [RUNNING HUGO ON AZURE FOR 2$ A MONTH](/2019/03/running
 
 I could combine the sync and cache header job with the Hugo native deployment - but as of know, the build task that I use, [does not support that](https://github.com/giuliov/hugo-vsts-extension/issues/13).
 
-For local testing, the native deployment is great!
+## Update (August 19th, 2019)
+
+I could not wait until the hugo extension is implementing the deploy command, so I thought lets try to use it with the PowerShell tasks of Azure DevOps.
+
+My build server is a windows server (see post "[SELF-HOSTED AZURE DEVOPS BUILD/RELEASE AGENT WITH TERRAFORM - WINDOWS-EDITION](/2019/03/self-hosted-azure-devops-build/release-agent-with-terraform-windows-edition/)") and I installed [Hugo on it with Chocolatey](https://chocolatey.org/packages/hugo).
+Then I used a powershell task to execute both the 'hugo' publish  and the 'hugo deploy' command - and it worked straight out of the box!
+
+{{< fancybox "images" "hugo_Native_AzureDevOps.png" "Hugo-native Azure DevOps deployment" "single_image" >}}
+
+And the commands in a copy&paste-friendly version:
+{{< highlight powershell >}}
+#publish
+hugo --source $(Build.SourcesDirectory) --destination $(Build.SourcesDirectory)\public  --enableGitInfo --i18n-warnings --verbose --cleanDestinationDir
+
+#deploy
+$Env:AZURE_STORAGE_ACCOUNT = "<storageaccount>"
+$Env:AZURE_STORAGE_KEY = "<storageaccountkey>"
+hugo deploy azure --maxDeletes -1
+{{< /highlight >}}
+
+Afterwards I installed the [chocolatey task](https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-azuredevops) to update Hugo to the latest version if there is one - that is not yet tested.
+
+
+For local testing, the native deployment is great, too!
 
 Hope it helps,  
 Max
