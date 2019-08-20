@@ -1,5 +1,5 @@
 [
-    {{ range $index, $e := (where .Data.Pages "Section" "not in" (slice "s" "draft")) }}
+    {{ range $index, $e := (where .Site.RegularPages "Section" "not in" (slice "s" "draft")) }}
     {{ if $index }}, {{ end }}
     {
       "url": {{ .Permalink | jsonify }},
