@@ -77,7 +77,7 @@ After that I created a template file to specify the contents of the json feed. I
 
 {{< highlight "json" "linenos=table" >}}
 [
-    {{ range $index, $e := .Data.Pages }}
+    {{ range $index, $e := .Site.RegularPages }}
     {{ if $index }}, {{ end }}
     {
       "url": {{ .Permalink | jsonify }},

@@ -17,7 +17,7 @@
     </article>
 
     {{ $section := .Page.Section}}
-    {{ $paginator := .Paginate (where .Data.Pages "Type" $section ) 10 }}
+    {{ $paginator := .Paginate (where .Site.RegularPages "Type" $section ) 10 }}
     
     {{ range $paginator.Pages }}
         {{ .Render "content-list" }}

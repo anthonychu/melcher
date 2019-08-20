@@ -4,7 +4,7 @@
 {{ partial "navbar" . }}
 <!-- Main -->
 <div id="main">
-    {{ $paginator := .Paginate (where .Data.Pages "Section" "not in" (slice "s" "draft") ) }} 
+    {{ $paginator := .Paginate (where .Site.RegularPages "Section" "not in" (slice "s" "draft") ) }} 
     {{ range $paginator.Pages }} 
         {{ .Render "content-list" }} 
         {{ partial "share-menu" . }} 

@@ -107,6 +107,8 @@ hugo deploy azure --maxDeletes -1
 Afterwards I installed the [chocolatey task](https://marketplace.visualstudio.com/items?itemName=gep13.chocolatey-azuredevops) to update Hugo to the latest version if there is one - that is not yet tested.
 Incremental deployment takes roughly 1 minute (for 1094 pages, 650MB) - thats awesome, right?
 
+{{< fancybox "images" "Hugo_AzureDevOps_Tasks.png" "1 minute to release a new post - big like!" "single_image" >}}
+
 For local testing, the native deployment is great, too!
 
 Hope it helps,  

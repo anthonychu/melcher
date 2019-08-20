@@ -12,7 +12,7 @@
     {{ with .OutputFormats.Get "RSS" }}
         {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
-    {{ range (where .Data.Pages "Section" "not in" (slice "s" "draft") ) }}
+    {{ range (where .Site.RegularPages "Section" "not in" (slice "s" "draft") ) }}
     <item>
       <title>{{ .Title }} {{ if .Params.hashtags }} {{ delimit .Params.hashtags " " }} {{ end }}</title>
       <link>{{ .Permalink }}</link>
