@@ -9,7 +9,7 @@
                 <h1>// {{ index $months .Title }} {{ .Section }}</h1>
         </header>
         
-        {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
+        {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
         {{ range $paginator.Pages }}
             {{ .Render "content-list" }}
         {{ end }}
