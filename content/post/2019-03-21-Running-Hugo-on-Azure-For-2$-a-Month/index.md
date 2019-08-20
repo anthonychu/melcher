@@ -291,7 +291,7 @@ In the screenshot, you can see all the metadata I provide for my posts. You can 
 Usually, a draft is not visible to anyone and of course, that is okay. But sometimes you want to share a draft with someone for a review or help. So on Wordpress, I, therefore, installed a plugin, that made private sharing possible by adding a token to the URL so that only people with that link could access the draft. And I thought I want to have that for Hugo, too. Luckily with the flexible template language of Hugo, that is very easy to do. Create a new folder in the content section and then hide it from the places where Hugo iterates all posts (for me that is index.HTML, [home.json](/2019/03/azuresearch-and-hugo-free-and-awesome/), rss.xml, sitemap.xml - but depends on your theme!). The iteration then looks like this:
 
 {{< highlight bash "linenos=table,hl_lines=1" >}}
-{{ $paginator := .Paginate (where .Data.Pages "Section" "not in" (slice "s" "draft") ) }} 
+{{ $paginator := .Paginate (where .Site.RegularPages "Section" "not in" (slice "s" "draft") ) }} 
     {{ range $paginator.Pages }} 
         {{ .Render "content-list" }} 
         {{ partial "share-menu" . }} 
