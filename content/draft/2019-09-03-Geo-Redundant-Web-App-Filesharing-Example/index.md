@@ -15,3 +15,8 @@ featuredalt : ""
 hashtags: 
   - "#azure"
 ---
+
+https://github.com/edsoncunha/chunked-file-upload-csharp/blob/master/ChunkedUploadWebApi/Service/UploadService.cs
+https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-dotnet
+https://docs.microsoft.com/en-us/azure/storage/blobs/storage-simulate-failure-ragrs-account-app
+https://github.com/Azure-Samples/storage-dotnet-circuit-breaker-ha-ra-grs/blob/master/storage-dotnet-circuit-breaker-ha-ra-grs/Program.cs
