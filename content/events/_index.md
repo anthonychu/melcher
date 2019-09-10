@@ -15,11 +15,11 @@ Events marked with (*) are not 100% certain yet - maybe its Open Space / Barcamp
 
 Event | Date | Session
 --- | --- | ---
+[Microsoft Azure Training Day: Migrating Applications to the Cloud](https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x7522158abcd&wt.mc_id=AID2426887_QSG_EML_354889&cr_cc=Customer_Ready) | September, 16th | Speaking: Migrating web applications to Azure, Modernizing your application with containers and serverless, Consolidating infrastructure with Azure Kubernetes Service
 [Azure Global Bootcamp Munich](https://global.azurebootcamp.net/locations/germany-munchen/) | April, 27th | Speaking: Infrastructure-as-Code - a Terraform Primer
 [Azure Saturday Munich](https://azuresaturday.de) | May, 18th | Azure Azure Azure
 [Techorama Belgium](https://techorama.be) | May, 20th -22nd | Speaking: [Azure Governance and Security 101](https://techorama.be/workshops/azure-governance-and-security-101/)
 [Azure Meetup Munich](https://www.meetup.com/de-DE/Azure-Munich/?chapter_analytics_code=UA-68541271-5) || Attending frequently
-
 
 ## 2018
 
