@@ -216,6 +216,8 @@ function enableCookies() {
 	function gtag() { dataLayer.push(arguments); }
 	gtag('js', new Date());
 	gtag('config', 'UA-23610381-4');
+	ga('create', 'UA-23610381-4', 'auto');
+	ga('send', 'pageview');
 }
 
 function disableCookies() {
