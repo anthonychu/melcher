@@ -209,6 +209,24 @@
 	}
 })(document);
 
+function enableCookies() {
+	// enable cookies
+	console.log("cookies enabled");
+	window.dataLayer = window.dataLayer || [];
+	function gtag() { dataLayer.push(arguments); }
+	gtag('js', new Date());
+	gtag('config', 'UA-23610381-4');
+}
+
+function disableCookies() {
+	console.log("cookies disabled");
+	var gaProperty = 'UA-23610381-4';
+
+	// Disable tracking if the opt-out cookie exists.
+	var disableStr = 'ga-disable-' + gaProperty;
+	window[disableStr] = true;
+}
+
 (function (window) {
 	window.addEventListener("load", function () {
 		window.cookieconsent.initialise({
@@ -225,10 +243,48 @@
 			"theme": "classic",
 			"content": {
 				"href": "https://melcher.dev/cookies"
-			}
+			},
+			revokable: true,
+			animateRevokable: true,
+			onInitialise: function (status) {
+				var type = this.options.type;
+				var didConsent = this.hasConsented();
+				if (type == 'opt-in' && didConsent) {
+					// enable cookies
+					enableCookies();
+				}
+				if (type == 'opt-out' && !didConsent) {
+					// disable cookies
+					disableCookies();
+				}
+			},
+			onStatusChange: function (status, chosenBefore) {
+				var type = this.options.type;
+				var didConsent = this.hasConsented();
+				if (type == 'opt-in' && didConsent) {
+					// enable cookies
+					enableCookies();
+				}
+				if (type == 'opt-out' && !didConsent) {
+					// disable cookies
+					disableCookies();
+				}
+			},
+			onRevokeChoice: function () {
+				var type = this.options.type;
+				if (type == 'opt-in') {
+					// disable cookies
+					disableCookies();
+				}
+				if (type == 'opt-out') {
+					// enable cookies
+					enableCookies();
+				}
+			},
+			type: "opt-in"
 		})
 	});
-})();
+})(window);
 
 
 (function () {
