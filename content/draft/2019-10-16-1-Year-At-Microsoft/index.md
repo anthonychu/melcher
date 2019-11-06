@@ -24,7 +24,8 @@ In October 2018, I was fortunately enough to join Microsoft, and after only 3 we
 Now, one year in the role, I help customers on their Azure cloud journey:
 
 * finding the right architecture to solve business and technical problems
-* bridging the gap between customer and product development groups, priotizing the right things and making thinks right
+* bridging the gap between customer and product development groups,  
+prioritizing the right things and making things right
 * evangelizing Azure
 * sharing best practices and new technologies
 * helping onboard new customers and colleagues
