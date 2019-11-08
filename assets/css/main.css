@@ -379,7 +379,7 @@ sup {
 }
 
 blockquote {
-    border-left: solid 4px rgba(160, 160, 160, 0.3);
+    border-left: solid 4px red;
     font-style: italic;
     margin: 0 0 2em 0;
     padding: 0.5em 0 0.5em 2em;
@@ -1480,7 +1480,16 @@ ul.posts header h1 {
     border-bottom-color: transparent;
 }
 
-#content blockquote,
+#content blockquote p
+{
+    margin: 0;
+}
+
+blockquote a
+{
+    border-bottom: dotted 2px rgba(255,0,0,.65);
+}
+
 #content p,
 #content ul {
     margin: 1em 0;
