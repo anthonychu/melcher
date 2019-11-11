@@ -1,5 +1,5 @@
 ---
-title: "MY First Year at Microsoft - Things I learned"
+title: "My First Year at Microsoft - Things I learned"
 date: 2019-10-16T11:47:35+02:00
 2019: "10"
 author: "Max Melcher"
@@ -46,6 +46,8 @@ We now have more than 100 architects working in our organization, every person b
 
 ## Customers
 
+{{< fancybox "images" "austin-distel-wD1LRb9OeEo-unsplash.jpg" "A typical customer meeting" "single_image" >}}
+
 {{< blockquote author="Satya Nadella" link="https://www.microsoft.com/en-us/about" >}}
   Our Mission: Our mission is to empower every person and every organization on the planet to achieve more
 {{< /blockquote >}}
@@ -57,6 +59,8 @@ I landed in the Financial Services and Insurance (FSI) sector and we focus on th
 Some of the customers have zero cloud adoption, some of them have everything in the cloud - I totally like the different stages and the great flexibility we have to help the customers understanding what is required to tackle the next step in cloud maturity.
 
 ## Always Learning
+
+{{< fancybox "images" "Acclaim.png" "My acclaim badges - see more them here: https://www.youracclaim.com/users/max-melcher/badges" "single_image" >}}
 
 {{< blockquote author="Satya Nadella" title="source" link="https://www.wsj.com/video/satya-nadella-the-learn-it-all-does-better-than-the-know-it-all/D8BC205C-D7F5-423E-8A41-0E921E86597C.html" >}}
   The Learn-It-All Does Better Than the Know-It-All
@@ -72,7 +76,7 @@ And after like half a year I felt pretty convenient with all these networking to
 
 In July then I decided to do the [AZ-300 (Microsoft Azure Architect Technologies)](https://docs.microsoft.com/en-us/learn/certifications/exams/az-300) most realistic exam because it covered the architecture challenges of the past half-year. Good stuff.
 
-### Azure Certification
+### Azure Certifications
 
 But the AZ-300 and AZ-301 were not the only certifications I have done in the last year - my default go-to would have been the [AZ-203 (Developing Solutions for Microsoft Azure)](https://docs.microsoft.com/en-us/learn/certifications/exams/az-203) and [AZ-400](https://docs.microsoft.com/en-us/learn/certifications/exams/az-400), and once you are into this learning thing, it did them, too. The AZ-400 was my favorite in this track, of course.
 
@@ -83,9 +87,11 @@ So technical skilling is super important - but Microsoft embraces a holistic app
 
 ### OpenHack
 
+{{< fancybox "images" "Openhack.jpg" "OpenHack in Munich - Container all the things!" "single_image" >}}
+
 And one of my learning experience highlight is, again, OpenHack - I have done two OpenHacks before joining Microsoft, and two in the last year. And I cant stress it enough - if its possible for you, go attend one. They are free and fun - and if learning in a small group with a smart proctor on real-world challenges is your thing. Go sign up: https://openhack.microsoft.com/
 
-So far I have done: 
+So far I have done:
 
 1. DevOps
 2. IoT + Data
@@ -103,9 +109,15 @@ And even more learning. Just recently I signed up for an "Massively Open Online 
 
 ## Community
 
-When I joined Microsoft, I was worried that I cannot contribute to the community as much as I did when I was outside and MVP. But to the opposite, some tasks like getting a decent meeting room for a community event is now way way easier. 
+{{< fancybox "images" "GlobalAzureBootcamp.jpg" "Global Azure Bootcamp in Munich - 150 people in the room!" "single_image" >}}
+
+When I joined Microsoft, I was worried that I cannot contribute to the community as much as I did when I was outside and MVP. But to the opposite, some tasks like getting a decent meeting room for a community event is now way way easier.
 So last year we hosted, [AzureSaturday Munich](https://AzureSaturday.de), the third time in the Microsoft Office in Munich - and supporting this as an employee was way easier.
 
+{{< fancybox "images" "AzureSaturday.jpg" "AzureSaturday 2019 in Munich" "single_image" >}}
+
+And in November I support the O365 community and co-organize the next [SharePoint & O365 Saturday 2019 - Munich](https://spsmuc.info) event.
+Additionally I spoke at two or three community events and gave a workshop at [Techorama in Belgium](https://techorama.be) - that was great fun!
 
 ## Closing
 
@@ -114,5 +126,14 @@ So with all that said, I can conclude a very successful and fun first year - and
 And if you want to become a Cloud Solution Architect yourself, we are hiring:
 [careers.microsoft.com](https://careers.microsoft.com/professionals/us/en/search-results?keywords=cloud%20solution%20architec)
 
+Special mention: I want to thank my manager Nadine, for giving me a chance and for a super awesome year - always taking time and getting things in motion! THANK YOU!
+
 Thanks,  
 Max
+
+
+Pictures: 
+
+
+* Photo by <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@freestocks?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from freestocks.org"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">freestocks.org</span></a>
+* Photo by <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@austindistel?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Austin Distel"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Austin Distel</span></a>
