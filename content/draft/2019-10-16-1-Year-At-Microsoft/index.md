@@ -65,7 +65,7 @@ While some of the customers have near-zero cloud adoption ambitions, some of the
   The Learn-It-All Does Better Than the Know-It-All
 {{< /blockquote >}}
 
-In the past year, I have learned so much and there was not a single day where I did not learn or had to learn. And the learning is so embraced and embedded that blocking time during my week for learning is totally accepted - we even have organized learning days.  
+In the past year, I have learned so much and there was not a single day where I did not learn or had to learn. And the learning is so embraced and embedded in the company culture that blocking time during my week for learning is totally accepted - we even have organized learning days.  
 In the following section I want to emphasize that a little more:
 
 ### Infrastructure
