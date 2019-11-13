@@ -20,7 +20,7 @@ In this post, I will try to summarize the past year and very first year at Micro
 
 ## Cloud Solution Architect
 
-In October 2018, after only three weeks of hiring process, I was eager to join Microsoft. I landed my dream job (Cloud Solution Architect) in a dream team with an awesome manager. The role that initially sounded like a lot of marketing and pre-sales, but is very very technical (really!). Even with a ton of Azure knowledge and large-scale project experience, I am learning new stuff on a daily basis. Combine that with the Microsoft organizational complexity and - it's quite some fun!  
+In October 2018, after only three weeks of hiring process, I was eager to join Microsoft. I landed my dream job (Cloud Solution Architect) in a dream team with an awesome manager. The role that initially sounded like a lot of marketing and pre-sales, but is very very technical (really!). Even with a ton of Azure knowledge and large-scale project experience, I am learning new stuff daily. Combine that with the Microsoft organizational complexity and - it's quite some fun!  
 And I *thought*, as former MVP, I knew Microsoft in and out!
 
 There are multiple ways to live the role, but now, one year in the role, I help customers on their Azure cloud journey:
@@ -53,9 +53,9 @@ We now have more than 100 architects working in Germany alone and every person b
 
 Pretty much everything in the Cloud Solution Architect (CSA) role, circles around the customer - 'customer-centricity' is what we use internally for that. In other words, we are advocates for the customer, help them get heard in the development teams, be the voice of the customer to our Microsoft product team - and get the most out of Azure.
 
-After joining I landed in the Financial Services and Insurance (FSI) sector, where we focus on all mayor German customers - and talking mayor, all of them are huge and with that have huge challenges in adopting cloud technologies. So if you think that something works great, throw 100.000 concurrent user at it and it will definitely tell you very clearly that there is room for improvement.
+After joining I landed in the Financial Services and Insurance (FSI) sector, where we focus on all mayor German customers - and talking mayor, all of them are huge and with that have huge challenges in adopting cloud technologies. So if you think that something works great, throw 100.000 concurrent users at it and it will tell you very clearly that there is room for improvement.
 
-While some of the customers have near zero cloud adoption ambitions, some of them have everything in the cloud - And this is what I like so much! I like the different stages and the great flexibility we have, to help the customers understanding what is required to tackle the next step in cloud maturity.
+While some of the customers have near-zero cloud adoption ambitions, some of them have everything in the cloud - And this is what I like so much! I like the different stages and the great flexibility we have, to help the customers understanding what is required to tackle the next step in cloud maturity.
 
 ## Always Learning
 
@@ -65,17 +65,17 @@ While some of the customers have near zero cloud adoption ambitions, some of the
   The Learn-It-All Does Better Than the Know-It-All
 {{< /blockquote >}}
 
-In the past year, I have learned so much and there was not a single day where I did not learn or had to learn. In the following section I want to emphasize on that a little more:
+In the past year, I have learned so much and there was not a single day where I did not learn or had to learn. In the following section I want to emphasize that a little more:
 
 ### Infrastructure
 
-In my past I focused mainly on web-related development technologies - infrastructure topics were really not in my comfort zone - but when you scroll through my previous blog posts, you might notice a transition.
+In my past I focused mainly on web-related development technologies - infrastructure topics were not in my comfort zone - but when you scroll through my previous blog posts, you might notice a transition.
 
 This is mainly because my customer has tons of infrastructure-related questions - and with my strong development background I simply could not answer those in-depth - and I had to learn!
 Most of the time reading our docs was pretty helpful, but working at Microsoft gives you access to much more. Most importantly incredibly smart and helpful colleagues and a short Teams message or mail helped me. And in the end, I could transfer my knowledge to the customer.
 After about half a year I felt pretty confident with all these networking topics, still need to look up how many IPs are in a /27 subnet though.
 
-In July then I decided to do the [AZ-300 (Microsoft Azure Architect Technologies)](https://docs.microsoft.com/en-us/learn/certifications/exams/az-300) exam. One of the most realistic exam I encountered so far, because it covered the architecture challenges of the past half-year. Good stuff.
+In July then I decided to do the [AZ-300 (Microsoft Azure Architect Technologies)](https://docs.microsoft.com/en-us/learn/certifications/exams/az-300) exam. One of the most realistic exams I encountered so far because it covered the architecture challenges of the past half-year. Good stuff.
 
 ### Azure Certifications
 
@@ -83,14 +83,14 @@ But the AZ-300 and AZ-301 were not the only certifications I have done in the la
 
 ### Learning, things other than Azure
 
-So technical skilling and learning is super important - but Microsoft embraces a holistic approach and even the typically quite boring "standards of business conduct" (SBC) are epic. See this thread by clicking on the twitter icon in the top right for more insights about it:
+So technical skilling and learning are super important - but Microsoft embraces a holistic approach and even the typically quite boring "standards of business conduct" (SBC) are epic. See this thread by clicking on the twitter icon in the top right for more insights about it:
 {{< tweet 1018745458628235264 >}}
 
 ### OpenHack
 
 {{< fancybox "images" "Openhack.jpg" "OpenHack in Munich - Container all the things!" "single_image" >}}
 
-One of my learning experience highlights is, again, the so called OpenHack. I have done two OpenHacks before joining Microsoft, and two in the last year alone. And I cant stress it enough - if it's possible for you, go attend one! They are free, fun - and if learning in a small group with a smart proctor on real-world challenges is your thing - then go sign up: https://openhack.microsoft.com/
+One of my learning-experience highlights is, again, the so-called OpenHack. I have done two OpenHacks before joining Microsoft, and two in the last year alone. And I can't stress it enough - if it's possible for you, go attend one! They are free, fun - and if learning in a small group with a smart proctor on real-world challenges is your thing - then go sign up: https://openhack.microsoft.com/
 
 My OpenHacks covered the following topics:
 
@@ -98,6 +98,14 @@ My OpenHacks covered the following topics:
 2. IoT + Data
 3. DevOps (again, customer-specific)
 4. Containers
+
+And there are more topics:
+
+1. Serverless
+2. Intelligent Bots
+3. Modern Data Warehousing
+4. AI-Powered Knowledge Mining
+5. App Modernization with NoSQL
 
 The container OpenHack was awesome - the exercises made sense and with all this hands-on experience and the smart people that I am now connected with - it makes my life easier. It took you out of the comfort zone, in a good way, and I now feel really at ease answering questions about it without always bothering the container champs (subject matter experts) we have at Microsoft. Kubernetes all the things!
 
@@ -118,7 +126,7 @@ So last year we hosted, [AzureSaturday Munich](https://AzureSaturday.de), the th
 {{< fancybox "images" "AzureSaturday.jpg" "AzureSaturday 2019 in Munich" "single_image" >}}
 
 End of November I will support the O365 community and co-organize the next [SharePoint & O365 Saturday 2019 - Munich](https://spsmuc.info) event.
-Additionally I spoke at about two or three community events and gave a workshop at [Techorama in Belgium](https://techorama.be) - that was great fun!
+Additionally, I spoke at about two or three community events and gave a workshop at [Techorama in Belgium](https://techorama.be) - that was great fun!
 
 ## Closing
 
