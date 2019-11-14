@@ -1,6 +1,6 @@
 ---
 title: "My First Year at Microsoft - Things I learned"
-date: 2019-10-16T11:47:35+02:00
+date: 2019-11-14T10:47:35+02:00
 2019: "10"
 author: "Max Melcher"
 categories:
