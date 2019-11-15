@@ -134,7 +134,7 @@ Additionally, I spoke at about two or three community events and gave a workshop
 I had a very successful and fun first year - and I am looking forward to the next. If you have questions or want to know more about anything at Microsoft, please feel free to put it in the comments down below or [send me a message](/contact/)/[LinkedIn](https://www.linkedin.com/in/maxmelcher/).
 
 And if you want to become a Cloud Solution Architect at Microsoft yourself, give it a try and apply! We are hiring:
-[careers.microsoft.com](https://careers.microsoft.com/professionals/us/en/search-results?keywords=cloud%20solution%20architec)
+[careers.microsoft.com](https://aka.ms/TechSalesCareers)
 
 Special mention: I want to thank my manager Nadine, for giving me a chance and for a super awesome year - always taking time and getting things in motion! THANK YOU!
 
