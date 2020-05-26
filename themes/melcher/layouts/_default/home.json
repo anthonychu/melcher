@@ -1,6 +1,4 @@
-[
-    {{ range $index, $e := (where .Site.RegularPages "Section" "not in" (slice "s" "draft")) }}
-    {{ if $index }}, {{ end }}
+[{{ range $index, $e := (where .Site.RegularPages "Section" "not in" (slice "s" "draft")) }}{{ if $index }},{{ end }}
     {
       "url": {{ .Permalink | jsonify }},
       "title": {{ .Title | jsonify }},
@@ -16,6 +14,4 @@
       {{else}}
       "feature": "/melcher.dev.png"
       {{end}}
-    }
-    {{- end }}
-]
+    }{{- end }}]
