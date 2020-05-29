@@ -10,8 +10,21 @@ tags:
   - Wordpress
   - Hugo
   - Performance
-featured: "images/featured.jpg"
+featured: "images/homeoffice.jpg"
 featuredalt : ""
 hashtags: 
   - "#azure"
 ---
+
+PC Upgrade
+  Rayzen
+  RAM
+  Motherboard
+Keyboard
+Brio
+Maus 
+Lichter
+Eve
+Drucker
+Headset
+Mousepad
