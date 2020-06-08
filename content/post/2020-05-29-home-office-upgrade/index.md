@@ -1,6 +1,6 @@
 ---
 title: "Upgrading my Home Office"
-date: 2020-06-09T23:44:59+02:00
+date: 2020-06-08T20:44:59+02:00
 2020: "06"
 author: "Max Melcher"
 categories:
@@ -10,7 +10,7 @@ tags:
 featured: "images/homeoffice.jpg"
 featuredalt : "Upgrading my Home Office"
 hashtags: 
-  - "#WFH"
+  - "#WfH"
 ---
 
 Given the COVID-19 situation and the flexibility I have working for Microsoft, I decided to invest a little bit in my home office and upgrade a few things here and there - I spent more than 8 hours in my home office every day, so every  penny spent is a good investment, right? <!--more-->
