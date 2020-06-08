@@ -49,6 +49,9 @@ enableRobotsTXT = true
   hrefTargetBlank = true
   noreferrerLinks = true
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [params]
   # Sets the meta tag description
   description          = "Blog of Max Melcher about Azure, DevOps, Cloud Architecture and other stuff - personal and opinionated!"
