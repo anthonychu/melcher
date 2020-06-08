@@ -1,7 +1,7 @@
 ---
 title: "Upgrading my Home Office"
-date: 2020-05-29T13:44:59+02:00
-2020: "05"
+date: 2020-06-09T23:44:59+02:00
+2020: "06"
 author: "Max Melcher"
 categories:
   - Work
