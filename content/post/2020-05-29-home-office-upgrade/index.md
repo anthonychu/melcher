@@ -39,7 +39,7 @@ If my wife and kid are around, then I typically switch to my headset [ASTRO Gami
 
 ## Environmental things
 I am a big fan of Hue lights - the automation possibilities are really great. Therefore I bought a couple of them and added some magic to it. When someone rings the doorbell, only the lights blink - no noise that could bother me. Quite helpful when the kid sleeps, too. 
-For some ambient lights, I bought two [Hue Ambiance Light bars](https://amzn.to/30oKwfT) and turned them to the wall - with the hue sync app it is a really great experience especially during the night or when gaming!
+For some ambient lights, I bought two [Hue Ambiance Light bars](https://amzn.to/2XLGX1s) and turned them to the wall - with the hue sync app it is a really great experience especially during the night or when gaming!
 Additionally I bought an [EVE Room 2](https://amzn.to/3gAE37m) to monitor the air quality (if it decreases, one Hue light turns red) and the temperature. The runtime of this gadget with the e-ink display is like a month.
 
 For the past couple of years I could perfectly live without a printer - but - staying at home changed this. Therefore I bought a color laser printer ([HP Color Laser 179fwg](https://amzn.to/2ZM0Dnv)). At first I thought the Wifi-integration is not needed, but I printed several times from my iPhone and that is really cool! 
