@@ -1,5 +1,5 @@
 ---
-title: "Azure Metadata Service or: I lost my VM, where is it?"
+title: "Azure Metadata Service - or: I lost my VM, where is it?"
 date: 2020-07-17T19:05:29+02:00
 2020: "07"
 author: "Max Melcher"
