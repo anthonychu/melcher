@@ -63,19 +63,19 @@ The sound still gives me heebie-jeebies 🙂
 
 Pictures tell more than thousand words - here we go:
 
-{{< fancybox "/wp-content/uploads/" "WP_20151016_15_18_32_Pro1.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "WP_20151016_15_18_32_Pro1.jpg" "" "single_image" >}}
 
-{{< fancybox "/wp-content/uploads/" "WP_20151016_15_19_10_Pro1.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "WP_20151016_15_19_10_Pro1.jpg" "" "single_image" >}}
 
-{{< fancybox "/wp-content/uploads/" "G0060808.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "G0060808.jpg" "" "single_image" >}}
 
-{{< fancybox "/wp-content/uploads/" "G0060915.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "G0060915.jpg" "" "single_image" >}}
 
-{{< fancybox "/wp-content/uploads/" "G0060768.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "G0060768.jpg" "" "single_image" >}}
 
-{{< fancybox "/wp-content/uploads/" "G0060851.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "G0060851.jpg" "" "single_image" >}}
 
-{{< fancybox "/wp-content/uploads/" "WP_20151014_19_02_53_Pro.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "WP_20151014_19_02_53_Pro.jpg" "" "single_image" >}}
 
 ## Closing
 
