@@ -41,7 +41,7 @@ If you have FAST for SharePoint installed the refiner count worked flawlessly bu
 
 The refiner count is still possible with SharePoint 2013 – the concept is not new but the implementation has changed. And as already mentioned, the count is disabled by default:
 
-{{< fancybox "/wp-content/uploads/" "refinercount_disabled.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "refinercount_disabled.png" "" "single_image" >}}
 
 As you might know, you can change the rendering/design of elements with Display Templates in SharePoint 2013, most importantly for search results – this also applies to refiners – which is great if you ask me. Basically all you have to do is change the Display Template for the Refiner Filter which is a html file and you are good to go.
 
@@ -63,7 +63,7 @@ Change the lines (replace the false with the true in line 2) to:
 
 And voila, the refiner count is visible:
 
-{{< fancybox "/wp-content/uploads/" "refinercount_visible.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "refinercount_visible.png" "" "single_image" >}}
 
 ## 
 
@@ -136,7 +136,7 @@ or add -hide to hide the refiner count again:
 
 <pre lang="&quot;powershell">Enable-RefinerCount.ps1 –siteUrl http://sharepoint2013 –hide</pre>
 
-{{< fancybox "/wp-content/uploads/" "refinercount_powershell.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "refinercount_powershell.png" "" "single_image" >}}
 
 ## Pretty easy, isn't it?
 

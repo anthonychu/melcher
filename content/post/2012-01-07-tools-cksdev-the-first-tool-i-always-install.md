@@ -43,13 +43,13 @@ CKSDev - Community Kit for SharePoint: Development Tools Edition
 
 It really speeds up my daily work - quick "deploy" is awesome same is "attach to all SharePoint processes" for debugging!
 
-{{< fancybox "/wp-content/uploads/" "cksdev.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "cksdev.png" "" "single_image" >}}
 
 ## How to get it:
 
 <a title="CKSDev project site" href="http://cksdev.codeplex.com" target="_blank">CKSDev.codeplex.com</a> or in the Visual Studio Extension:
 
-{{< fancybox "/wp-content/uploads/" "Bildschirmfoto-2012-01-07-um-13.17.08.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "Bildschirmfoto-2012-01-07-um-13.17.08.png" "" "single_image" >}}
 
 ## I am a plugin hunter!
 

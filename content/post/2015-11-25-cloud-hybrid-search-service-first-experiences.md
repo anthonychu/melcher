@@ -37,7 +37,7 @@ The setup in this case is the most challenging here, at least from the requireme
 
 The user experience is a little cumbersome in my eyes, because you don't have a single, combined result set. Sorting and refining both works, but having two different rankings - or in other words: the two search systems shows the user the two best results - but there should be only one right?
 
-{{< fancybox "/wp-content/uploads/" "hybrid_inbound.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "hybrid_inbound.jpg" "" "single_image" >}}
 
 &nbsp;
 
@@ -51,7 +51,7 @@ The setup is almost the same as with the inbound hybrid - but you don't need a r
 
 #### User Experience
 
-{{< fancybox "/wp-content/uploads/" "hybrid_outbound.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "hybrid_outbound.jpg" "" "single_image" >}}
 
 As already mentioned, this is the inverse setup, so everything from inbound hybrid applies here too.
 
@@ -73,7 +73,7 @@ Starting September 7th there is a new preview option available for hybrid searc
 
 In the following screenshot you can see my on-premises Cloud Search Service Application up and running - from a UI perspective there is no directly visible indication that this is a cloud hybrid search service - except the name that I provided of course.
 
-{{< fancybox "/wp-content/uploads/" "CloudHybridSearchSErviceApplication.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "CloudHybridSearchSErviceApplication.png" "" "single_image" >}}
 
 What I really like here is the option to connect on-premises Content with SharePoint Online - you can even index **SharePoint 2007** or **SharePoint 2010** and bring it to your users. **Fileshares** - yes, that works too. Or imagine you have multiple farms in multiple countries - maybe even with weak network connections between them. Ever tried to remotely crawl a farm from Europe to Asia? Not the best experience, I can tell! But with the new cloud hybrid search service you can **combine the index in the cloud** - and get rid of some on-premises servers (less SharePoint Server licenses, less patching & maintenance, less hardware). Of course you need SharePoint Online licenses for your users tho - my went for E1 to get going.
 
@@ -98,7 +98,7 @@ If you don't use those features yet and not legally bound to stick on-premises i
 
 The user experience is by far the best for this setup. The key point for me is that the user most of the time do not care if this content is from on-premises or SharePoint Online (or hidden in whatever information silo) - most of the times they even do not know it. Most importantly they get the most relevant result from all the available systems presented in the nice and customizable Search Center:
 
-{{< fancybox "/wp-content/uploads/" "Hybrid_SPO.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "Hybrid_SPO.png" "" "single_image" >}}
 
 No UI clutter with a single result block - perfect for many many users. I like it, too.
 

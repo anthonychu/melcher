@@ -33,7 +33,7 @@ Because it sounds cool - and because we do not only talk about (SharePoint) sear
  12. Major events & conferences this year (e.g. Microsoft Ignite in Atlanta)
  13. IaaS, Saas, Paas and all the new options available in a "cloud first, mobile first" world.
 
-{{< fancybox "/wp-content/uploads/" "painkiller.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "painkiller.jpg" "" "single_image" >}}
 
 The list could go on and on because we are a really diverse group of IT professionals, IT vendors, partners and customers - and the mix makes the fun!
 

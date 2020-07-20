@@ -24,9 +24,9 @@ categories:
 ---
 Germany's latest and greatest SharePoint community event was last weekend (30.05.2015 & 31.05.2015 at Microsoft in Munich) - and it was awesome, once again!
 
-{{< fancybox "/wp-content/uploads/" "sharecamp_sessionvote2.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "sharecamp_sessionvote2.jpg" "" "single_image" >}}
 
-{{< fancybox "/wp-content/uploads/" "sharecamp_sessionvote.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "sharecamp_sessionvote.jpg" "" "single_image" >}}
 
 ## 
 
@@ -40,7 +40,7 @@ Germany's latest and greatest SharePoint community event was last weekend (30.05
 
 What is so special about [ShareCamp][1]? Easy question, it is entirely community-driven. On both days, Saturday and Sunday, there is a session vote before the "conference" starts. So the attendees prepare presentations and do a short intro during the vote - if more than 3 people raise their hand there will be a session and there were lots of em. **6 tracks** in parallel if I recall it right. And the concept works for many years now, **more than 200 attendees** had a good time this year! Not to mention the SharePint party. The good thing here? No only experienced and known speakers get the chance to present their ideas. And not only the mainstream sessions get voted - there were a lot of close to or far way from SharePoint sessions. And I met a lot of old SharePoint friends that are spread over the country - good to see ya! 🙂
 
-{{< fancybox "/wp-content/uploads/" "Alegri-Team.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "Alegri-Team.jpg" "" "single_image" >}}
 
 ## 
 
@@ -78,7 +78,7 @@ Expect some blog posts here, I really like Azure Search!
 
 My second session on Saturday with my colleagues Marco Schmucker and Matthias Edom - we talked about the blessings and curses of JavaScript solutions - what you can do and what it will cost you/your clients. The entire session was based on the scenario that you upgrade you SharePoint to a next version and should estimate how much effort you have to put into it - and what could essentially break. And we discussed with the audience, we gather a lot of different aspects and experiences. Good fun!
 
-{{< fancybox "/wp-content/uploads/" "ScriptingAndGovernance.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "ScriptingAndGovernance.jpg" "" "single_image" >}}
 
 &nbsp;
 
@@ -120,7 +120,7 @@ The weekend was packed and I learned a lot - I totally enjoyed it. I am really l
 
 Thanks again to all sponsors, organizers and speakers - Germany's SharePoint community would not work without you!
 
-{{< fancybox "/wp-content/uploads/" "Raffle.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "Raffle.jpg" "" "single_image" >}}
 
  [1]: http://melcher.it/s/50
  [2]: http://melcher.it/s/4X

@@ -42,13 +42,13 @@ The tool from now then takes care of the api-key header.
 
 As of now, the tool will show you all available indexes. The schema / fields and types will be visible soon in the "Index" tab. If you want to change the index after you selected one, click in the menu on "Connection" and then on "Index".
 
-{{< fancybox "/wp-content/uploads/" "AzureSearch_Connection.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "AzureSearch_Connection.png" "" "single_image" >}}
 
 ### Search
 
 In the Search section of the tool you have the option to craft queries and test them against the selected index. The tool supports you to create a query that uses the important options with an easy interface (try that with [Postman][4] - not as convenient, right?).
   
-{{< fancybox "/wp-content/uploads/" "AzureSearch_Search.png" "" "single_image" >}}[5]
+{{< fancybox "/wp-content/uploads" "AzureSearch_Search.png" "" "single_image" >}}[5]
 
 By now **$top**, **$skip**, **$filter** and **api-version** are implemented - the rest of the options will follow soon. Maybe I add validation and some examples, too.
 
@@ -58,7 +58,7 @@ Once you have changed the parameters, the URL in the top will be changed so that
 
 You need the raw JSON data that is returned by Azure Search? You want it pretty? Click on "Raw" to get the results as it is returned by Azure Search.
 
-{{< fancybox "/wp-content/uploads/" "AzureSearchTool_Raw.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "AzureSearchTool_Raw.png" "" "single_image" >}}
 
 ## Future
 

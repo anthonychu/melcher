@@ -58,6 +58,6 @@ Get-SPManagedAccount | select UserName, @{Name="Password"; Expression={ConvertTo
 
 See:
 
-{{< fancybox "/wp-content/uploads/" "GetManagedAccountPasswords.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "GetManagedAccountPasswords.png" "" "single_image" >}}
 
 The output is a nice table with all passwords in plain text - unexpected but nice, isn't it?

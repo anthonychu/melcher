@@ -27,7 +27,7 @@ SP2013: Provider Hosted Apps, SharePoint Hosted Apps, App Parts
 
 Good analogy – SharePoint developer will be transformed to Web Developer – we are responsible for greater parts now.
 
-{{< fancybox "/wp-content/uploads/" "IMG_1732.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "IMG_1732.jpg" "" "single_image" >}}
 
 ## Responsive App Parts / iFrames
 

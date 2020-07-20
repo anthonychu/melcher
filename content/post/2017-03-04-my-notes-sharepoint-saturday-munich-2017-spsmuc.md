@@ -24,7 +24,7 @@ So this was my inaugural **SharePoint Saturday** in my hometown **Munich** - the
 
 Hosted directly in the Microsoft headquarter in Munich (awesome office!) - with more than 400 attendees this will be fun!
 
-{{< fancybox "/wp-content/uploads/" "spsmuc2017_agenda-e1488624720564.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "spsmuc2017_agenda-e1488624720564.jpg" "" "single_image" >}}
 
 My agenda and some brief notes are below - the full agenda and the list of awesome speakers is [here][1].
 
@@ -46,7 +46,7 @@ Launch card, launch video and launch party: Well, that's a cool starting point t
 
 Well, what could be worse of a great portal and nobody uses it, right? So I will keep lots of those tips and tricks in mind!
 
-{{< fancybox "/wp-content/uploads/" "O365-Adoption.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "O365-Adoption.jpg" "" "single_image" >}}
 
 ### #SPSMUC03: Pushing the Boundaries - A Deep-Dive into Real-World SharePoint Add-In
 
@@ -54,9 +54,9 @@ by [Eric Shupps(@eshupps][2])
 
 Eric shared a lot of his experiences with apps - from expiring tokens, to expiring apps - and where can host your apps. All those options come with different possibilities (!!!) , but great overview to get started.
 
-{{< fancybox "/wp-content/uploads/" "spsmuc2017_apps2.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "spsmuc2017_apps2.jpg" "" "single_image" >}}
 
-{{< fancybox "/wp-content/uploads/" "spsmuc2017_apps1.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "spsmuc2017_apps1.jpg" "" "single_image" >}}
 
 > You don't control the costs
 
@@ -66,7 +66,7 @@ Eric showed a nice demo from Office PnP about [throttling][4] and REST - cool s
 
 Another one: Think and play through the removal of your app - there are some missing pieces.
 
-[{{< fancybox "/wp-content/uploads/" "spsmuc2017_apps3.jpg" "" "single_image" >}}][5]
+[{{< fancybox "/wp-content/uploads" "spsmuc2017_apps3.jpg" "" "single_image" >}}][5]
 
 > If you don't wanna sleep at night - build your own provisioning engine!
 
@@ -90,9 +90,9 @@ Autocomplete for the control bindings, every InfoPath dev or PowerUser would lov
 
 &nbsp;
 
-{{< fancybox "/wp-content/uploads/" "spsmuc2017_powerapps-2.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "spsmuc2017_powerapps-2.jpg" "" "single_image" >}}
 
-{{< fancybox "/wp-content/uploads/" "spsmuc2017_powerapps-3.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "spsmuc2017_powerapps-3.jpg" "" "single_image" >}}
 
 > Rename all the controls!
 
@@ -106,13 +106,13 @@ by [Thomas Vochten (@ThomasVochten)][9]
 
 Search Search Search - I just cant get enough of it. I gave a similar talk in Brussels last year, but its of course totally interesting how Thomas presents that topic, whats important for him and then of course "steal" all the good parts 🙂
 
-[{{< fancybox "/wp-content/uploads/" "spsmuc2017_hybridsearch-2.jpg" "" "single_image" >}}][10]
+[{{< fancybox "/wp-content/uploads" "spsmuc2017_hybridsearch-2.jpg" "" "single_image" >}}][10]
 
 Thomas gave a very concise overview of the search architecture and the options - and then compared the functionality of the past with all we get by using hybrid search: unified index, ranking, refiners and unify everything from remote repositories to one index. Awesome! If you want to check all the tiny details, [check this post][11].
 
 &nbsp;
 
-{{< fancybox "/wp-content/uploads/" "spsmuc2017_hybridsearch-1.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "spsmuc2017_hybridsearch-1.jpg" "" "single_image" >}}
 
 eDiscovery and Compliance benefit of the hybrid search (cool) - and a big chapter about security especially security trimming.
 

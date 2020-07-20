@@ -38,7 +38,7 @@ Why I love the tool?
 
 Additionally, just yesterday I solved an issue with the ULSViewer where the coloring and the real-time functionally was a major part of the issue identification.
 
-{{< fancybox "/wp-content/uploads/" "SP2013-WIN2012R2-SQL2014-DEV2014-SP1-on-R9-HV1TP-MUC-Virtual-Machine-Connectio_2014-06-03_10-55-30.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "SP2013-WIN2012R2-SQL2014-DEV2014-SP1-on-R9-HV1TP-MUC-Virtual-Machine-Connectio_2014-06-03_10-55-30.png" "" "single_image" >}}
 
 ## BringBackULSViewer.com
 
@@ -48,7 +48,7 @@ Trevor Seward ([@NaupliusTrevor][1]) launched a [page][2] to express that we wan
 
 If you did not participate in the [survey][4] - please do so now! Collecting our voices helps!
 
-{{< fancybox "/wp-content/uploads/" "https___onedrive.live_.com_survey_residCBCE97C71A32BCAE7278authkeyAPsm6fKZjm_2014-06-04_11-16-53.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "https___onedrive.live_.com_survey_residCBCE97C71A32BCAE7278authkeyAPsm6fKZjm_2014-06-04_11-16-53.png" "" "single_image" >}}
 
 ## How to still get it?
 

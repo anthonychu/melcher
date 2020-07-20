@@ -28,7 +28,7 @@ Installing software with chocolatey is quite simple - just open a CMD and copy t
 
 Thats it - you now can install packages with Powershell. Pretty easy! Currently there are over 1000 packages available - I automated my whole environment with it. For the SharePoint Tooling its a little different, but at least 19 tools are available, yet.
 
-{{< fancybox "/wp-content/uploads/" "Chocolatey-Gallery-_-Packages_2013-06-16_16-50-20.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "Chocolatey-Gallery-_-Packages_2013-06-16_16-50-20.png" "" "single_image" >}}
 
 ## SharePoint Packages
 
@@ -72,7 +72,7 @@ After running the command from above, open a new PowerShell and type
 
 and SharePoint Designer is installed for you:
   
-{{< fancybox "/wp-content/uploads/" "sharepoint2013-Remote-Desktop-Connection_2013-06-16_17-16-47.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "sharepoint2013-Remote-Desktop-Connection_2013-06-16_17-16-47.png" "" "single_image" >}}
 
 ## Something missing?
 

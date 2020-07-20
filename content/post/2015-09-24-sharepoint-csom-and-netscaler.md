@@ -23,11 +23,11 @@ I am currently preparing a test dataset for a SharePoint WebPart to see how it s
 
 The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.
 
-{{< fancybox "/wp-content/uploads/" "2015-09-23-18_24_02-ProvideTestData-Debugging-Microsoft-Visual-Studio-Administrator.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "2015-09-23-18_24_02-ProvideTestData-Debugging-Microsoft-Visual-Studio-Administrator.png" "" "single_image" >}}
 
 The client uses https/SSL to secure the channel (good!), but the netscaler load balancer does not provide the correct certificate (I think that could be configured, but that's not my job here&#8230;) and does a redirect to a different domain (**netscaler.**yourdomain.com) for authentication:
 
-{{< fancybox "/wp-content/uploads/" "Netscaler-Login-‎-Microsoft-Edge.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "Netscaler-Login-‎-Microsoft-Edge.png" "" "single_image" >}}
 
 So CSOM correctly stops - oldy but goldy, right?
 
@@ -45,7 +45,7 @@ Once the SSL challenge is accepted, we have to take care of the authentication p
 
 [Fiddler][1] quickly confirmed my assumption - after login via the citrix interface, every call uses cookies for authentication:
 
-{{< fancybox "/wp-content/uploads/" "2015-09-23-18_39_23-Fiddler-Web-Debugger1.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "2015-09-23-18_39_23-Fiddler-Web-Debugger1.png" "" "single_image" >}}
 
 On the left you can see the 302 redirect to a different domain. Once I provided the login credentials it sets 4 cookies.
 

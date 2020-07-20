@@ -22,15 +22,15 @@ For this article I assume that you have your SharePoint App up and running on Az
 
 ## Register the custom domain on Azure
 
-{{< fancybox "/wp-content/uploads/" "azure-website-custom-domain.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "azure-website-custom-domain.png" "" "single_image" >}}
 
 First things first - tell the azure website that it will have a new hostname to respond to. Therefore go to the azure portal, open your website and click on "custom domain". Then add your domain or subdomain that should be the new entry point of your app. Once you have done that, you need to validate the websites by adding a txt record to your nameserver with the value * mapped to .azurewebsites.net - full guide is [here][1].
 
-{{< fancybox "/wp-content/uploads/" "domain-validation-1.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "domain-validation-1.png" "" "single_image" >}}
 
 After validation was successfully it should look like that:
 
-{{< fancybox "/wp-content/uploads/" "azure-hostname.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "azure-hostname.png" "" "single_image" >}}
 
 For the custom domain you need at least a shared instance tier for your azure website.
 
@@ -54,7 +54,7 @@ There is a really great organization that provides free SSL certificates - [Let'
 
 The installation was really straightforward for me and is [well documented here][6] - I added the extension (choose the correct version for 32 or 64bit!), register a new service principal and give it contribute permissions - open the extension site https://.scm.azurewebsites.net/letsencrypt/ and enter all the required values:
 
-[{{< fancybox "/wp-content/uploads/" "LetsEncryptExtensionSettings.png" "" "single_image" >}}][7]
+[{{< fancybox "/wp-content/uploads" "LetsEncryptExtensionSettings.png" "" "single_image" >}}][7]
 
 Once you save it the magic happens - two webjobs will be registered that request a new certificate, register them and two weeks before expiry renew them automatically for you. Awesomesauce!
 
@@ -64,9 +64,9 @@ For the custom ssl certificate you need at least a basic app service plan.
 
 So once you have done all that you will have a nice domain for your app - giving your users trust and easy to recall entry to your business application - and all that is free with zero maintenance. And all your browsers love it, too:
 
-{{< fancybox "/wp-content/uploads/" "chrome-secure.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "chrome-secure.png" "" "single_image" >}}
 
-{{< fancybox "/wp-content/uploads/" "IE-trust.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "IE-trust.png" "" "single_image" >}}
 
 &nbsp;
 

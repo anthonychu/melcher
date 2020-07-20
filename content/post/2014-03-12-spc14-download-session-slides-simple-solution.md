@@ -47,7 +47,7 @@ Attended SPC14 in Las Vegas and want to download all slides? Here we go with a r
 window.open(elem.href.replace('sharepointconference', '/api/v1') + '/download');
 });</pre>
 
-{{< fancybox "/wp-content/uploads/" "2014-03-12_10-39-47.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "2014-03-12_10-39-47.png" "" "single_image" >}}
 
 If there is a popup warning allow them always and rerun the script.
   
@@ -55,7 +55,7 @@ If there is a popup warning allow them always and rerun the script.
 
 6. Click on save until all files are downloaded.
 
-{{< fancybox "/wp-content/uploads/" "Downloads_2014-03-12_11-02-33.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "Downloads_2014-03-12_11-02-33.png" "" "single_image" >}}
 
 ## Other options
 

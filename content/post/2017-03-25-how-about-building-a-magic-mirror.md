@@ -17,7 +17,7 @@ It was winter, dark and cold outside, maybe rainy - something must have been rea
 
 ## Magic Mirror - the idea
 
-{{< fancybox "/wp-content/uploads/" "magicmirrormain.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "magicmirrormain.jpg" "" "single_image" >}}
 
 > “It’s called a ‘Magic Mirror’, but a more accurate name would be a ‘Smart Mirror’,” Bradley tells us. “It’s a mirror that displays the information you need to know at a quick glance: the time, the date, the weather, and of course a compliment!” &#8212; https://www.raspberrypi.org/magpi/magic-mirror/
 
@@ -37,7 +37,7 @@ I never thought that getting the first thing to work was so easy. Actually it to
 
 4 easy steps and ~1 hour later - the result looked like this:
 
-[{{< fancybox "/wp-content/uploads/" "magicmirror-software.jpg" "" "single_image" >}}][4]
+[{{< fancybox "/wp-content/uploads" "magicmirror-software.jpg" "" "single_image" >}}][4]
 
 &nbsp;
 
@@ -65,9 +65,9 @@ Step 7: Glue everything together
 
 Followed by being super happy about the result:
 
-{{< fancybox "/wp-content/uploads/" "magicmirror-hardware.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "magicmirror-hardware.jpg" "" "single_image" >}}
 
-{{< fancybox "/wp-content/uploads/" "20170326_151426474_iOS-e1490541394758.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "20170326_151426474_iOS-e1490541394758.jpg" "" "single_image" >}}
 
 OK - that was a little abbreviated and sounded too easy - I followed [this guide][5] and got a lot of help from the building supplies store guys - and I am thankful for that 🙂
 

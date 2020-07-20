@@ -21,7 +21,7 @@ categories:
 ---
 300 attendees on a Saturday - all “SharePoint-crazy”. Its my first visit to Belgium and I must say: I am impressed of the community and the spirit here. In the following I recap SharePoint Saturday 2015 in Antwerp.
 
-{{< fancybox "/wp-content/uploads/" "antwerp1.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "antwerp1.png" "" "single_image" >}}
 
 &nbsp;
 

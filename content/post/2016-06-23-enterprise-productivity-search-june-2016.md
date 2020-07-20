@@ -23,9 +23,9 @@ Dave told us how easily it is to setup App Insights and add it to a page to trac
 
 ## Pictures!
 
-{{< fancybox "/wp-content/uploads/" "WP_20160606_21_06_54_Pro.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "WP_20160606_21_06_54_Pro.jpg" "" "single_image" >}}
 
-{{< fancybox "/wp-content/uploads/" "WP_20160606_18_52_22_Pro-e1466410945861.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "WP_20160606_18_52_22_Pro-e1466410945861.jpg" "" "single_image" >}}
 
 ## Are you in Munich? Join us!
 

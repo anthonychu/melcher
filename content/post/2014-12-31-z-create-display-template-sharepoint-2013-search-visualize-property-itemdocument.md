@@ -33,7 +33,7 @@ Each display template consists of two files: a HTML version of the Display Templ
 
 The following screenshot shows a typical SharePoint 2013 Search Center, with the 3 components that can be easily adapted: Item Display Template, Item Hover display template and the action bar.
 
-{{< fancybox "/wp-content/uploads/" "MEL-A1.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "MEL-A1.png" "" "single_image" >}}
 
 (1) Item Display Template for a PowerPoint hit
   
@@ -49,7 +49,7 @@ In the following 5 steps I will show you how to customize the Display Template f
 
 To view an additional document property, it must be available on at least one document / list item. For this simple example, I created a text column "technologie" and filled it with values:
 
-{{< fancybox "/wp-content/uploads/" "MEL-A2.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "MEL-A2.png" "" "single_image" >}}
 
 &nbsp;
 
@@ -59,11 +59,11 @@ To view an additional document property, it must be available on at least one d
 
 How can this additional value be used in SharePoint Search now? Automatically? Nope, unless its a site colum that you added to the list (see <a href="http://melcher.it/s/3N" target="_blank">here</a>). Otherwise a so-called Managed Property  must be created now. To do this, go to Site Collection Administration - in SharePoint 2010 you had to go to Central Admin and had to be a farm administrator so this is a big step forward - and there then click on Search Schema. In the tab Managed Properties create a new property:
 
-{{< fancybox "/wp-content/uploads/" "MEL-A3.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "MEL-A3.png" "" "single_image" >}}
 
 In the dialog create a property with a name, here its "Technologie". Select retrievable and add at the very end of the page a mapping. The crawled property is called ows_technologie, just add it to the mapping:
 
-{{< fancybox "/wp-content/uploads/" "MEL-A4.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "MEL-A4.png" "" "single_image" >}}
 
 &nbsp;
 
@@ -71,7 +71,7 @@ In the dialog create a property with a name, here its "Technologie". Select retr
 
 If no value is displayed, the SharePoint search has not found the new column during a crawl. If you want to speed things up (its not like you have lots of choices here), go to Central Administration and start the crawl there. Once the crawled property is displayed, add it, and save the Managed Property with OK. After this the summary page for technology should look like this:
 
-{{< fancybox "/wp-content/uploads/" "MEL-A5.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "MEL-A5.png" "" "single_image" >}}
 
 &nbsp;
 
@@ -93,7 +93,7 @@ As last step create a new line after line 38 and insert the following text:
 
 The file should look like this now:
 
-{{< fancybox "/wp-content/uploads/" "MEL-A6.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "MEL-A6.png" "" "single_image" >}}
 
 With this new HTML tag, a new row is displayed in the display template - the **ctx.CurrentItem.Technologie** will be replaced with the value from the search index, in this example our technology value.
 
@@ -103,17 +103,17 @@ Now save the file under a new name (don't modify the existing ones!) and upload 
 
 In order to tell SharePoint search that it should use our new Display Template for PowerPoint now, we need a new search result type. Go to the site settings and there to search result types. There we add a new one with the name SPAdvent PPT. The only condition we add is that we restrict it to type Microsoft PowerPoint. Finally, we choose the action - the result shall be represented by the SPAdvent PowerPoint display template:
 
-{{< fancybox "/wp-content/uploads/" "MEL-A7.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "MEL-A7.png" "" "single_image" >}}
 
 Save it and then the search results type should look like this:
 
-{{< fancybox "/wp-content/uploads/" "MEL-A8.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "MEL-A8.png" "" "single_image" >}}
 
 ### Step 5: Look at the result
 
 So that's it - the new Display Template is ready and will be used on the search page:
 
-{{< fancybox "/wp-content/uploads/" "2014-12-31-00_21_20-Search_-potentiale-nutzen.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "2014-12-31-00_21_20-Search_-potentiale-nutzen.png" "" "single_image" >}}
 
 Although there are relatively many steps, still no "real" development or any special development languages are needed. Changes can be made quickly and easily implemented.
 

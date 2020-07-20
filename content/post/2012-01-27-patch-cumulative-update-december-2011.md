@@ -51,7 +51,7 @@ I did some research and found out that the SharePoint 2010 Cumulative Update Dec
 
 So after 3 times downloading the 1.1gb uber-patch (it includes the SharePoint Foundation updates and the languages packs) I started the updated and &#8230; waited. I really dont know how long it took to update, after 30 Minutes of no progress I decided to go to bed - this morning I saw the update was successfully installed. After that I rebooted.
 
-{{< fancybox "/wp-content/uploads/" "cu_dec2011.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "cu_dec2011.png" "" "single_image" >}}
 
 Remember: After the update you have to run
 

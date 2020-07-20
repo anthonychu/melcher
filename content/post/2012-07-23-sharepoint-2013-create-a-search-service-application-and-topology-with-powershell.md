@@ -128,7 +128,7 @@ The whole script took about 3 minutes on my machine.
 
 &nbsp;
 
-{{< fancybox "/wp-content/uploads/" "SharePoint-2013-Preview-VMware-Workstation_2012-07-23_15-39-40.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "SharePoint-2013-Preview-VMware-Workstation_2012-07-23_15-39-40.png" "" "single_image" >}}
 
 ## References
 

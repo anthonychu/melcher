@@ -49,7 +49,7 @@ The next wave of innovations to achieve the SharePoint vision (simple and powerf
 
 And the Roadmap for Q4 2016 and H1 2017 - I really like the transparency:
 
-[{{< fancybox "/wp-content/uploads/" "image-1.png" "" "single_image" >}}][2]
+[{{< fancybox "/wp-content/uploads" "image-1.png" "" "single_image" >}}][2]
 
 ### Modern Pages / Modern Document Library / Refresh to Teamsites
 
@@ -59,7 +59,7 @@ I really recommend you to watch the entire session - some pretty good stuff in i
 
 In the next month we will see lots of updates to the modern document library experience, modern pages and updates to our beloved teamsites (about time!).
 
-{{< fancybox "/wp-content/uploads/" "SharePoint-innovations-further-advance-intelligence-and-collaboration-in-Office-365-3.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "SharePoint-innovations-further-advance-intelligence-and-collaboration-in-Office-365-3.png" "" "single_image" >}}
 
 And "modern pages" looks awesome, too. The promise here is that they will render on desktop, mobile browser and in the mobile apps - more on the apps late in this post.
 
@@ -67,7 +67,7 @@ And "modern pages" looks awesome, too. The promise here is that they will render
 
 What I really liked is the new people card - more user-centric experience are always great. "Who is that person? What is he doing in the organization and what is he working on?" - cool!
 
-{{< fancybox "/wp-content/uploads/" "SharePoint-People-Cards.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "SharePoint-People-Cards.png" "" "single_image" >}}
 
 &nbsp;
 
@@ -83,7 +83,7 @@ As part of the Office news the following new security and compliance capabilitie
 
 And more insights with lots of graphs:
 
-{{< fancybox "/wp-content/uploads/" "Office-365-Activities.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "Office-365-Activities.png" "" "single_image" >}}
 
 ### App Launcher
 
@@ -97,7 +97,7 @@ The new version of the Office 365 App Launcher gives you access to these new fea
 
 And in a not so distant future it will list your recent Office documents:
 
-[{{< fancybox "/wp-content/uploads/" "App-Launcher.gif" "" "single_image" >}}][3]
+[{{< fancybox "/wp-content/uploads" "App-Launcher.gif" "" "single_image" >}}][3]
 
 ## OneDrive for Business
 
@@ -112,7 +112,7 @@ Major updates to OneDrive for Business - as mentioned in [this post][4], OneDriv
 * Enhancements to integration with Office 2016 (First Release).
 * Simple, flexible OneDrive user management in Office 365 (First Release).
 
-{{< fancybox "/wp-content/uploads/" "SharePoint-Online-sync-preview-01.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "SharePoint-Online-sync-preview-01.png" "" "single_image" >}}
 
 These new features are in the pipeline:
 
@@ -127,7 +127,7 @@ More of that in [my "OneDrive for Business - key feature and roadmap" summary.][
 
 That's what excited me the most - whats coming after InfoPath, lots of clients asked me about guidance here. And well, the answer could be [PowerApps][7].
 
-[{{< fancybox "/wp-content/uploads/" "WP_20160929_14_54_50_Rich_thumb.jpg" "" "single_image" >}}][8]
+[{{< fancybox "/wp-content/uploads" "WP_20160929_14_54_50_Rich_thumb.jpg" "" "single_image" >}}][8]
 
 I attended 2 sessions to see whats [coming for PowerApps and Flow][9] - and I will soon play with it because there is so much demand in forms and simple workflows. Having the same functionality even in a mobile app will be awesome (try that with InfoPath&#8230;).
 
@@ -144,7 +144,7 @@ Flow on the other side looks like the implementation of if this then that / IFTT
   * Share content by mail with Yammer groups
   * Manager Yammer within O365 admin center
 
-{{< fancybox "/wp-content/uploads/" "Yammer-strengthens-team-collaboration-1.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "Yammer-strengthens-team-collaboration-1.png" "" "single_image" >}}
 
 More on that in the [announcement blog post][10].
 
@@ -198,7 +198,7 @@ First half of 2017:
 
 The mobile apps got a lot of love recently - and lots is on the roadmap for them. The "intranet in your pocket" with native apps on every platform is a great driver for user adoption.
 
-{{< fancybox "/wp-content/uploads/" "image-6.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "image-6.png" "" "single_image" >}}
 
 More details in my summary post [Explore whats new and whats coming with the SharePoint Apps][14]
 

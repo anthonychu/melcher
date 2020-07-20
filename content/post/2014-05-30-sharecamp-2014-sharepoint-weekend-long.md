@@ -98,7 +98,7 @@ ShareCamp 2014 was last weekend (05/23/2014 - 05/25/2014) hosted by Microsoft in
               &nbsp;
             </p>
             
-            {{< fancybox "/wp-content/uploads/" "20140525_114329268_iOS2.jpg" "" "single_image" >}}
+            {{< fancybox "/wp-content/uploads" "20140525_114329268_iOS2.jpg" "" "single_image" >}}
             
             <h2>
               Sessions I presented

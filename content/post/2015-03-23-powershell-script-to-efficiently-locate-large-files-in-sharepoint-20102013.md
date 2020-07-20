@@ -106,7 +106,7 @@ $result
 
 The result looks like this:
 
-{{< fancybox "/wp-content/uploads/" "2015-03-22-20_05_35-Administrator_-SharePoint-2013-Management-Shell.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "2015-03-22-20_05_35-Administrator_-SharePoint-2013-Management-Shell.png" "" "single_image" >}}
 
 You can easily export that to a csv file with:
 

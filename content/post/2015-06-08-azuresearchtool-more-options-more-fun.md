@@ -25,7 +25,7 @@ In the very first version the tool was quite simple and most of the search param
 
 I implemented the schema overview (actually that was not that much but looks great):
 
-{{< fancybox "/wp-content/uploads/" "AzureSearchTool_IndexStatistics.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "AzureSearchTool_IndexStatistics.png" "" "single_image" >}}
 
 So now you can see what fields of what type you have - and how those fields are specified.
 
@@ -53,7 +53,7 @@ Create that by hand or with Postman? Rather not.
 
 If you managed to enter invalid values in the search query parameters, the AzureSearchTool now shows the error that is returned by Azure Search:
 
-{{< fancybox "/wp-content/uploads/" "2015-06-06-22_01_52-Azure-Search-Tool.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "2015-06-06-22_01_52-Azure-Search-Tool.png" "" "single_image" >}}
 
 ## Overall
 

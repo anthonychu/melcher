@@ -35,7 +35,7 @@ SharePoint Toolbox
   
 SharePoint Podcasts (appears biweekly in German)
 
-{{< fancybox "/wp-content/uploads/" "20140121_182918000_iOS.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "20140121_182918000_iOS.jpg" "" "single_image" >}}
 
 In the second part Michael showed us his audio equipment and how simple it is to record a podcast - impressive!
   
@@ -49,7 +49,7 @@ Last but not least a session by Mario Spies (AvePoint) about SQL high availabili
   
 **Always On Availability Groups**: Basically a mirror, up to 1:4 mirroring.
 
-{{< fancybox "/wp-content/uploads/" "20140121_192935662_iOS.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "20140121_192935662_iOS.jpg" "" "single_image" >}}
 
 Then Mario showed a live demo with failover - nice one! Learned a lot, thanks!
 

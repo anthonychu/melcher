@@ -54,7 +54,7 @@ In the following I will show some of the main features of it that help me almost
 
 &nbsp;
 
-{{< fancybox "/wp-content/uploads/" "SearchQueryTool1.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "SearchQueryTool1.png" "" "single_image" >}}
 
   1. REST URL with all selected parameters - awesome to create JavaScript apps or apps outside of SharePoint
   2. Query Options - so many and really interesting options. You don't want Phonetic Queries? There are plenty of different options here, almost all have a descriptive tooltip. Some of the fields have a tiny box right to a textbox, click on it for some useful default values. Quite handy if you don't know how to put values in.
@@ -62,13 +62,13 @@ In the following I will show some of the main features of it that help me almost
       1. Status: How many results (with and without duplicates) where delivered in what time.
       2. Raw: Unformatted JSON results (ugly, most of the time I skip that tab) - response headers are sometimes interesting in the case of an error.
       3. Primary Results: 99% of the time I am in this tab. 
-        {{< fancybox "/wp-content/uploads/" "SearchQueryToolPrimary.png" "" "single_image" >}}</li>
+        {{< fancybox "/wp-content/uploads" "SearchQueryToolPrimary.png" "" "single_image" >}}</li>
         
           * Refinement Results: What refiners do you get with the current query. You have to use the Refiners box in the Query Options (2) to see some results. 
-            {{< fancybox "/wp-content/uploads/" "SearchQueryToolRefiners.png" "" "single_image" >}}</li>
+            {{< fancybox "/wp-content/uploads" "SearchQueryToolRefiners.png" "" "single_image" >}}</li>
             
               * Secondary Results: Skipping that most of the times, kinda useless IMHO.
-              * Suggestion Results: You have to use a suggestion query for that. {{< fancybox "/wp-content/uploads/" "SearchQueryTool_suggestion.png" "" "single_image" >}}
+              * Suggestion Results: You have to use a suggestion query for that. {{< fancybox "/wp-content/uploads" "SearchQueryTool_suggestion.png" "" "single_image" >}}
                 
                 &nbsp;</li>
                 
@@ -77,11 +77,11 @@ In the following I will show some of the main features of it that help me almost
                   * All connection options. Very useful to test search with different accounts. You can save the connection information via the menu File >> Save Connection Properties.
                   * The advanced options. I always enable the experimental features! 
                       1. They enable a preview in the tool for supported files (office and web pages) 
-                        {{< fancybox "/wp-content/uploads/" "SearchQueryTool_Preview.png" "" "single_image" >}}</li>
+                        {{< fancybox "/wp-content/uploads" "SearchQueryTool_Preview.png" "" "single_image" >}}</li>
                         
-                          * And most importantly it adds the button that I use most of the time: **View all Properties** {{< fancybox "/wp-content/uploads/" "SearchQueryTool_ViewAllProperties.png" "" "single_image" >}}
+                          * And most importantly it adds the button that I use most of the time: **View all Properties** {{< fancybox "/wp-content/uploads" "SearchQueryTool_ViewAllProperties.png" "" "single_image" >}}
                             
-                            {{< fancybox "/wp-content/uploads/" "SearchQueryTool_ViewallProperties2.png" "" "single_image" >}}
+                            {{< fancybox "/wp-content/uploads" "SearchQueryTool_ViewallProperties2.png" "" "single_image" >}}
                             
                             The dialog shows all Managed Properties of the selected it. For that it needs the Property Workid, so make sure its in the Select Properties field (otherwise the tool will yell at you!).
   

@@ -22,7 +22,7 @@ This will be just a short one - maybe it saves somebody some time and grey hairs
 
 I created a new result source that boosts some properties of people profiles in search results. During staging I forgot to check the very important radio button that the result source is of type "People".
 
-{{< fancybox "/wp-content/uploads/" "PeopleSearch_Type.png" "" "single_image" >}}[1]
+{{< fancybox "/wp-content/uploads" "PeopleSearch_Type.png" "" "single_image" >}}[1]
 
 At first I did not notice that I forgot to check it - Search worked perfectly and returned people hits. But when you search for specific people profiles like office location or custom properties like e.g. costcenter - you get zero results or at least not those you would expect.
 

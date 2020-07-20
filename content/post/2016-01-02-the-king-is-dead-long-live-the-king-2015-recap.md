@@ -43,7 +43,7 @@ That was my first SharePoint Saturday ever - and it was epic. The spirit of the 
 
 <a href="http://sharecamp.de/" target="_blank">ShareCamp </a>is totally unique, I totally love the open style of the conference - everybody can speak there, beginner, experts, customers, everybody. I totally like the mix, especially when there are topics that are outside of the "SharePoint box", I learned a lot there and for me that is perfect infotainment.
 
-{{< fancybox "/wp-content/uploads/" "sharecamp_sessionvote.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "sharecamp_sessionvote.jpg" "" "single_image" >}}
 
 &nbsp;
 
@@ -51,7 +51,7 @@ That was my first SharePoint Saturday ever - and it was epic. The spirit of the 
 
 We are only few, but dynamite comes in small packages 🙂 Every first Monday we meet in my favorite cocktail bar. It is the best place to talk about SharePoint Search and everything around it, from 3rd party to hybrid, to Azure Search - we covered everything. I hope to see more people this year, but well, Search is a niche and won't attract hundreds.
 
-{{< fancybox "/wp-content/uploads/" "welcomeImg.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "welcomeImg.jpg" "" "single_image" >}}
 
 #### SharePoint User Group Munich
 
@@ -69,11 +69,11 @@ From a content producing side, 2015 wasn't my best. I only crafted 16 posts, but
 
 I like figures and statistics and all that - 89.000 page views is not that bad for my tiny blog, isn't it? I have nothing to compare too, but I am quite happy with it. +12% from last year!
 
-{{< fancybox "/wp-content/uploads/" "Stats_2015.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "Stats_2015.png" "" "single_image" >}}
 
 &nbsp;
 
-{{< fancybox "/wp-content/uploads/" "Countries_2015.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "Countries_2015.png" "" "single_image" >}}
 
 My most visited blog posts are apparently from 2014 - luckily two are about search and that makes me happy:
 
@@ -100,7 +100,7 @@ Lots of work a head, many challenges to be solved - there is a good year ahead o
 
 Main goals for next year: SharePoint Search, Apps, Azure, Community, SharePoint Search, Hybrid, Azure Search, Paragliding. I am a simple man 🙂
 
-{{< fancybox "/wp-content/uploads/" "G0060768.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "G0060768.jpg" "" "single_image" >}}
 
 With that said, I wish you all the best for 2016, health, prosperity, lots of excitement and fun!
 

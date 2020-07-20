@@ -20,7 +20,7 @@ In this post I show you how to fix that.
 
 ## Bootstrap and SharePoint Online
 
-{{< fancybox "/wp-content/uploads/" "Bootstrap.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "Bootstrap.png" "" "single_image" >}}
 
 &nbsp;
 

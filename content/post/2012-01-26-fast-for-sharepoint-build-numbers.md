@@ -25,7 +25,7 @@ Ever wondered what FAST for SharePoint (FS4SP) version is currently installed? E
 
 The best approach is - open "Program and Features" and check the version there:
 
-{{< fancybox "/wp-content/uploads/" "fast_version2.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "fast_version2.png" "" "single_image" >}}
 
 With "View installed updates" you can even see if Cumulative Updates have been installed.
 

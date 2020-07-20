@@ -26,11 +26,11 @@ Some clients want to start their migration with setting up a new SharePoint 2013
 
 Now let's take it a step further. Replace the SharePoint 2010 Search Center with a Search Center hosted in SharePoint 2013 - replacing is actually wrong, you have to do a redirect from the SharePoint 2010 environment to the Search Center in SharePoint 2013 - with the Search Preview, Display Templates and all the good stuff. Pretty great, I totally love the new features and the business value you can create with it:
 
-{{< fancybox "/wp-content/uploads/" "SP2013_Preview_Default.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "SP2013_Preview_Default.png" "" "single_image" >}}
 
 But here is the Problem: You crawled the SharePoint 2010 environment - by default you wont get a Preview for documents in the old environment:
 
-{{< fancybox "/wp-content/uploads/" "SP2013_Preview_SP2010.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "SP2013_Preview_SP2010.png" "" "single_image" >}}
 
 There is a <a title="Utilizing Web Apps 2010 to get PowerPoint search document previews of SharePoint 2010 content in SharePoint 2013 search" href="http://blogs.msdn.com/b/murads/archive/2012/10/11/utilizing-web-apps-2010-to-get-powerpoint-previews-of-sharepoint-2010-content-from-sharepoint-2013-search.aspx" target="_blank">great article by Murad Sæter</a> how you could substitute the Preview with Office Web Apps 2010 (the service application in SharePoint 2010 that needs expensive Office 2010 licenses!). Many of my clients don't have the Office 2010 licenses - many of them still use Office 2007 - so a show stopper. PDF Preview with old Office Web Apps - nope. This additionally applies to documents hosted on a fileshare - that does not work either.
 
@@ -58,7 +58,7 @@ Figuring out a solution cost me 4 days "brain time" - thinking about the problem
 
 In the following picture I show you the flow how the requests go from one server to another:
 
-{{< fancybox "/wp-content/uploads/" "Search_Preview_SP2010_Flow.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "Search_Preview_SP2010_Flow.png" "" "single_image" >}}
 
 In order to make this all happen, I created a SharePoint Farm Solution (full trust) that needs to be deployed on the SharePoint 2013 side. This provides two handlers that do the following.
 
@@ -72,7 +72,7 @@ SP2010Preview.ashx: Accepts the request back from the Office Web Apps server wit
 
 &nbsp;
 
-{{< fancybox "/wp-content/uploads/" "SP2013_Preview_SP2010_working.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "SP2013_Preview_SP2010_working.png" "" "single_image" >}}
 
 ## Flaws of the current implementation /
 

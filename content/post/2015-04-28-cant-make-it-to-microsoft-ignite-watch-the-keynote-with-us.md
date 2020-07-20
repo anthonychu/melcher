@@ -15,7 +15,7 @@ categories:
 ---
 [Microsoft Ignite][1] is next week (see countdown below), and apparently it is in Chicago so many of us can't make it. So lets make the best out of it and watch the keynote together! That is 100% more fun than watching it alone, right? Guaranteed!
 
-{{< fancybox "/wp-content/uploads/" "2015-04-27-14_29_24-Microsoft-Ignite.png" "" "single_image" >}}[2]
+{{< fancybox "/wp-content/uploads" "2015-04-27-14_29_24-Microsoft-Ignite.png" "" "single_image" >}}[2]
 
 <div id="9030-countdown" class="tminus_countdown" style="width:auto; height:auto;">
   <div class="jedi-countdown ">

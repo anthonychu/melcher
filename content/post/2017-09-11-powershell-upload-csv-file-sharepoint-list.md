@@ -28,7 +28,7 @@ Value 1; Value 2
 
 and want those values in a list with Column1 and Column2, then provide the script **-mapping Column1, Column2**.
 
-[{{< fancybox "/wp-content/uploads/" "csv2list.png" "" "single_image" >}}][1]
+[{{< fancybox "/wp-content/uploads" "csv2list.png" "" "single_image" >}}][1]
 
 **Please note:** The types are currently not passed and I only tested it with text values - if that is something you need, it could be easily added.
 

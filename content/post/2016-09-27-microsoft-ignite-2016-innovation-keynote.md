@@ -16,7 +16,7 @@ categories:
 ---
 Satya Nadella on the stage again, this time talking about the current vision of Microsoft.
 
-[{{< fancybox "/wp-content/uploads/" "WP_20160926_16_11_26_Rich.jpg" "" "single_image" >}}][1]
+[{{< fancybox "/wp-content/uploads" "WP_20160926_16_11_26_Rich.jpg" "" "single_image" >}}][1]
 
 ## Digital Transformation
 
@@ -24,13 +24,13 @@ Satya starts to give an idea of AI in context of digital transformation. Create 
 
 The four core pillars for the "AI democratisation" for Sataya are: Agents, Applications, Services and Infrastructure.
 
-[{{< fancybox "/wp-content/uploads/" "WP_20160926_16_16_56_Rich-e1474941043162.jpg" "" "single_image" >}}][2]
+[{{< fancybox "/wp-content/uploads" "WP_20160926_16_16_56_Rich-e1474941043162.jpg" "" "single_image" >}}][2]
 
 ### Demo: Intelligent Agent - Cortana
 
 Cortana will be more integrated, LinkedIn integration, reminders based on emails, health insights, integration into the action center of windows 10, add items to wunderlist, intelligent sticky notes.
 
-[{{< fancybox "/wp-content/uploads/" "WP_20160926_16_24_48_Rich.jpg" "" "single_image" >}}][3]
+[{{< fancybox "/wp-content/uploads" "WP_20160926_16_24_48_Rich.jpg" "" "single_image" >}}][3]
 
 ### Swiftkey
 
@@ -42,13 +42,13 @@ Swiftkey saves humanity a years of lifetime entering keystrokes - now it uses ne
 
 AI will come to Office 365 in a multitude of ways. Focused inbox - the system will learn from your emails to provide greater value for you. Skype Translator: 8 languages are now supported, neural networks are behind the translation to not only translate but understand the language. Delve Analytics will be renamed to "MyAnalytics" (?!) and will analyse your activities in your workplace, meeting times, email times etc. Same improvements come to Dynamics CRM - everything graph based. Support based on a bot is already available behind Microsoft support services, always with the option to escalate to a real human.
 
-[{{< fancybox "/wp-content/uploads/" "WP_20160926_16_32_35_Rich.jpg" "" "single_image" >}}][4]
+[{{< fancybox "/wp-content/uploads" "WP_20160926_16_32_35_Rich.jpg" "" "single_image" >}}][4]
 
 ### Services - Cortana Applications
 
 Satya starts with the Bot Framework. Parsing and understanding natural language is provided as framework to be used everywhere. Small demo with fantasy football (i am lost here) were the bot tells how to change the team and gives arguments why player x is better than player y.
 
-[{{< fancybox "/wp-content/uploads/" "WP_20160926_16_32_35_Rich.jpg" "" "single_image" >}}][4]
+[{{< fancybox "/wp-content/uploads" "WP_20160926_16_32_35_Rich.jpg" "" "single_image" >}}][4]
 
 Cognative Services API: World record for speech recognition and image/object recognition. UBER uses the image recognition to detect the drivers - they literally have to take a selfie before the drive is being tracked - and to increase driver and passenger security. VOLVO uses cognitive services to detect distractions while using their cars eg. a cell phone.
 
@@ -60,7 +60,7 @@ Finally we see the HoloLens on stage - LOWE'S is the customer showcase here to i
 
 Global, trusted, intelligent, from silicon to cloud. CPU and GPU farms with a multitude of frameworks to build AIs and scale.
 
-[{{< fancybox "/wp-content/uploads/" "WP_20160926_17_08_53_Rich.jpg" "" "single_image" >}}][5]
+[{{< fancybox "/wp-content/uploads" "WP_20160926_17_08_53_Rich.jpg" "" "single_image" >}}][5]
 
 Next is a demonstration of the worlds first AI supercomputer - first demo was image recognition, with FPGAs it was 40x faster. Text translation was next, 8x faster. With hyper-scaling Microsoft could translate the <span style="text-decoration: underline;">entire</span> Wikipedia in just a glimpse.
 

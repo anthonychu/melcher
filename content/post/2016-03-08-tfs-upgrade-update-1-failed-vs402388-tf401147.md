@@ -44,9 +44,9 @@ Luckily, as mentioned, the final goal was to move TFS to a new server. So I did 
 
 Once an error occurs within the TFS installation or upgrade you are requested to send the zipped logs to tfcare@microsoft.com - and I did so.
 
-[{{< fancybox "/wp-content/uploads/" "tfcare.png" "" "single_image" >}}][2]
+[{{< fancybox "/wp-content/uploads" "tfcare.png" "" "single_image" >}}][2]
 
-I was really surprised to get a reply within 20 minutes - not an automated one as I expected, Vladimir Khvostov replied instantly. After explaining my problems and verifying that the IIS is really empty, Vladimir told me to delete <span class="lang:default decode:true crayon-inline">C:\ProgramData\Microsoft\Team Foundation\Configuration\SavedSettings\ApplicationTier </span>  and try again:{{< fancybox "/wp-content/uploads/" "help-from-vladimir.png" "" "single_image" >}}
+I was really surprised to get a reply within 20 minutes - not an automated one as I expected, Vladimir Khvostov replied instantly. After explaining my problems and verifying that the IIS is really empty, Vladimir told me to delete <span class="lang:default decode:true crayon-inline">C:\ProgramData\Microsoft\Team Foundation\Configuration\SavedSettings\ApplicationTier </span>  and try again:{{< fancybox "/wp-content/uploads" "help-from-vladimir.png" "" "single_image" >}}
 
 And that worked, thanks again Vladimir!
 

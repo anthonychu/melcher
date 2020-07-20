@@ -25,11 +25,11 @@ Fun from the start at 9:00am until the official end of [SPSBE (SharePoint Saturd
   
 I apparently had to optimize my session on this Saturday (_50 minutes slots instead of 60!_), tests my demos and pimp my slides - so I could only attend one full session (_Deep Dive building solutions on the SharePoint Framework_ by Waldek Mastykarz [@waldekm][2]), but there was enough time for me to talk to friends, community members, [BIWUG][3] board members and other speakers - good times, good fun.
 
-{{< fancybox "/wp-content/uploads/" "WP_20161015_10_33_27_Rich.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "WP_20161015_10_33_27_Rich.jpg" "" "single_image" >}}
 
 Great venue, great speaker lineup - everything was great! I am leaving Belgium the second time - impressed!
 
-{{< fancybox "/wp-content/uploads/" "WP_20161015_17_14_54_Rich.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "WP_20161015_17_14_54_Rich.jpg" "" "single_image" >}}
 
 Thanks again to all the sponsors who made the event possible!
 
@@ -93,7 +93,7 @@ Thanks again to all the sponsors who made the event possible!
   
 > From Design to a modern Style Guide - Branding Strategies for SharePoint and Add-ins by Stefan Bauer
 
-{{< fancybox "/wp-content/uploads/" "WP_20161015_15_05_27_Rich-e1476620760772.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "WP_20161015_15_05_27_Rich-e1476620760772.jpg" "" "single_image" >}}
 
 Impressive schedule packed with insights and speakers from around the world.
 
@@ -119,7 +119,7 @@ During and after the talk there were like 5 to 10 questions (Data Privacy and r
 
 > Good questions gives you good beer!
 
-{{< fancybox "/wp-content/uploads/" "WP_20161015_15_24_38_Rich.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "WP_20161015_15_24_38_Rich.jpg" "" "single_image" >}}
 
 And I closed my session right in time for the closing SharePint and raffle!
 

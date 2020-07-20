@@ -46,7 +46,7 @@ categories:
   No migration of sites - a scenario picker with support options would be great here.
 </li>
 
-{{< fancybox "/wp-content/uploads/" "ug_062016_1.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "ug_062016_1.png" "" "single_image" >}}
 
 SharePoint is like iceberg, management and end users only see the tip of it - Samuel Zuercher
 
@@ -88,7 +88,7 @@ SharePoint is like iceberg, management and end users only see the tip of it - Sa
   Provision site templates with site deletion policy to implement governance.
 </p>
 
-{{< fancybox "/wp-content/uploads/" "ug_062016_2.png" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "ug_062016_2.png" "" "single_image" >}}
 
 <h2 lang="de" style="margin: 0in; font-family: Calibri; font-size: 11.0pt;">
   Hybrid Search
