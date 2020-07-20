@@ -9,29 +9,13 @@ date: 2015-10-19T07:38:33+00:00
 url: /2015/10/off-topic-paragliding-performance-training-in-oludeniz-turkey-mount-babadag/
 yourls_shorturl:
   - http://melcher.it/s/5U
-enclosure:
-  - |
-    https://melcher.it/wp-content/uploads/WP_20151011_10_02_07_Pro.mp4
-    61120300
-    video/mp4
-    
-  - |
-    https://melcher.it/wp-content/uploads/Arvaw-U1_7XeaxKRE-Hbot0uSGNlOrg4_fR_dn233qEH-Copy.mp4
-    6491235
-    video/mp4
-    
-  - |
-    https://melcher.it/wp-content/uploads/Aoa7FKlscWVebgUoGFf7Vh_VUZ3rz-gg83n8oUYJ8ip9-Copy.mp4
-    6506883
-    video/mp4
-    
 categories:
   - Paragliding
 
 ---
 This post will be totally SharePoint unrelated but it was so amazing that I will briefly tell you about me last week in Ölüdeniz, Turkey - with lots of pictures! So please read on if you are not afraid of great heights.
 
-{{< fancybox "/wp-content/uploads/" "20151017080407.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "20151017080407.jpg" "" "single_image" >}}
 
 ## Paragliding
 
@@ -41,24 +25,22 @@ This post will be totally SharePoint unrelated but it was so amazing that I wil
 
 ## Babadag, 1700 meters above sea level - close to heaven!
 
-{{< fancybox "/wp-content/uploads/" "WP_20151013_09_18_47_Pro.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "WP_20151013_09_18_47_Pro.jpg" "" "single_image" >}}
 
 I must say, I am totally impressed of the city Ölüdeniz - it almosted seems like the whole city is built for paragliders, but i am most likely not objective! Every day you can see paragliders flying closely above the city - and we landed next to the beach on the pavement. The "normal" tourists are warned with signs like this one:
 
-{{< fancybox "/wp-content/uploads/" "WP_20151010_12_46_41_Pro.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "WP_20151010_12_46_41_Pro.jpg" "" "single_image" >}}
 
 I could not imagine that in Germany - here you need a certified launch and landing site to prevent accidents. In Ölüdeniz it more looked like an airport for paragliders:
 
-{{< fancybox "/wp-content/uploads/" "WP_20151010_12_45_49_Pro.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "WP_20151010_12_45_49_Pro.jpg" "" "single_image" >}}
 
-{{< fancybox "/wp-content/uploads/" "WP_20151010_16_58_56_Pro1.jpg" "" "single_image" >}}
+{{< fancybox "/wp-content/uploads" "WP_20151010_16_58_56_Pro1.jpg" "" "single_image" >}}
 
 A typical launch looks like this - here is a tandem (2 persons) start:
 
-<div style="width: 1920px;" class="wp-video">
-  <!--[if lt IE 9]><![endif]--><video class="wp-video-shortcode" id="video-1985-1" width="1920" height="1080" preload="metadata" controls="controls"><source type="video/mp4" src="" />
-  
-  <a href="https://melcher.it/wp-content/uploads/WP_20151011_10_02_07_Pro.mp4">https://melcher.it/wp-content/uploads/WP_20151011_10_02_07_Pro.mp4</a></video>
+<div style="width: 640px;" class="wp-video">
+  <video class="wp-video-shortcode" id="video-1985-2" width="640" height="352" preload="metadata" controls="controls"><source type="video/mp4" src="/wp-content/uploads/WP_20151011_10_02_07_Pro.mp4" /><a href="/wp-content/uploads/WP_20151011_10_02_07_Pro.mp4">/wp-content/uploads/WP_20151011_10_02_07_Pro.mp4</a></video>
 </div>
 
 ## 
@@ -68,11 +50,11 @@ A typical launch looks like this - here is a tandem (2 persons) start:
 So what do paragliders learn in a performance training? From start to landing I got advise from my flight school - and we practiced extreme maneuvers to better handle a glider in extreme situations like a collapse - it is totally amazing to me that you can still fly with 50 percent of your glider and it was fun to destroy the glider mid-flight (and above water) to simulate this behavior. Or a so called B-Stall - where you pull down some lines to decrease the glider surface - and loose height. In my case I went down with notable 8m/s. Good fun! The most exciting and thrilling exercise tho was the spiral - during this you pull one break until the glider spirals down with extreme speed and g-force - that pressure and sound was totally new for me and at first scared the sh** out of me to be honest 🙂 Peter did it amazingly fast and recorded it with two cams - one attached below the glider and one on his helmet:
 
 <div style="width: 640px;" class="wp-video">
-  <video class="wp-video-shortcode" id="video-1985-2" width="640" height="352" preload="metadata" controls="controls"><source type="video/mp4" src="https://melcher.it/wp-content/uploads/Arvaw-U1_7XeaxKRE-Hbot0uSGNlOrg4_fR_dn233qEH-Copy.mp4?_=2" /><a href="https://melcher.it/wp-content/uploads/Arvaw-U1_7XeaxKRE-Hbot0uSGNlOrg4_fR_dn233qEH-Copy.mp4">https://melcher.it/wp-content/uploads/Arvaw-U1_7XeaxKRE-Hbot0uSGNlOrg4_fR_dn233qEH-Copy.mp4</a></video>
+  <video class="wp-video-shortcode" id="video-1985-2" width="640" height="352" preload="metadata" controls="controls"><source type="video/mp4" src="/wp-content/uploads/Arvaw-U1_7XeaxKRE-Hbot0uSGNlOrg4_fR_dn233qEH-Copy.mp4?_=2" /><a href="/wp-content/uploads/Arvaw-U1_7XeaxKRE-Hbot0uSGNlOrg4_fR_dn233qEH-Copy.mp4">/wp-content/uploads/Arvaw-U1_7XeaxKRE-Hbot0uSGNlOrg4_fR_dn233qEH-Copy.mp4</a></video>
 </div>
 
 <div style="width: 640px;" class="wp-video">
-  <video class="wp-video-shortcode" id="video-1985-3" width="640" height="352" preload="metadata" controls="controls"><source type="video/mp4" src="https://melcher.it/wp-content/uploads/Aoa7FKlscWVebgUoGFf7Vh_VUZ3rz-gg83n8oUYJ8ip9-Copy.mp4?_=3" /><a href="https://melcher.it/wp-content/uploads/Aoa7FKlscWVebgUoGFf7Vh_VUZ3rz-gg83n8oUYJ8ip9-Copy.mp4">https://melcher.it/wp-content/uploads/Aoa7FKlscWVebgUoGFf7Vh_VUZ3rz-gg83n8oUYJ8ip9-Copy.mp4</a></video>
+  <video class="wp-video-shortcode" id="video-1985-3" width="640" height="352" preload="metadata" controls="controls"><source type="video/mp4" src="/wp-content/uploads/Aoa7FKlscWVebgUoGFf7Vh_VUZ3rz-gg83n8oUYJ8ip9-Copy.mp4?_=3" /><a href="/wp-content/uploads/Aoa7FKlscWVebgUoGFf7Vh_VUZ3rz-gg83n8oUYJ8ip9-Copy.mp4">/wp-content/uploads/Aoa7FKlscWVebgUoGFf7Vh_VUZ3rz-gg83n8oUYJ8ip9-Copy.mp4</a></video>
 </div>
 
 The sound still gives me heebie-jeebies 🙂
@@ -101,6 +83,9 @@ Okay thats it - I learned a lot, had lots of fun, met new paragliding friends an
 
 My friend Sebastian created a nice video that sums up all the experience in just 3 minutes - awesome!
 
+<div style="width: 640px;" class="wp-video">
+  <video class="wp-video-shortcode" id="video-1985-3" width="640" height="352" preload="metadata" controls="controls"><source type="video/mp4" src="/wp-content/uploads/Babadag.mp4" /><a href="/wp-content/uploads/Babadag.mp4">/wp-content/uploads/Babadag.mp4</a></video>
+</div>
 
 
 **You have questions? Drop a comment and I am happy to help!**
