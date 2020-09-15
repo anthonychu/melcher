@@ -30,26 +30,22 @@ Attaching with a Visual Studio 2015 Debugger either from Cloud Explorer, Server 
 
   1. The web browser shows: 502 - Web server received an invalid response while acting as a gateway or proxy {{< fancybox "/wp-content/uploads" "2016-09-06-18_26_40-502-Web-server-received-an-invalid-response-while-acting-as-a-gateway-or-proxy-1.png" "" "single_image" >}}
     
-    &nbsp;</li> 
-    
-      * In Visual Studio 2015 an error box shows: The network connection to <>.azurewebsite.net:4020 has been lost. Debugging will be aborted. 
-        {{< fancybox "/wp-content/uploads" "Debugging-will-be-aborted.png" "" "single_image" >}}</li> </ol> 
+  2. In Visual Studio 2015 an error box shows: The network connection to &lt;hostname&gt;.azurewebsite.net:4020 has been lost. Debugging will be aborted. 
+  {{< fancybox "/wp-content/uploads" "Debugging-will-be-aborted.png" "" "single_image" >}}
         
-        ## Fix
+## Fix 
         
-        The fix is rather simple. In Visual Studio open **Debug** menu from the top and click on **Options**:
-        
-        [{{< fancybox "/wp-content/uploads" "2016-09-07-14_33_50-Debug-Options.png" "" "single_image" >}}][1]
-        
-        Then click on **Debugging** > **General** and find the option **"Enable UI Debugging Tools for XAML"** and **uncheck** it. [{{< fancybox "/wp-content/uploads" "2016-09-07-14_37_36-Options.png" "" "single_image" >}}][2]
-        
-        After that, Debugging worked like a charm again.
-        
-        ## Thank you!
-        
-        I did not find that one out myself - the awesome Microsoft Support (I am looking at you Akash Khandelwal!) spent hours troubleshooting my problem. He early noticed that there is a something with WPF in the logs but we initially ruled that one out. After a while his team suggested to disable this option - and it worked!
-        
-        During the debugging session I learned a lot about Azure Website troubleshooting - great stuff!
+The fix is rather simple. In Visual Studio open **Debug** menu from the top and click on **Options**:
+{{< fancybox "/wp-content/uploads" "2016-09-07-14_33_50-Debug-Options.png" "" "single_image" >}}
 
- [1]: https://melcher.it/wp-content/uploads/2016-09-07-14_33_50-Debug-Options.png
- [2]: https://melcher.it/wp-content/uploads/2016-09-07-14_37_36-Options.png
+Then click on **Debugging** > **General** and find the option **"Enable UI Debugging Tools for XAML"** and **uncheck** it. 
+{{< fancybox "/wp-content/uploads" "2016-09-07-14_37_36-Options.png" "" "single_image" >}}
+
+After that, debugging worked like a charm again.
+
+## Thank you!
+
+I did not find that one out myself - the awesome Microsoft Support (I am looking at you Akash Khandelwal!) spent hours troubleshooting my problem. He early noticed that there is a something with WPF in the logs but we initially ruled that one out. After a while his team suggested to disable this option - and it worked!
+
+During the debugging session I learned a lot about Azure Website troubleshooting - great stuff!
+
