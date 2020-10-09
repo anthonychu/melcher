@@ -53,7 +53,7 @@ mstsc /v:<PublicIP>
 Then I started to duplicate the built-in Azure Policy initiative. It took me a while to figure out how to create it with Azure CLI, so here are the commands and json files I used:
 
 {{< highlight bash >}}
-az policy definition create --name 'blacklisted-software' --display-name 'Blacklisted Software' --description 'This policy checks if a given software is installed' --rules 'https://melcher.it/post/2018-11-15-AzurePolicy-InstalledApp/CLI/Policy.BlacklistedApplication.json' --mode Indexed
+az policy definition create --name 'blacklisted-software' --display-name 'Blacklisted Software' --description 'This policy checks if a given software is installed' --rules 'https://melcher.dev/2018/11/azure-policy-audit-installed-applications/CLI/Policy.BlacklistedApplication.json' --mode Indexed
 {{< /highlight >}}
 
 This creates an Azure Policy with the name "Blacklisted Software" and is similar to the built-in policy "[Preview]: Deploy VM extension to audit application inside Windows VMs must be present". I only inverted the logic in the very last row and filter on 'Non-compliant' entries:
@@ -61,23 +61,23 @@ This creates an Azure Policy with the name "Blacklisted Software" and is similar
 
 and the command to create the Azure Policy initiative:
 {{< highlight bash >}}
-az policy set-definition create -n "Blackelisted Software" --definitions "https://melcher.it/post/2018-11-15-AzurePolicy-InstalledApp/CLI/Policy.VMExtension.json" --params "https://melcher.it/post/2018-11-15-AzurePolicy-InstalledApp/CLI/Policy.Params.json"
+az policy set-definition create -n "Blackelisted Software" --definitions "https://melcher.dev/2018/11/azure-policy-audit-installed-applications/CLI/Policy.VMExtension.json" --params "https://melcher.dev/2018/11/azure-policy-audit-installed-applications/CLI/Policy.Params.json"
 {{< /highlight >}}
 
 And lastly the policy assignment:
 {{< highlight bash >}}
-az policy assignment create --scope "/subscriptions/<ID>" -d "/providers/Microsoft.Authorization/policyDefinitions/<Id of the policy>" --name "Blacklisted Application" --params "https://melcher.it/post/2018-11-15-AzurePolicy-InstalledApp/CLI/Policy.ParamsValue.json"
+az policy assignment create --scope "/subscriptions/<ID>" -d "/providers/Microsoft.Authorization/policyDefinitions/<Id of the policy>" --name "Blacklisted Application" --params "https://melcher.dev/2018/11/azure-policy-audit-installed-applications/CLI/Policy.ParamsValue.json"
 {{< /highlight >}}
 
 Results in this assignment in the portal:
 {{< fancybox "images" "AzurePolicy_Assignment.png" "The assigned policy" "single_image" >}}
 
 Files to download:
-[Policy 1](https://melcher.it/post/2018-11-15-AzurePolicy-InstalledApp/CLI/Policy.BlacklistedApplication.json)
-[Policy 2](https://melcher.it/post/2018-11-15-AzurePolicy-InstalledApp/CLI/Policy.VMExtension.json)
-[Params](https://melcher.it/post/2018-11-15-AzurePolicy-InstalledApp/CLI/Policy.Params.json)
+[Policy 1](https://melcher.dev/2018/11/azure-policy-audit-installed-applications/CLI/Policy.BlacklistedApplication.json)
+[Policy 2](https://melcher.dev/2018/11/azure-policy-audit-installed-applications/CLI/Policy.VMExtension.json)
+[Params](https://melcher.dev/2018/11/azure-policy-audit-installed-applications/CLI/Policy.Params.json)
 
-You could even execute my commands - Azure CLI downloads the JSON files from my blog and executes them. In the [Policy 2](https://melcher.it/post/2018-11-15-AzurePolicy-InstalledApp/CLI/Policy.VMExtension.json) file is my subscription id, so it wont work in this case - but the idea is **awesome**. Maybe the policies can be referenced by name instead of id, I'll check that later.
+You could even execute my commands - Azure CLI downloads the JSON files from my blog and executes them. In the [Policy 2](https://melcher.dev/2018/11/azure-policy-audit-installed-applications/CLI/Policy.VMExtension.json) file is my subscription id, so it wont work in this case - but the idea is **awesome**. Maybe the policies can be referenced by name instead of id, I'll check that later.
 
 After Azure Policy did its magic (approx. 15 minutes), you can see that it discovered the one test installation of SQL Server in my VM:
 {{< fancybox "images" "AzurePolicy_Compliance_Blacklist.png" "Blacklisted Software found" "single_image" >}}
