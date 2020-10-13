@@ -54,7 +54,9 @@ I discussed the scenario with [Sebastian Brack](https://www.linkedin.com/in/seb-
  Azure Active Directory Domain Services (Azure AD DS)
  On-premises Active Directory Domain Services (AD DS) via AD Connect |
 
+{{% notice note %}}
 please note: the prices are taken from Azure West Europe region for comparison – they may vary depending on the service/region.
+{{% /notice %}}
 
 The features table looks quite similar – but the details make this more interesting:
 
@@ -79,7 +81,9 @@ Hybrid connectivity is another important point for my customer – ANF is fully 
 | NFS nconnect | Yes (NFSv3) | No |
 | SMB Multichannel | Yes | No |
 
+{{% notice note %}}
 Please note: Features and performance may have changed since publishing this post – please verify! For ANF there is a &quot;[What&#39;s new page](https://docs.microsoft.com/en-us/azure/azure-netapp-files/whats-new)&quot;, for AZF you can check [Azure Update](https://azure.microsoft.com/en-us/updates/?query=azure%20files).
+{{% /notice %}}
 
 Now let us look at the service level. ANF is more flexible, file shares can be divided in 3 performance tiers, AZF has two tiers. If you provision large, 100 TB shares with ANF, you get 1600 MiB/s throughput with the standard tier – even for single files (file level throughput depending on volume size or manual quota). The flexibility on the ANF side is a big benefit.
 
