@@ -39,8 +39,7 @@ I discussed the scenario with [Sebastian Brack](https://www.linkedin.com/in/seb-
 | Service Levels / Tiering | Standard 0.124354€/GiB
  Premium 0.248091€/GiB
  Ultra 0.331198€/GiB | Premium 0.162€/GiB+ 0.1375€/GiB Snapshots
-
- |
+|
 | Shape Capacity/Performance independently | Yes (Manual-QoS) | No |
 | On-Prem Access (Hybrid) | Yes (Express Route, VPN) | Yes (ExpressRoute, VPN, Internet)
  Private Link required ([pricing](https://azure.microsoft.com/en-us/pricing/details/private-link/)) for VPN/ExpressRoute (Private Peering):
