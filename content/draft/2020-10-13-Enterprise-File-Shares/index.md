@@ -107,7 +107,7 @@ Comparing the identity aspects, then both integrate into a on-premises Active Di
 
 Encryption-wise, AZF supports SMB encryption – ANF does not have this yet.
 
-Hopefully, this comparison helps you to make decisions.
+Many things to consider - if you have questions, please don't hesitate to ask.
 
 Hope it helps,  
 Max
