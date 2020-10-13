@@ -26,10 +26,6 @@ I discussed the scenario with [Sebastian Brack](https://www.linkedin.com/in/seb-
 
 | **Feature** | **Azure NetApp Files** | **Azure Files Premium** |
 | --- | --- | --- |
-|
-| |
-|
-| |
 | Native Azure Service, fully managed | Yes | Yes |
 | Protocol Compatibility | SMB 2.1/3.0/3.1.1, NFS 3/4.1
  Multiprocotol: SMB+NFSv3 | FileREST, SMB 2.1/3.0, NFS 4.1 ([Preview](https://azure.microsoft.com/en-us/blog/nfs-41-support-for-azure-files-is-now-in-preview/)) |
@@ -62,7 +58,7 @@ please note: the prices are taken from Azure West Europe region for comparison �
 
 The features table looks quite similar – but the details make this more interesting:
 
-Protocol compatibilityis a strength of ANF – more protocols and SMB combined with NFSv3: Some applications require both protocols, especially in an integration scenario. As of writing this, NFS is in Preview for Azure Files.
+Protocol compatibility is a strength of ANF – more protocols and SMB combined with NFSv3: Some applications require both protocols, especially in an integration scenario. As of writing this, NFS is in Preview for Azure Files.
 
 As of now, you must start with at least 4 TiB for ANF, for AZF it is only 100 GiB – if you only have a small scenario, then AZF scores here.
 
@@ -73,8 +69,7 @@ Hybrid connectivity is another important point for my customer – ANF is fully 
 | **Feature** | **Azure NetApp Files** | **Azure Files Premium** |
 | --- | --- | --- |
 | Transaction &amp; data transfer prices | Included | Included |
-| Throughput (single volume/share) | Ultra: 128MiB/s per provisioned TiB (auto)Premium: 64 MiB/s per provisioned TiB (auto)Standard: 16MiB/s per provisioned TiB (auto) | Egress: 60MiB/s + 61.44 MiB/s per provisioned TiB
- Ingress: 40MiB/s + 40.96 MiB/s per provisioned TiB |
+| Throughput (single volume/share) | Ultra: 128MiB/s per provisioned TiB (auto)<br/>Premium: 64 MiB/s per provisioned TiB (auto)<br/>Standard: 16MiB/s per provisioned TiB (auto) | Egress: 60MiB/s + 61.44 MiB/s per provisioned TiB<br/> Ingress: 40MiB/s + 40.96 MiB/s per provisioned TiB |
 | Shape capacity &amp; performance independently | Yes, Manual-QoS ([preview](https://docs.microsoft.com/en-us/azure/azure-netapp-files/manage-manual-qos-capacity-pool)) | No |
 | IOPS (single volume/share) | Not limited explicitly, dependent on throughput &amp; IO Size ([benchmark](https://docs.microsoft.com/en-us/azure/azure-netapp-files/performance-benchmarks-linux) ~460.000)Example:1 IOPS @ 64kb per provisioned GiB Premium16 IOPS @ 4k per provisioned GiB Premium | [Baseline](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-scale-targets#additional-premium-file-share-level-limits): 1 IOPS per provisioned GiB up to 100.000Burst: 3 IOPS per provisioned GiB up to 100.000 |
 | File level throughput limit | Unlimited (volume throughput limit) | [Egress](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-scale-targets#file-level-limits) 300MiB/s[Ingress](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-scale-targets#file-level-limits) 200MiB/s |
@@ -96,19 +91,13 @@ The last two rows are very important regarding performance – both nconnect and
 
 | **Feature** | **Azure NetApp Files** | **Azure Files Premium** |
 | --- | --- | --- |
-|
-| |
-|
-| |
 | SMB signing | Yes |
- |
 | SMB in-flight encryption | [No](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-faqs#can-the-network-traffic-between-the-azure-vm-and-the-storage-be-encrypted) | Yes |
 | NFS in-flight encryption | Yes | No |
 | Active Directory Integration | Yes | Yes |
 | Azure Active Directory Independent | Yes | No ([AD-Connect required](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-auth-active-directory-enable#supported-scenarios-and-restrictions)) |
 | AD Kerberos Authentication | Yes (AES 256, AES128, DES) | Yes (AES 256) |
 | AD LDAP Signing | Yes |
- |
 
 Comparing the identity aspects, then both integrate into a on-premises Active Directory. AZF requires to have the identities synced to Azure Active Directory (AAD), ANF directly integrates into Active Directory.
 
