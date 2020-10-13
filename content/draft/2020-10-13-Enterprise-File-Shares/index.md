@@ -53,7 +53,7 @@ I discussed the scenario with [Sebastian Brack](https://www.linkedin.com/in/seb-
 | Backup | Incremental Snapshots (4k block), Cross-Region Replication, 3rd party | Incremental Snapshots (file), Azure Backup Integration |
 | Snapshot Integration into SMB Client | Yes (Previous Versions + ~snapshot) | Yes (Previous Versions) |
 | Snapshot Integration into NFS Client | Yes (.snapshot) | No |
-| Snapshot Restore via Portal | Restore to new volume, Revert volume (Preview) | No |
+| Snapshot Restore via Portal | Restore to new volume | No |
 | Integrated Snapshot Scheduling | Yes (Snapshot Policies) | No |
 | Identity-based authentication and authorization | Azure Active Directory Domain Services (Azure AD DS),On-premises Active Directory Domain Services (AD DS) | Azure Active Directory (Azure AD)
  Azure Active Directory Domain Services (Azure AD DS)
@@ -117,5 +117,5 @@ Encryption-wise, AZF supports SMB encryption – ANF does not have this yet.
 
 Hopefully, this comparison helps you to make decisions.
 
-Hope it helps,
- Max
+Hope it helps,  
+Max
