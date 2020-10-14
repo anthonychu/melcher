@@ -18,7 +18,7 @@ hashtags:
 
 My customer has a large on-premises file share environment based on Windows Server File Shares with petabytes of data. The maintenance and operations of those servers sounds like a simple task – but having this in a large and complex infrastructure can be challenging. If the file shares are run by multiple teams, then the overall SLA could be heavily impacted, and the run cost are very high.
 
-Azure has viable alternatives to host files shares – in this post, I want to compare the different services – we will compare [Azure Files](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-introduction) (AZF) and [Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/) (ANF) to make the right choice when we migrate to Azure.
+Azure has viable alternatives to host files shares – in this post, I want to compare the different services – we will compare [Azure Files](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-introduction) (AZF) and [Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/) (ANF) to make the right choice when we migrate to Azure. In this post, I am comparing only the SSD tiers, AZF has additional HDD tiers.
 
 I discussed the scenario with [Sebastian Brack](https://www.linkedin.com/in/seb-brack/) – thanks a lot for providing the tables below and providing lots of insights!
 
@@ -27,32 +27,24 @@ I discussed the scenario with [Sebastian Brack](https://www.linkedin.com/in/seb-
 | **Feature** | **Azure NetApp Files** | **Azure Files Premium** |
 | --- | --- | --- |
 | Native Azure Service, fully managed | Yes | Yes |
-| Protocol Compatibility | SMB 2.1/3.0/3.1.1, NFS 3/4.1
- Multiprocotol: SMB+NFSv3 | FileREST, SMB 2.1/3.0, NFS 4.1 ([Preview](https://azure.microsoft.com/en-us/blog/nfs-41-support-for-azure-files-is-now-in-preview/)) |
+| Protocol Compatibility | SMB 2.1/3.0/3.1.1, NFS 3/4.1 Multiprocotol: SMB+NFSv3 | FileREST, SMB 2.1/3.0, NFS 4.1 ([Preview](https://azure.microsoft.com/en-us/blog/nfs-41-support-for-azure-files-is-now-in-preview/)) |
 | Min Size | 4 TiB | 100 GiB |
 | Max Volume Size | 100 TiB | 100 TiB |
 | Max File Size | 16 TiB | 4 TiB |
-| Service Levels / Tiering | Standard 0.124354€/GiB
- Premium 0.248091€/GiB
- Ultra 0.331198€/GiB | Premium 0.162€/GiB+ 0.1375€/GiB Snapshots
+| Service Levels / Tiering | Standard 0.124354€/GiB<br/>Premium 0.248091€/GiB<br/>Ultra 0.331198€/GiB | Premium 0.162€/GiB+ 0.1375€/GiB Snapshots.<br/>Additionally, there are Transaction Optimized, Hot and Cool tiers available.
 |
 | Shape Capacity/Performance independently | Yes (Manual-QoS) | No |
-| On-Prem Access (Hybrid) | Yes (Express Route, VPN) | Yes (ExpressRoute, VPN, Internet)
- Private Link required ([pricing](https://azure.microsoft.com/en-us/pricing/details/private-link/)) for VPN/ExpressRoute (Private Peering):
- €0.009 per GB In-/Outbound Data ProcessingOr ExpressRoute (Microsoft Peering). |
+| On-Prem Access (Hybrid) | Yes (Express Route, VPN) | Yes ([ExpressRoute, VPN, Internet](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-networking-overview))<br/>Private Link ready ([pricing](https://azure.microsoft.com/en-us/pricing/details/private-link/)) for VPN/ExpressRoute (Private Peering): €0.009 per GB In-/Outbound Data Processing<br/>Or ExpressRoute (Microsoft Peering). |
 | [Regional Availability](https://azure.microsoft.com/global-infrastructure/services/?products=netapp,storage) | 22+ regions | 32+ regions |
-| Regional Redundancy | LRS equivalent ([99.99% SLA](https://azure.microsoft.com/en-us/support/legal/sla/netapp/v1_1/)) | LRS ([99.9% SLA](https://azure.microsoft.com/en-us/support/legal/sla/storage/v1_5/))
-[ZRS](https://docs.microsoft.com/azure/storage/common/storage-redundancy)\* (Asia Southeast, Australia East, Europe North, Europe West, US East, US East 2, US West 2) |
+| Regional Redundancy | LRS equivalent ([99.99% SLA](https://azure.microsoft.com/en-us/support/legal/sla/netapp/v1_1/)) | LRS ([99.9% SLA](https://azure.microsoft.com/en-us/support/legal/sla/storage/v1_5/))<br>[ZRS](https://docs.microsoft.com/azure/storage/common/storage-redundancy)\* (Asia Southeast, Australia East, Europe North, Europe West, US East, US East 2, US West 2) |
 | Geo Redundancy | Yes, [Cross-Region Replication](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-introduction) (Preview) | No |
 | Storage at-rest encryption | Yes (AES 256) | Yes (AES 256) |
 | Backup | Incremental Snapshots (4k block), Cross-Region Replication, 3rd party | Incremental Snapshots (file), Azure Backup Integration |
 | Snapshot Integration into SMB Client | Yes (Previous Versions + ~snapshot) | Yes (Previous Versions) |
 | Snapshot Integration into NFS Client | Yes (.snapshot) | No |
-| Snapshot Restore via Portal | Restore to new volume | No |
+| Snapshot Restore via Portal | Restore to new volume | Yes |
 | Integrated Snapshot Scheduling | Yes (Snapshot Policies) | No |
-| Identity-based authentication and authorization | Azure Active Directory Domain Services (Azure AD DS),On-premises Active Directory Domain Services (AD DS) | Azure Active Directory (Azure AD)
- Azure Active Directory Domain Services (Azure AD DS)
- On-premises Active Directory Domain Services (AD DS) via AD Connect |
+| Identity-based authentication and authorization | Azure Active Directory Domain Services (Azure AD DS),On-premises Active Directory Domain Services (AD DS) | Azure Active Directory (Azure AD)<br/>Azure Active Directory Domain Services (Azure AD DS)<br>On-premises Active Directory Domain Services (AD DS) via AD Connect ([see full documentation](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-auth-active-directory-enable#supported-scenarios-and-restrictions)) |
 
 {{% notice note %}}
 please note: the prices are taken from Azure West Europe region for comparison – they may vary depending on the service/region.
@@ -64,7 +56,7 @@ Protocol compatibility is a strength of ANF – more protocols and SMB combined 
 
 As of now, you must start with at least 4 TiB for ANF, for AZF it is only 100 GiB – if you only have a small scenario, then AZF scores here.
 
-Hybrid connectivity is another important point for my customer – ANF is fully private with no way to expose it to the internet, AZF is accessible via the internet, privately via Private Link (additional cost!) or via ExpressRoute Microsoft Peering.
+Hybrid connectivity is another important point for my customer – ANF is fully private with no way to expose it to the internet, AZF is accessible also via internet, privately via Private Link (additional cost!) or via ExpressRoute Microsoft Peering - Internet access can be disabled, too.
 
 ## Performance, Throughput
 
