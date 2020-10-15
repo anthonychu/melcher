@@ -1,6 +1,6 @@
 ---
 title: "Staying up to date with Azure"
-date: 2020-10-15T18:49:52+02:00
+date: 2020-10-15T22:49:52+02:00
 2020: "10"
 author: "Max Melcher"
 categories:
