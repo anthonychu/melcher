@@ -10,7 +10,7 @@ tags:
   - Certification
   - Podcast
   - Azure Friday
-featured: "images/AzureLearningPath.png"
+featured: "images/StayingUpToDateWithAzure.png"
 featuredalt : ""
 hashtags: 
   - "#azure"
@@ -29,7 +29,7 @@ The learning paths are super helpful to discover and master Azure topics - they 
 
 ## Azure Friday
 
-Is it Friday again? Then there will be a new episode of [Azure Friday](https://azure.microsoft.com/en-us/resources/videos/azure-friday/) with Scott Hanselman and engineers who build and run services that power Azure - its both fun and very informative! Go subscribe to not miss an episode!
+Is it Friday again? The time of the week to stay current with short information presented from Scott Hanselmann in '[Azure Friday](https://azure.microsoft.com/en-us/resources/videos/azure-friday/)'. In these easy to digest 10-15 min videos Scott and his guests will present the best and latest in azure technologies and beyond.
 
 {{< fancybox "images" "AzureFriday.png" "Every Friday a new episode with Scott Hanselman and guests" "single_image" >}}
 
@@ -46,7 +46,7 @@ http://azpodcast.azurewebsites.net/ 
 
 ## Azure Community: Events & Social Media
 
-A while back I would have recommended to attend local community events, user groups or Azure Saturday's - there are some, most of them are virtual: https://azure.microsoft.com/en-us/community/events/
+A while back I would have recommended to attend local community events, user groups or Azure Saturday's - there are some, most of them are now fully virtual: https://azure.microsoft.com/en-us/community/events/
 
 Additionally, follow Azure engineers, PMs, advocates on Azure - the folks are very easy to reach there: https://twitter.com/azure 
 
@@ -56,11 +56,12 @@ Additionally, follow Azure engineers, PMs, advocates on Azure - the folks are ve
 
 https://azure.microsoft.com/en-us/updates/
 
-Lastly, [Azure updates](https://azure.microsoft.com/en-us/updates/) - the central place for all new and updated Azure things. If you want to have the latest news, features and sometimes even retirements, watch this page!
+Last but not least, [Azure updates](https://azure.microsoft.com/en-us/updates/) - the central place for all new and updated Azure things. If you want to have the latest news, features and sometimes even retirements, watch this page!
 
+## How about you?
 
-
-You have other tricks? Share them in the comments!
+You have other tricks? Things that work for you?  
+Share them in the comments!
 
 Hope it helps,  
 Max
