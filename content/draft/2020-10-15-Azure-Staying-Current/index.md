@@ -29,7 +29,7 @@ The learning paths are super helpful to discover and master Azure topics - they 
 
 ## Azure Friday
 
-Is it Friday again? The time of the week to stay current with short information presented from Scott Hanselmann in '[Azure Friday](https://azure.microsoft.com/en-us/resources/videos/azure-friday/)'. In these easy to digest 10-15 min videos Scott and his guests will present the best and latest in azure technologies and beyond.
+Is it Friday again? The time of the week to stay current with short information presented from Scott Hanselman in '[Azure Friday](https://azure.microsoft.com/en-us/resources/videos/azure-friday/)'. In these easy to digest 10-15 min videos Scott and his guests will present the best and latest in azure technologies and beyond.
 
 {{< fancybox "images" "AzureFriday.png" "Every Friday a new episode with Scott Hanselman and guests" "single_image" >}}
 
