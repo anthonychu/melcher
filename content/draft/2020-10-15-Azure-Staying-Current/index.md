@@ -46,7 +46,7 @@ http://azpodcast.azurewebsites.net/ 
 
 ## Azure Community: Events & Social Media
 
-A while back I would have recommended to attend local community events, user groups or Azure Saturday's - there are some, most of them are now fully virtual: https://azure.microsoft.com/en-us/community/events/
+A while back I would have recommended to attend local community events, user groups or Azure Saturday's - most of them are now fully virtual and its always great to connect with like-minded people: https://azure.microsoft.com/en-us/community/events/
 
 Additionally, follow Azure engineers, PMs, advocates on Azure - the folks are very easy to reach there: https://twitter.com/azure 
 
