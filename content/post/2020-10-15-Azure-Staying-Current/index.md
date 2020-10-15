@@ -10,7 +10,7 @@ tags:
   - Certification
   - Podcast
   - Azure Friday
-featured: "images/StayingUpToDateWithAzure.png"
+featured: "images/StayingUpToDateWithAzure2.png"
 featuredalt : ""
 hashtags: 
   - "#azure"
