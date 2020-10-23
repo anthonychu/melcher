@@ -1,0 +1,35 @@
+{{ partial "general-title" . }}
+
+{{ partial "header" . }}
+    {{ partial "navbar" . }}
+    <!-- Main -->
+    <div id="main">
+            {{ $.Scratch.Set "tags" .Data.Terms.Alphabetical }}
+        <ul class="posts">
+            <header>
+                <h1>// {{ .Data.Plural }}</h1>
+            </header>
+            {{ $data := .Data }}
+            {{ $months := dict "01" "January" "02" "February" "03" "March" "04" "April" "05" "May" "06" "June" "07" "July" "08" "August" "09" "September" "10" "October" "11" "November" "12" "December" }}
+            {{ range $key, $value := $.Scratch.Get "tags" }}
+                <li>
+                    <article>
+                        <header>
+                            {{ if ne $value.Name "" }}
+                                {{ $month := index $months $value.Name }}
+                                <a href="{{"/" | relURL}}{{ $data.Plural }}/{{ $value.Name | urlize }}">{{ $month }}</a>
+                                <span style="float:right;">({{ $value.Count }})</span>
+                            {{ else }}
+                                Uncategorized
+                                <span style="float:right;">({{ $value.Count }})</span>
+                            {{ end }}
+                        </header>
+                    </article>
+                </li>
+            {{ end }}
+        </ul>
+    </div>
+
+    {{ $.Scratch.Set "showCategories" false }}
+    {{ partial "sidebar" . }}
+{{ partial "footer" . }}
