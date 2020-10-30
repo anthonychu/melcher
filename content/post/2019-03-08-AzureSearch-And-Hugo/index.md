@@ -246,7 +246,7 @@ Then I added the following to my header right before the closing &lt;/head&gt; n
             
         </div>
         <div class="promo">
-            Search results provided by <a href="https://azure.microsoft.com/en-us/services/search/" target="_blank">Azure Search</a> - read how I built it <a href="https://melcher.dev/2019/03/AzureSearch-and-Hugo-free-and-awesome/">in this post</a>.
+            Search results provided by <a href="https://azure.microsoft.com/en-us/services/search/" target="_blank">Azure Search</a> - read how I built it <a href="https://melcher.dev/2019/03/azuresearch-and-hugo-free-and-awesome/">in this post</a>.
         </div>
     </div>
 
