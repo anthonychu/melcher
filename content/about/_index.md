@@ -50,7 +50,7 @@ contact details:
  - Microsoft MVP: [Microsoft Most Valuable Professional](https://mvp.microsoft.com/en-us/PublicProfile/5002531?fullName=Maximilian%20%20Melcher)
  - SharePoint StackExchange: [profile for Max Melcher at SharePoint, Q&A for SharePoint enthusiasts](http://sharepoint.stackexchange.com/users/10614/max-melcher)
  - Twitter: [@maxmelcher](https://twitter.com/maxmelcher)
- - LinkedIn: http://www.linkedin.com/pub/maximilian-melcher/27/9/810 
+ - LinkedIn: https://www.linkedin.com/in/maxmelcher/
  - Xing: https://www.xing.com/profile/Maximilian_Melcher 
 
 Contact Details: Please use the [contact form](/contact/) and drop me a line.
