@@ -21,6 +21,5 @@ If you ever had problems running the datasheet view with one of the following re
   * The Web browser does not support ActiveX controls.
   * Support for ActiveX controls is disabled.
 
-Try installing the old Office components:
-
-<http://www.microsoft.com/downloads/details.aspx?familyid=7554F536-8C28-4598-9B72-EF94E038C891&displaylang=en>
+Try installing the old Office components:  
+http://www.microsoft.com/downloads/details.aspx?familyid=7554F536-8C28-4598-9B72-EF94E038C891&displaylang=en
