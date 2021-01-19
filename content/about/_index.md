@@ -33,7 +33,7 @@ contact details:
 - MCTS: Microsoft Office SharePoint Server 2007, Application Development (70-542)
 - MCITP: SharePoint Administrator 2010 (70-668)
 
-> Validate them [here](https://mcp.microsoft.com/anonymous/transcript/validate) –  Transcript: 966919 Access code: maxmelcher
+> Validate the Microsoft Certificates [here](https://mcp.microsoft.com/anonymous/transcript/validate) –  Transcript: 966919 Access code: maxmelcher
  
 
 ## Community Contributions
