@@ -2018,6 +2018,11 @@ article.post h4 {
     opacity: 0.87;
 }
 
+article.post > ul > li > a
+{
+    border-bottom: dotted 2px rgba(255,0,0,.65);
+}
+
 /* Table */
 
 table {
