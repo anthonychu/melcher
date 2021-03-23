@@ -33,3 +33,26 @@ I wanted to have a very simple service - so simple that you can deploy the solut
 
 {{< fancybox "images" "ProFile-HighLevelArchitecture.png" "ProFile - High Level Architecture" "single_image" >}}
 
+## Features
+
+* Data & Application entirely in your subscription
+* Native Azure managed services: Azure Web Apps and Azure Storage. Compound SLA of 99.94% in one region. No Virtual Machine.
+* Configurable file extensions
+* Integrated and self-updating Antivirus
+* Unlimited file size - auto-retry on connection-loss
+* Download files as zip
+* Native Azure Active Directory Integration
+* End to end encryption: Encrypted storage, encrypted traffic - optional password protection per session
+* Email Notifications
+* Removing of personal identifiable information after 90 days (configurable), e.g. comply with GDPR.
+* Configurable data retention, default is 7 days
+* Multi-language: Currently English and German is available, additional languages can be added on request
+
+## Screenshots
+
+## Demo
+
+## Hosting Options
+
+https://azuremarketplace.microsoft.com/en-us/marketplace/apps/mevitco.profile-container?tab=Overview
+https://github.com/MaxMelcher/mevitco.ProFile.runtime
