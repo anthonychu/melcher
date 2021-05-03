@@ -6,7 +6,12 @@
         {{ if $.Page.Resources.GetMatch .Params.featured }}
             {{ $r := $.Page.Resources.GetMatch .Params.featured }}
             <a href="{{ $.Page.Permalink }}" class="image featured">
-                <img src="{{ $r.Permalink }}" alt="{{ .Params.featuredalt }}">
+                <picture>
+                    {{ $image_ext := path.Ext $r.Permalink }}
+                    <source type="image/webp" srcset="{{ replace $r.Permalink $image_ext ".webp" }}">
+                    <source type="image/jpeg" srcset="{{ $r.Permalink }}">
+                    <img loading="lazy" src="{{ $r.Permalink }}" alt="{{ .Params.featuredalt }}">     
+                </picture>
             </a>
         {{ else}}
             {{ $.Scratch.Set "structType" "page" }}

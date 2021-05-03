@@ -23,16 +23,6 @@
 			$sidebar = $('#sidebar'),
 			$main = $('#main');
 
-		// TODO: Fix this, or implement lazy load.
-		// Disable animations/transitions until the page has loaded.
-		//	$body.addClass('is-loading');
-
-		//	$window.on('load', function() {
-		//		window.setTimeout(function() {
-		//			$body.removeClass('is-loading');
-		//		}, 100);
-		//	});
-
 		// Fix: Placeholder polyfill.
 		$('form').placeholder();
 
