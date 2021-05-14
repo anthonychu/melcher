@@ -6,8 +6,8 @@ Type= "Page"
 
 Angaben gemäß § 5 TMG:  
 Maximilian Melcher  
-Gaggenaystr. 18a  
-80992 München  
+Ludwig-Weiß-Straße 75  
+82275 Emmering  
 
 
 ## Kontakt:
@@ -18,8 +18,8 @@ E-Mail: [Kontaktformular](/contact)
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
 
 Maximilian Melcher  
-Gaggenaystr. 18a  
-80992 München  
+Ludwig-Weiß-Straße 75  
+82275 Emmering  
 
 Quelle: _Vom [Rechtsanwalt Sören Siebert](http://www.e-recht24.de/impressum-generator.html) bereitgestellten Impressum-Generator erzeugt._
 
