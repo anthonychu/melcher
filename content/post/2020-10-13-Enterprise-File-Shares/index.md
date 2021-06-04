@@ -16,6 +16,8 @@ hashtags:
 ---
 # Enterprise File Shares on Azure
 
+**Please see official documentation:** [Azure Files and Azure NetApp Files comparison](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-netapp-comparison)
+
 My customer has a large on-premises file share environment based on Windows Server File Shares with petabytes of data. The maintenance and operations of those servers sounds like a simple task – but having this in a large and complex infrastructure can be challenging. If the file shares are run by multiple teams, then the overall SLA could be heavily impacted, and the run cost are very high.
 
 Azure has viable alternatives to host files shares – in this post, I want to compare the different services – we will compare [Azure Files](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-introduction) (AZF) and [Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/) (ANF) to make the right choice when we migrate to Azure. In this post, I am comparing only the SSD tiers, AZF has additional HDD tiers.
