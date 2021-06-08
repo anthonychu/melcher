@@ -25,12 +25,10 @@ slug: 2021-05-18-ghe-aad-proxy
 
 With GitHub Enterprise Server Version (GHE) 3.0.6  as self-hosted VM, you can configure SAML authentication backed by Azure Active Directory. 
 This protects the web interface, you get conditional access policies with Multi Factor Authentiction powered by Azure Active Directory. 
-Sessions do expire after a configurable lifetime, then the user must re-authenticate.
-
-Unfortunately, GHE does not require the same authentication on the git command line. If you clone a repository, pull or push a username and PAT token or ssh key is being accepted as authentication.
+Sessions do expire after a configurable lifetime, then the user must re-authenticate. With the current out-of-the-box design, GHE does not require the same authentication on the git command line. If you clone a repository, pull or push a username and PAT token or ssh key is being accepted as authentication.
 There is no session or multi-factor enforcement.
 
-With this **proof of concept (PoC)** I want to showcase that it is possible to put a proxy in front of GitHub Enterprise Server that enforces MFA (based on the configuration in Azure Active Directory) and that the session expires.
+With the **proof of concept (PoC)** I want to showcase in this blog post, it it is possible to put a proxy in front of GitHub Enterprise Server that enforces MFA (based on the configuration in Azure Active Directory) and that the session expires.
 
 ## High Level Architecture
 
