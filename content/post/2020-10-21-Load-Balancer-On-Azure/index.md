@@ -46,7 +46,7 @@ Additionally, there is an interesting feature in preview to make [the Azure Load
 
 ### Azure Application Gateway (AAG)
 
-Azure Application Gateway is a Layer 7 network service (see [OSI model](https://en.wikipedia.org/wiki/OSI_model)) for HTTP(s)-based applications – compared to the previous mentioned Azure Load Balance the AAG is &quot;closer to the user&quot;, can therefore inspect the traffic and even offload the SSL termination. It can run with only private IPs, this is sometimes the decision point to use the service compared to the global services described later. A [Web Application Firewall](https://docs.microsoft.com/en-us/azure/application-gateway/features#web-application-firewall) can also be added and configured to get protection against common attacks (e.g. SQL injection, cross site scripting).
+Azure Application Gateway is a Layer 7 network service (see [OSI model](https://en.wikipedia.org/wiki/OSI_model)) for HTTP(s)-based applications – compared to the previous mentioned Azure Load Balance the AAG is *closer to the user*, can therefore inspect the traffic and even offload the SSL termination. It can run with only private IPs, this is sometimes the decision point to use the service compared to the global services described later. A [Web Application Firewall](https://docs.microsoft.com/en-us/azure/application-gateway/features#web-application-firewall) can also be added and configured to get protection against common attacks (e.g. SQL injection, cross site scripting).
 
 [Docs](https://docs.microsoft.com/en-us/azure/application-gateway/overview)  
 [Pricing](https://azure.microsoft.com/en-us/pricing/details/application-gateway/)  
