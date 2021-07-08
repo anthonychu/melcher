@@ -5,6 +5,7 @@ date: 2020-10-13T14:55:57+02:00
 author: "Max Melcher"
 categories:
   - Azure
+  - ANF
 tags:
   - Azure Files
   - Azure NetApp Files
