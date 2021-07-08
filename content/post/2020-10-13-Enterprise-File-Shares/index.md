@@ -16,7 +16,7 @@ hashtags:
 ---
 # Enterprise File Shares on Azure
 
-**Please see official documentation:** [Azure Files and Azure NetApp Files comparison](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-netapp-comparison)
+**Please see official documentation - this blog post might be outdated!:** [Azure Files and Azure NetApp Files comparison](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-netapp-comparison)
 
 My customer has a large on-premises file share environment based on Windows Server File Shares with petabytes of data. The maintenance and operations of those servers sounds like a simple task – but having this in a large and complex infrastructure can be challenging. If the file shares are run by multiple teams, then the overall SLA could be heavily impacted, and the run cost are very high.
 
@@ -90,7 +90,7 @@ The last two rows are very important regarding performance – both nconnect and
 | **Feature** | **Azure NetApp Files** | **Azure Files Premium** |
 | --- | --- | --- |
 | SMB signing | Yes |
-| SMB in-flight encryption | [No](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-faqs#can-the-network-traffic-between-the-azure-vm-and-the-storage-be-encrypted) | Yes |
+| SMB in-flight encryption | [Yes](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-smb-performance#smb-encryption) | Yes |
 | NFS in-flight encryption | Yes | No |
 | Active Directory Integration | Yes | Yes |
 | Azure Active Directory Independent | Yes | No ([AD-Connect required](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-auth-active-directory-enable#supported-scenarios-and-restrictions)) |
