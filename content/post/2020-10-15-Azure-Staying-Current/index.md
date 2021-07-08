@@ -15,8 +15,8 @@ featuredalt : ""
 hashtags: 
   - "#azure"
 ---
-
-Staying "current" with the always evolving Azure platform is not an easy task. Here are some tricks and websites to make this a little bit easier:
+'
+Staying **current** with the always evolving Azure platform is not an easy task. Here are some tricks and websites to make this a little bit easier:
 <!--more-->
 
 ## Azure Learning Paths & Certifications
