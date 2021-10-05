@@ -8,5 +8,15 @@
         "editorWhitespace.foreground": "#ff0000"
     },
     "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+    "frontMatter.preview.host": "",
+    "frontMatter.content.pageFolders": [
+        {
+            "path": "[[workspace]]/content"
+        },
+        {
+            "title": "post",
+            "path": "[[workspace]]/content/post"
+        }
+    ],
 }
