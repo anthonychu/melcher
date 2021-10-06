@@ -1,7 +1,7 @@
 ---
 '2021': '10'
 title: Disaster Recovery for Enterprise File Shares
-date: '2021-10-05T14:22:37.754Z'
+date: '2021-10-06T13:24:40.349Z'
 author: Max Melcher
 categories:
   - Azure NetApp Files
@@ -17,7 +17,7 @@ featured: images/image1.png
 featuredalt: ''
 hashtags:
   - '#azure'
-lastmod: '2021-10-05T14:18:20.179Z'
+lastmod: '2021-10-06T13:24:21.118Z'
 slug: disaster-recovery-enterprise-file-shares
 description: |-
   In this article we configure Azure NetApp
