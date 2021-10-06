@@ -50,7 +50,7 @@ jobs:
       - name: Start Azure Search Indexer
         uses: satak/webrequest-action@master
         with:
-          url: https://melcher.search.windows.net/azureblob-indexer/index/run?api-version=2017-11-11
+          url: https://melcher.search.windows.net/indexers/azureblob-indexer/run?api-version=2017-11-11
           method: POST
           headers: '{"api-key": "${{ secrets.azuresearchkey }}"}'
   close_pull_request_job:
