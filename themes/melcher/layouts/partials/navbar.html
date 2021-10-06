@@ -1,6 +1,12 @@
 <!-- Header -->
 <header id="header">
-    <a style="border-bottom: 0;" href="/"><img class="logo" src="{{.Site.Params.intro.pic.src}}" width="" alt="Melcher.it"></a>
+    <a style="border-bottom: 0;" href="/">
+        <picture class="logo" >
+            <source srcset="logo.webp" type="image/webp">
+            <source srcset="logo.png" type="image/png">
+            <img class="logo" src="img/logo.png" alt="Melcher.dev">
+        </picture>
+    </a>
 
     <nav class="links">
         <ul>
