@@ -36,7 +36,7 @@ jobs:
         with:
           url: https://melcher.search.windows.net/indexers/index/run?api-version=2017-11-11
           method: POST
-          headers: '{"api-key": "${{ env.azuresearchkey }}"}'
+          headers: '{"api-key": "${{ secrets.azuresearchkey }}"}'
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
