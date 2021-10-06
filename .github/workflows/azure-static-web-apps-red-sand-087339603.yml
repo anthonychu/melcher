@@ -23,7 +23,7 @@ jobs:
         with:
           hugo-version: 'latest'
       - name: Build
-        run: hugo --minify    
+        run: hugo --enableGitInfo --i18n-warnings --verbose --cleanDestinationDir
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
