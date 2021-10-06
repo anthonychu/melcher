@@ -38,6 +38,15 @@ jobs:
           output_location: "public" # Built app content directory - optional
           skip_app_build: true
           ###### End of Repository/Build Configurations ######
+
+      - uses: bacongobbler/azure-blob-storage-upload@v1.2.0
+        with:
+          source_dir: feed
+          container_name: feed
+          connection_string: ${{ secrets.storage }}
+          extra_args: '--pattern *.json'
+          sync: false
+      
       - name: Start Azure Search Indexer
         uses: satak/webrequest-action@master
         with:
