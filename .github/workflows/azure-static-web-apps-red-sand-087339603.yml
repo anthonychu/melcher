@@ -31,7 +31,12 @@ jobs:
           api_location: "" # Api source code path - optional
           output_location: "public" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
-
+      - name: Start Azure Search Indexer
+        uses: satak/webrequest-action@master
+        with:
+          url: https://melcher.search.windows.net/indexers/index/run?api-version=2017-11-11
+          method: POST
+          headers: '{"api-key": "${{ env.azuresearchkey }}"}'
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
