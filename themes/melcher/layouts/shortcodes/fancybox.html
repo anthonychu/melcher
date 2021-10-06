@@ -58,7 +58,7 @@
       <a rel="{{ $gallery }}" data-fancybox="{{ $gallery }}" href="{{ $path }}/{{ $file }}" data-caption="{{ $caption }}">
           <picture>
             <source type="image/webp" srcset="{{ $path }}/{{ replace $file $image_ext ".webp" }}">
-            <source type="image/jpeg" srcset="{{ $path }}/{{ $file }}">
+            <source type="image/png" srcset="{{ $path }}/{{ $file }}">
             <img loading="lazy" src="{{ $path }}/{{ $file }}" alt="{{ .Get "title" }}" class="img-fluid {{ .Get "class" }}">     
           </picture>
       </a>
