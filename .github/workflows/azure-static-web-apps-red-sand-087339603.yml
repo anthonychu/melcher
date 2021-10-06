@@ -41,7 +41,7 @@ jobs:
 
       - uses: bacongobbler/azure-blob-storage-upload@v1.2.0
         with:
-          source_dir: feed
+          source_dir: /public/feed
           container_name: feed
           connection_string: ${{ secrets.storage }}
           extra_args: '--pattern *.json'
