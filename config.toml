@@ -108,13 +108,13 @@ enableRobotsTXT = true
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
   [params.intro.pic]
-    src       = "/logo.png?v=2"
+    src       = "/logo.png"
     # Sets Image to be a cirlce
     circle    = false
     # Sets Image to be Future Imperfect's hexagon
     imperfect = false
     width     = ""
-    alt       = "Melcher.it"
+    alt       = "Melcher.dev"
 
 [params.postAmount]
 # Sets the number of recent posts to show in the sidebar. The default value is 5.
